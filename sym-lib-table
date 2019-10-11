@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name zglue-dragon)(type Legacy)(uri ${KIPRJMOD}/lib/zglue-dragon.lib)(options "")(descr ""))
 )
