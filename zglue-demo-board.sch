@@ -453,33 +453,33 @@ Connection ~ 3100 4450
 $Comp
 L antmicroDF13Connectors:DF13A-2P-1.25H J2
 U 1 1 5DA507A8
-P 1850 1550
-F 0 "J2" H 1978 1701 50  0000 L CNN
-F 1 "DF13A-2P-1.25H" H 1978 1610 50  0000 L CNN
-F 2 "antmicro-footprints:DF13A-2P-1.25H" H 1750 1100 50  0001 C CNN
-F 3 "" H 1850 1500 50  0001 C CNN
-F 4 "DF13A-2P-1.25H" H 1900 1300 50  0001 C CNN "MPN"
-F 5 "Hirose" H 1850 1200 50  0001 C CNN "Manufacturer"
-	1    1850 1550
+P 1850 1250
+F 0 "J2" H 1978 1401 50  0000 L CNN
+F 1 "DF13A-2P-1.25H" H 1978 1310 50  0000 L CNN
+F 2 "antmicro-footprints:DF13A-2P-1.25H" H 1750 800 50  0001 C CNN
+F 3 "" H 1850 1200 50  0001 C CNN
+F 4 "DF13A-2P-1.25H" H 1900 1000 50  0001 C CNN "MPN"
+F 5 "Hirose" H 1850 900 50  0001 C CNN "Manufacturer"
+	1    1850 1250
 	1    0    0    -1  
 $EndComp
 Text Label 7150 10100 0    50   ~ 0
 3V3_SYS
 Wire Wire Line
-	1650 1400 1250 1400
+	1650 1100 1250 1100
 $Comp
 L power:GND #PWR03
 U 1 1 5DA5701F
-P 1500 1500
-F 0 "#PWR03" H 1500 1250 50  0001 C CNN
-F 1 "GND" H 1505 1327 50  0000 C CNN
-F 2 "" H 1500 1500 50  0001 C CNN
-F 3 "" H 1500 1500 50  0001 C CNN
-	1    1500 1500
+P 1500 1200
+F 0 "#PWR03" H 1500 950 50  0001 C CNN
+F 1 "GND" H 1505 1027 50  0000 C CNN
+F 2 "" H 1500 1200 50  0001 C CNN
+F 3 "" H 1500 1200 50  0001 C CNN
+	1    1500 1200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 1500 1500 1500
+	1650 1200 1500 1200
 $Comp
 L antmicroRectangularConnectorsHeadersMalePins:20021121-00010C4LF J3
 U 1 1 5DA5DFAD
@@ -540,7 +540,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 10500 7550 10500
 Connection ~ 7550 10500
-Text Label 1250 1400 0    50   ~ 0
+Text Label 1250 1100 0    50   ~ 0
 5V0_IN
 $Comp
 L antmicroCapacitors0603:C_1u_0603 C1
@@ -596,7 +596,7 @@ F 3 "" H 850 4450 50  0001 C CNN
 	1    850  4450
 	1    0    0    -1  
 $EndComp
-Text Notes 1100 1100 0    79   ~ 16
+Text Notes 1100 800  0    79   ~ 16
 Auxilary power supply entry
 Text Notes 1850 3550 0    79   ~ 16
 RPi connector
@@ -645,7 +645,7 @@ F 3 "" H 12800 8550 50  0001 C CNN
 	1    12800 8550
 	1    0    0    -1  
 $EndComp
-Text Label 13050 7950 0    50   ~ 0
+Text Label 11150 7950 0    50   ~ 0
 5V0_DBG_USB
 Text Label 3400 3850 0    50   ~ 0
 5V0_IN
@@ -685,8 +685,8 @@ F 3 "" H 3800 4450 50  0001 C CNN
 	1    3800 4450
 	1    0    0    -1  
 $EndComp
-Text Notes 12000 7350 0    79   ~ 16
-Debug USB console
+Text Notes 12250 7350 0    79   ~ 16
+FPGA USB
 $Comp
 L antmicroTestPoints:TP_SMD1MM TP1
 U 1 1 5DD6240E
@@ -734,51 +734,44 @@ $EndComp
 $Comp
 L antmicroDiodesRectifiersSingle:MBR0540T1G D3
 U 1 1 5DD6DAC1
-P 1950 2550
-F 0 "D3" H 1950 2812 60  0000 C CNN
-F 1 "MBR0540T1G" H 1950 2706 60  0000 C CNN
-F 2 "antmicro-footprints:SOD-123" H 2150 2750 60  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/MBR0540T1-D.PDF" H 2150 2850 60  0001 L CNN
-F 4 "MBR0540T1G" H 2150 3050 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 2150 3650 60  0001 L CNN "Manufacturer"
-	1    1950 2550
+P 1950 2150
+F 0 "D3" H 1950 2412 60  0000 C CNN
+F 1 "MBR0540T1G" H 1950 2306 60  0000 C CNN
+F 2 "antmicro-footprints:SOD-123" H 2150 2350 60  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MBR0540T1-D.PDF" H 2150 2450 60  0001 L CNN
+F 4 "MBR0540T1G" H 2150 2650 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 2150 3250 60  0001 L CNN "Manufacturer"
+	1    1950 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L antmicroDiodesRectifiersSingle:MBR0540T1G D4
 U 1 1 5DD6DCA3
-P 1950 3100
-F 0 "D4" H 1950 3362 60  0000 C CNN
-F 1 "MBR0540T1G" H 1950 3256 60  0000 C CNN
-F 2 "antmicro-footprints:SOD-123" H 2150 3300 60  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/MBR0540T1-D.PDF" H 2150 3400 60  0001 L CNN
-F 4 "MBR0540T1G" H 2150 3600 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 2150 4200 60  0001 L CNN "Manufacturer"
-	1    1950 3100
+P 1950 2600
+F 0 "D4" H 1950 2862 60  0000 C CNN
+F 1 "MBR0540T1G" H 1950 2756 60  0000 C CNN
+F 2 "antmicro-footprints:SOD-123" H 2150 2800 60  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MBR0540T1-D.PDF" H 2150 2900 60  0001 L CNN
+F 4 "MBR0540T1G" H 2150 3100 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 2150 3700 60  0001 L CNN "Manufacturer"
+	1    1950 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 2550 1050 2550
+	1750 2150 1050 2150
 Wire Wire Line
-	1750 3100 1050 3100
+	1750 2600 1050 2600
 Wire Wire Line
-	2150 2550 2400 2550
+	2150 2150 2400 2150
 Wire Wire Line
-	2400 2550 2400 2850
-Wire Wire Line
-	2400 2850 3100 2850
-Wire Wire Line
-	2400 2850 2400 3100
-Wire Wire Line
-	2400 3100 2150 3100
-Connection ~ 2400 2850
-Text Label 2700 2850 0    50   ~ 0
+	2400 2600 2150 2600
+Text Label 2750 2600 0    50   ~ 0
 VUSB
-Text Label 1150 2550 0    50   ~ 0
+Text Label 1150 2150 0    50   ~ 0
 5V0_IN
-Text Label 1150 3100 0    50   ~ 0
+Text Label 1150 2600 0    50   ~ 0
 5V0_USB
-Text Notes 1450 2100 0    79   ~ 16
+Text Notes 1450 1750 0    79   ~ 16
 5V0 power path
 $Comp
 L antmicroTVSDiodes:TPD2EUSB30DRTR D2
@@ -2354,14 +2347,14 @@ F 3 "" H 10800 8550 50  0001 C CNN
 	1    10800 8550
 	1    0    0    -1  
 $EndComp
-Text Label 11150 7950 0    50   ~ 0
+Text Label 13050 7950 0    50   ~ 0
 5V0_USB
 Text Label 11150 8150 0    50   ~ 0
 PROG_USB_D_P
 Text Label 11150 8050 0    50   ~ 0
 PROG_USB_D_N
-Text Notes 9350 7350 0    79   ~ 16
-Flash Programming USB connector
+Text Notes 8900 7350 0    79   ~ 16
+Flash Programming and debug USB connector
 $Comp
 L antmicroTVSDiodes:TPD2EUSB30DRTR D5
 U 1 1 5F07CDBC
@@ -3101,4 +3094,30 @@ Wire Wire Line
 Wire Wire Line
 	12300 6200 12300 6300
 Connection ~ 12100 6200
+$Comp
+L antmicroDiodesRectifiersSingle:MBR0540T1G D?
+U 1 1 5DB10412
+P 1950 3050
+F 0 "D?" H 1950 3312 60  0000 C CNN
+F 1 "MBR0540T1G" H 1950 3206 60  0000 C CNN
+F 2 "antmicro-footprints:SOD-123" H 2150 3250 60  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MBR0540T1-D.PDF" H 2150 3350 60  0001 L CNN
+F 4 "MBR0540T1G" H 2150 3550 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 2150 4150 60  0001 L CNN "Manufacturer"
+	1    1950 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2150 2400 2600
+Wire Wire Line
+	2400 2600 2400 3050
+Wire Wire Line
+	2400 3050 2150 3050
+Connection ~ 2400 2600
+Wire Wire Line
+	2400 2600 3050 2600
+Wire Wire Line
+	1750 3050 1050 3050
+Text Label 1150 3050 0    50   ~ 0
+5V0_DBG_USB
 $EndSCHEMATC
