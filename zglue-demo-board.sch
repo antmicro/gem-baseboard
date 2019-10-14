@@ -1035,7 +1035,7 @@ Text Notes 7950 10800 0    50   ~ 0
 TODO: check pin order\n
 Text Notes 13650 9000 0    50   ~ 0
 TODO: check pin order\n
-Text Notes 13700 6500 0    50   ~ 0
+Text Notes 13650 6800 0    50   ~ 0
 TODO: check pin order, check i2c connection\n
 Text Notes 12550 2450 0    50   ~ 0
 TODO: add LEDs\n
@@ -3115,11 +3115,11 @@ Text Label 1900 10150 0    50   ~ 0
 3V3_FTDI
 Text Label 1550 10650 0    50   ~ 0
 3V3_FTDI
+Connection ~ 12500 8100
 Text Label 11000 10550 0    50   ~ 0
 USB_D_P
 Text Label 9600 10550 0    50   ~ 0
 USB_D_N
-Connection ~ 12500 8100
 $Comp
 L power:GND #PWR?
 U 1 1 5DE8E3C8
