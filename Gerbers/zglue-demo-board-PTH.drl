@@ -1,5 +1,5 @@
 M48
-;DRILL file {KiCad 5.0.2+dfsg1-1~bpo9+1} date Tue 22 Oct 2019 04:55:18 PM CEST
+;DRILL file {KiCad 5.0.2+dfsg1-1~bpo9+1} date Wed 23 Oct 2019 09:45:13 AM CEST
 ;FORMAT={-:-/ absolute / metric / decimal}
 FMAT,2
 METRIC,TZ
@@ -150,9 +150,9 @@ X32.7Y-29.
 X32.8Y-35.
 X32.9Y-10.
 X33.Y-13.25
+X33.6Y-24.9
 X33.6Y-32.8
 X33.6Y-35.8
-X34.5Y-24.9
 X34.6Y-6.5
 X35.2Y-46.
 X35.2Y-47.1
