@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:zglue-demo-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -3135,4 +3134,79 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf" H 1850 9450 
 $EndComp
 Text Notes 3250 850  0    79   ~ 16
 Voltage level selection
+$Comp
+L antmicroMechanicalParts:antmicro_logo N1
+U 1 1 5DEA001B
+P 12450 10200
+F 0 "N1" H 12500 10461 50  0001 C CNN
+F 1 "antmicro_logo" H 12500 10462 50  0001 C CNN
+F 2 "antmicro-footprints:antmicro-logo_scaled_20mm" H 12350 10450 50  0001 C CNN
+F 3 "" H 12450 10550 50  0001 C CNN
+	1    12450 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:20021121-00010C4LF J1
+U 1 1 5DB8DE82
+P 12800 4500
+F 0 "J1" H 12800 4925 50  0000 C CNN
+F 1 "20021121-00010C4LF" H 12800 4834 50  0000 C CNN
+F 2 "antmicro-footprints:PinHeader_2x5_P1.27mm" H 13000 4700 60  0001 L CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf" H 13000 4800 60  0001 L CNN
+F 4 "20021121-00010C4LF" H 13000 5000 60  0001 L CNN "MPN"
+F 5 "Amphenol ICC (FCI)" H 13000 5600 60  0001 L CNN "Manufacturer"
+	1    12800 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12600 4300 11950 4300
+Wire Wire Line
+	12600 4400 11950 4400
+Wire Wire Line
+	12600 4500 11950 4500
+Wire Wire Line
+	12600 4600 11950 4600
+Wire Wire Line
+	12600 4700 11950 4700
+Wire Wire Line
+	13650 4300 13000 4300
+Wire Wire Line
+	13650 4400 13000 4400
+Wire Wire Line
+	13650 4500 13000 4500
+Wire Wire Line
+	13650 4600 13000 4600
+Wire Wire Line
+	13650 4700 13000 4700
+Text Label 12000 4500 0    50   ~ 0
+FLASH_IO0
+Text Label 13100 4500 0    50   ~ 0
+FLASH_IO1
+Text Label 12000 4600 0    50   ~ 0
+FLASH_IO2
+Text Label 13100 4600 0    50   ~ 0
+FLASH_IO3
+Text Label 13100 4300 0    50   ~ 0
+CTRL_RST_FLASH_SOC_CS
+Text Label 13100 4400 0    50   ~ 0
+FLASH_CS
+Text Label 12000 4700 0    50   ~ 0
+FLASH_CLK
+Text Label 13100 4700 0    50   ~ 0
+DONE
+Text Label 12000 4300 0    50   ~ 0
+3V3_SYS
+$Comp
+L power:GND #PWR?
+U 1 1 5DF0D91A
+P 11950 4400
+F 0 "#PWR?" H 11950 4150 50  0001 C CNN
+F 1 "GND" H 11955 4227 50  0000 C CNN
+F 2 "" H 11950 4400 50  0001 C CNN
+F 3 "" H 11950 4400 50  0001 C CNN
+	1    11950 4400
+	0    1    1    0   
+$EndComp
+Text Notes 12500 3950 0    79   ~ 16
+QSPI flash programming header
 $EndSCHEMATC
