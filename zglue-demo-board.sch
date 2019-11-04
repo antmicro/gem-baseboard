@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:zglue-demo-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -196,8 +197,6 @@ Wire Wire Line
 	11650 2000 12450 2000
 Wire Wire Line
 	11650 2100 12450 2100
-Wire Wire Line
-	11650 2300 12450 2300
 Wire Wire Line
 	11650 2400 12450 2400
 Wire Wire Line
@@ -462,7 +461,7 @@ F 5 "Hirose" H 1850 900 50  0001 C CNN "Manufacturer"
 	1    1850 1250
 	1    0    0    -1  
 $EndComp
-Text Label 7250 10150 0    50   ~ 0
+Text Label 12250 9150 0    50   ~ 0
 3V3_SYS
 Wire Wire Line
 	1650 1100 1250 1100
@@ -482,63 +481,63 @@ Wire Wire Line
 $Comp
 L antmicroRectangularConnectorsHeadersMalePins:20021121-00010C4LF J3
 U 1 1 5DA5DFAD
-P 8000 10350
-F 0 "J3" H 8000 10775 50  0000 C CNN
-F 1 "20021121-00010C4LF" H 8000 10684 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_2x5_P1.27mm" H 8200 10550 60  0001 L CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf" H 8200 10650 60  0001 L CNN
-F 4 "20021121-00010C4LF" H 8200 10850 60  0001 L CNN "MPN"
-F 5 "Amphenol ICC (FCI)" H 8200 11450 60  0001 L CNN "Manufacturer"
-	1    8000 10350
+P 13000 9350
+F 0 "J3" H 13000 9775 50  0000 C CNN
+F 1 "20021121-00010C4LF" H 13000 9684 50  0000 C CNN
+F 2 "antmicro-footprints:PinHeader_2x5_P1.27mm" H 13200 9550 60  0001 L CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf" H 13200 9650 60  0001 L CNN
+F 4 "20021121-00010C4LF" H 13200 9850 60  0001 L CNN "MPN"
+F 5 "Amphenol ICC (FCI)" H 13200 10450 60  0001 L CNN "Manufacturer"
+	1    13000 9350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7800 10150 6750 10150
+	12800 9150 11750 9150
 Wire Wire Line
-	8800 10150 8200 10150
+	13800 9150 13200 9150
 Wire Wire Line
-	8800 10250 8200 10250
+	13800 9250 13200 9250
 Wire Wire Line
-	8800 10350 8200 10350
+	13800 9350 13200 9350
 Wire Wire Line
-	8800 10450 8200 10450
-Text Label 8450 10450 0    50   ~ 0
+	13800 9450 13200 9450
+Text Label 13450 9450 0    50   ~ 0
 TDI
-Text Label 8450 10350 0    50   ~ 0
+Text Label 13450 9350 0    50   ~ 0
 TDO
-Text Label 8450 10150 0    50   ~ 0
+Text Label 13450 9150 0    50   ~ 0
 TMS
-Text Label 8450 10250 0    50   ~ 0
+Text Label 13450 9250 0    50   ~ 0
 TCK
-NoConn ~ 8200 10550
+NoConn ~ 13200 9550
 $Comp
 L power:GND #PWR05
 U 1 1 5DAABB13
-P 7650 10550
-F 0 "#PWR05" H 7650 10300 50  0001 C CNN
-F 1 "GND" H 7655 10377 50  0000 C CNN
-F 2 "" H 7650 10550 50  0001 C CNN
-F 3 "" H 7650 10550 50  0001 C CNN
-	1    7650 10550
+P 12650 9550
+F 0 "#PWR05" H 12650 9300 50  0001 C CNN
+F 1 "GND" H 12655 9377 50  0000 C CNN
+F 2 "" H 12650 9550 50  0001 C CNN
+F 3 "" H 12650 9550 50  0001 C CNN
+	1    12650 9550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7800 10250 7650 10250
+	12800 9250 12650 9250
 Wire Wire Line
-	7650 10250 7650 10350
+	12650 9250 12650 9350
 Wire Wire Line
-	7800 10350 7650 10350
-Connection ~ 7650 10350
+	12800 9350 12650 9350
+Connection ~ 12650 9350
 Wire Wire Line
-	7650 10350 7650 10450
+	12650 9350 12650 9450
 Wire Wire Line
-	7800 10450 7650 10450
-Connection ~ 7650 10450
+	12800 9450 12650 9450
+Connection ~ 12650 9450
 Wire Wire Line
-	7650 10450 7650 10550
+	12650 9450 12650 9550
 Wire Wire Line
-	7800 10550 7650 10550
-Connection ~ 7650 10550
+	12800 9550 12650 9550
+Connection ~ 12650 9550
 Text Label 1250 1100 0    50   ~ 0
 5V0_IN
 $Comp
@@ -558,28 +557,28 @@ $EndComp
 $Comp
 L antmicroCapacitors0603:C_1u_0603 C2
 U 1 1 5DAD3394
-P 6750 10450
-F 0 "C2" H 6865 10495 60  0000 L CNN
-F 1 "C_1u_0603" H 6750 10300 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 6950 10650 60  0001 L CNN
-F 3 "" H 6750 10450 50  0001 C CNN
-F 4 "WALSIN" H 6950 10850 60  0001 L CNN "Manufacturer"
-F 5 "0603X105K160CT" H 6950 10750 60  0001 L CNN "MPN"
-F 6 "1u" H 6865 10397 50  0000 L CNN "Val"
-	1    6750 10450
+P 11750 9450
+F 0 "C2" H 11865 9495 60  0000 L CNN
+F 1 "C_1u_0603" H 11750 9300 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 11950 9650 60  0001 L CNN
+F 3 "" H 11750 9450 50  0001 C CNN
+F 4 "WALSIN" H 11950 9850 60  0001 L CNN "Manufacturer"
+F 5 "0603X105K160CT" H 11950 9750 60  0001 L CNN "MPN"
+F 6 "1u" H 11865 9397 50  0000 L CNN "Val"
+	1    11750 9450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 10300 6750 10150
+	11750 9300 11750 9150
 $Comp
 L power:GND #PWR02
 U 1 1 5DAE3748
-P 6750 10600
-F 0 "#PWR02" H 6750 10350 50  0001 C CNN
-F 1 "GND" H 6755 10427 50  0000 C CNN
-F 2 "" H 6750 10600 50  0001 C CNN
-F 3 "" H 6750 10600 50  0001 C CNN
-	1    6750 10600
+P 11750 9600
+F 0 "#PWR02" H 11750 9350 50  0001 C CNN
+F 1 "GND" H 11755 9427 50  0000 C CNN
+F 2 "" H 11750 9600 50  0001 C CNN
+F 3 "" H 11750 9600 50  0001 C CNN
+	1    11750 9600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -599,7 +598,7 @@ Text Notes 1100 800  0    79   ~ 16
 Auxiliary power supply entry
 Text Notes 1850 3550 0    79   ~ 16
 RPi connector
-Text Notes 7600 9850 0    79   ~ 16
+Text Notes 12600 8850 0    79   ~ 16
 JTAG interface
 $Comp
 L antmicroUSBDVIHDMIConnectors:0473460001 J5
@@ -1017,12 +1016,10 @@ F 3 "https://www.molex.com/pdm_docs/sd/556500488_sd.pdf" H 14850 -950 50  0001 C
 $EndComp
 Text Notes 11050 1250 0    50   ~ 0
 Mating - 543630489
-Text Notes 7950 10800 0    50   ~ 0
+Text Notes 12950 9800 0    50   ~ 0
 TODO: check pin order\n
 Text Notes 13650 6800 0    50   ~ 0
 TODO: check i2c connection\n
-Text Notes 12550 2450 0    50   ~ 0
-TODO: add LEDs\n
 $Comp
 L antmicroLogicTranslatorsLevelShifters:NTB0104BQ U4
 U 1 1 5D99B71D
@@ -3197,10 +3194,10 @@ DONE
 Text Label 10700 4550 0    50   ~ 0
 3V3_SYS
 $Comp
-L power:GND #PWR?
+L power:GND #PWR014
 U 1 1 5DF0D91A
 P 10650 4650
-F 0 "#PWR?" H 10650 4400 50  0001 C CNN
+F 0 "#PWR014" H 10650 4400 50  0001 C CNN
 F 1 "GND" H 10655 4477 50  0000 C CNN
 F 2 "" H 10650 4650 50  0001 C CNN
 F 3 "" H 10650 4650 50  0001 C CNN
@@ -3209,4 +3206,345 @@ F 3 "" H 10650 4650 50  0001 C CNN
 $EndComp
 Text Notes 10650 4200 0    79   ~ 16
 QSPI flash programming header
+$Comp
+L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D6
+U 1 1 5DB63A8F
+P 8450 6100
+F 0 "D6" V 8347 6278 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" V 8453 6278 60  0001 L CNN
+F 2 "antmicro-footprints:LED_0603" H 8650 6300 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 8650 6400 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 8650 6600 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 8650 7200 60  0001 L CNN "Manufacturer"
+	1    8450 6100
+	0    1    1    0   
+$EndComp
+Text Label 8100 5700 0    50   ~ 0
+VUSB
+Wire Wire Line
+	8450 5900 8450 5700
+Wire Wire Line
+	8450 5700 8050 5700
+$Comp
+L power:GND #PWR013
+U 1 1 5DBAD57D
+P 8450 6650
+F 0 "#PWR013" H 8450 6400 50  0001 C CNN
+F 1 "GND" H 8455 6477 50  0000 C CNN
+F 2 "" H 8450 6650 50  0001 C CNN
+F 3 "" H 8450 6650 50  0001 C CNN
+	1    8450 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 6200 8450 6300
+$Comp
+L antmicroResistors0402:R_470R_0402 R34
+U 1 1 5DBF4317
+P 8450 6450
+F 0 "R34" V 8405 6520 60  0000 L CNN
+F 1 "R_470R_0402" H 8450 6300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8650 6650 60  0001 L CNN
+F 3 "" H 8450 6450 50  0001 C CNN
+F 4 "VISHAY" H 8650 6850 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402470RFKED." H 8650 6750 60  0001 L CNN "MPN"
+F 6 "470R" V 8503 6520 50  0000 L CNN "Val"
+	1    8450 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 6600 8450 6650
+$Comp
+L antmicroTactileSwitches:EVQPUA02K S1
+U 1 1 5DC9801E
+P 12800 1150
+F 0 "S1" H 12800 1447 60  0000 C CNN
+F 1 "EVQPUA02K" H 12800 1341 60  0000 C CNN
+F 2 "antmicro-footprints:Panasonic_EVQPUJ_EVQPUA" H 13000 1350 60  0001 L CNN
+F 3 "" H 13000 1450 60  0001 L CNN
+F 4 "EVQPUA02K" H 13000 1650 60  0001 L CNN "MPN"
+F 5 "Panasonic" H 13000 2250 60  0001 L CNN "Manufacturer"
+	1    12800 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12600 2300 12600 1150
+Wire Wire Line
+	11650 2300 12600 2300
+$Comp
+L power:GND #PWR0103
+U 1 1 5DCDFECB
+P 13150 1150
+F 0 "#PWR0103" H 13150 900 50  0001 C CNN
+F 1 "GND" H 13155 977 50  0000 C CNN
+F 2 "" H 13150 1150 50  0001 C CNN
+F 3 "" H 13150 1150 50  0001 C CNN
+	1    13150 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13150 1150 13000 1150
+$Comp
+L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D9
+U 1 1 5DD72331
+P 7400 10350
+F 0 "D9" V 7297 10528 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" V 7403 10528 60  0001 L CNN
+F 2 "antmicro-footprints:LED_0603" H 7600 10550 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 7600 10650 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 7600 10850 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 7600 11450 60  0001 L CNN "Manufacturer"
+	1    7400 10350
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_330R_0402 R37
+U 1 1 5DE02EF3
+P 7400 10700
+F 0 "R37" V 7355 10770 60  0000 L CNN
+F 1 "R_330R_0402" H 7400 10550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7600 10900 60  0001 L CNN
+F 3 "" H 7400 10700 50  0001 C CNN
+F 4 "MULTICOMP" H 7600 11100 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X3300FTL" H 7600 11000 60  0001 L CNN "MPN"
+F 6 "330R" V 7453 10770 50  0000 L CNN "Val"
+	1    7400 10700
+	0    1    1    0   
+$EndComp
+Text Label 6900 10150 0    50   ~ 0
+3V3_SYS
+$Comp
+L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D11
+U 1 1 5DE05551
+P 8100 10350
+F 0 "D11" V 7997 10528 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" V 8103 10528 60  0001 L CNN
+F 2 "antmicro-footprints:LED_0603" H 8300 10550 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 8300 10650 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 8300 10850 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 8300 11450 60  0001 L CNN "Manufacturer"
+	1    8100 10350
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_330R_0402 R39
+U 1 1 5DE0555B
+P 8100 10700
+F 0 "R39" V 8055 10770 60  0000 L CNN
+F 1 "R_330R_0402" H 8100 10550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8300 10900 60  0001 L CNN
+F 3 "" H 8100 10700 50  0001 C CNN
+F 4 "MULTICOMP" H 8300 11100 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X3300FTL" H 8300 11000 60  0001 L CNN "MPN"
+F 6 "330R" V 8153 10770 50  0000 L CNN "Val"
+	1    8100 10700
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D13
+U 1 1 5DE4C7B3
+P 8750 10350
+F 0 "D13" V 8647 10528 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" V 8753 10528 60  0001 L CNN
+F 2 "antmicro-footprints:LED_0603" H 8950 10550 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 8950 10650 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 8950 10850 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 8950 11450 60  0001 L CNN "Manufacturer"
+	1    8750 10350
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_330R_0402 R41
+U 1 1 5DE4C7BD
+P 8750 10700
+F 0 "R41" V 8705 10770 60  0000 L CNN
+F 1 "R_330R_0402" H 8750 10550 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8950 10900 60  0001 L CNN
+F 3 "" H 8750 10700 50  0001 C CNN
+F 4 "MULTICOMP" H 8950 11100 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X3300FTL" H 8950 11000 60  0001 L CNN "MPN"
+F 6 "330R" V 8803 10770 50  0000 L CNN "Val"
+	1    8750 10700
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D10
+U 1 1 5DE93A25
+P 8050 9100
+F 0 "D10" V 7947 9278 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" V 8053 9278 60  0001 L CNN
+F 2 "antmicro-footprints:LED_0603" H 8250 9300 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 8250 9400 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 8250 9600 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 8250 10200 60  0001 L CNN "Manufacturer"
+	1    8050 9100
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_330R_0402 R38
+U 1 1 5DE93A2F
+P 8050 9450
+F 0 "R38" V 8005 9520 60  0000 L CNN
+F 1 "R_330R_0402" H 8050 9300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8250 9650 60  0001 L CNN
+F 3 "" H 8050 9450 50  0001 C CNN
+F 4 "MULTICOMP" H 8250 9850 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X3300FTL" H 8250 9750 60  0001 L CNN "MPN"
+F 6 "330R" V 8103 9520 50  0000 L CNN "Val"
+	1    8050 9450
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D12
+U 1 1 5DEDAC97
+P 8750 9100
+F 0 "D12" V 8647 9278 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" V 8753 9278 60  0001 L CNN
+F 2 "antmicro-footprints:LED_0603" H 8950 9300 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 8950 9400 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 8950 9600 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 8950 10200 60  0001 L CNN "Manufacturer"
+	1    8750 9100
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_330R_0402 R40
+U 1 1 5DEDACA1
+P 8750 9450
+F 0 "R40" V 8705 9520 60  0000 L CNN
+F 1 "R_330R_0402" H 8750 9300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8950 9650 60  0001 L CNN
+F 3 "" H 8750 9450 50  0001 C CNN
+F 4 "MULTICOMP" H 8950 9850 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X3300FTL" H 8950 9750 60  0001 L CNN "MPN"
+F 6 "330R" V 8803 9520 50  0000 L CNN "Val"
+	1    8750 9450
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D7
+U 1 1 5DF21F29
+P 8750 8000
+F 0 "D7" V 8647 8178 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" V 8753 8178 60  0001 L CNN
+F 2 "antmicro-footprints:LED_0603" H 8950 8200 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 8950 8300 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 8950 8500 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 8950 9100 60  0001 L CNN "Manufacturer"
+	1    8750 8000
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_330R_0402 R35
+U 1 1 5DF21F33
+P 8750 8350
+F 0 "R35" V 8705 8420 60  0000 L CNN
+F 1 "R_330R_0402" H 8750 8200 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 8950 8550 60  0001 L CNN
+F 3 "" H 8750 8350 50  0001 C CNN
+F 4 "MULTICOMP" H 8950 8750 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X3300FTL" H 8950 8650 60  0001 L CNN "MPN"
+F 6 "330R" V 8803 8420 50  0000 L CNN "Val"
+	1    8750 8350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 10150 8100 10150
+Connection ~ 7400 10150
+Wire Wire Line
+	7400 10150 6850 10150
+Connection ~ 8100 10150
+Wire Wire Line
+	8100 10150 7400 10150
+Wire Wire Line
+	8050 9200 8050 9300
+Wire Wire Line
+	8750 9200 8750 9300
+Wire Wire Line
+	7400 10450 7400 10550
+Wire Wire Line
+	8100 10450 8100 10550
+Wire Wire Line
+	8750 10450 8750 10550
+Wire Wire Line
+	7400 10850 6850 10850
+Wire Wire Line
+	8100 10850 8100 11050
+Wire Wire Line
+	8100 11050 7550 11050
+Wire Wire Line
+	8750 10850 8750 11050
+Wire Wire Line
+	8750 11050 8250 11050
+Text Label 6850 10850 0    50   ~ 0
+PROC_OUT_0
+Text Label 7550 11050 0    50   ~ 0
+PROC_OUT_1
+Text Label 8250 11050 0    50   ~ 0
+PROC_OUT_2
+Text Label 8000 8500 0    50   ~ 0
+CTRL_OUT
+$Comp
+L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D8
+U 1 1 5E4C9222
+P 7400 9100
+F 0 "D8" V 7297 9278 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" V 7403 9278 60  0001 L CNN
+F 2 "antmicro-footprints:LED_0603" H 7600 9300 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 7600 9400 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 7600 9600 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 7600 10200 60  0001 L CNN "Manufacturer"
+	1    7400 9100
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_330R_0402 R36
+U 1 1 5E4C922C
+P 7400 9450
+F 0 "R36" V 7355 9520 60  0000 L CNN
+F 1 "R_330R_0402" H 7400 9300 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7600 9650 60  0001 L CNN
+F 3 "" H 7400 9450 50  0001 C CNN
+F 4 "MULTICOMP" H 7600 9850 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X3300FTL" H 7600 9750 60  0001 L CNN "MPN"
+F 6 "330R" V 7453 9520 50  0000 L CNN "Val"
+	1    7400 9450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 9200 7400 9300
+Text Label 6800 8900 0    50   ~ 0
+3V3_SYS
+Wire Wire Line
+	8750 8900 8050 8900
+Connection ~ 8050 8900
+Connection ~ 7400 8900
+Wire Wire Line
+	7400 8900 8050 8900
+Wire Wire Line
+	6800 8900 7400 8900
+Wire Wire Line
+	7400 9600 6750 9600
+Wire Wire Line
+	8050 9600 8050 9850
+Wire Wire Line
+	8050 9850 7350 9850
+Wire Wire Line
+	8750 9600 8750 9850
+Wire Wire Line
+	8750 9850 8250 9850
+Text Label 6800 9600 0    50   ~ 0
+LED1_ISINK
+Text Label 7450 9850 0    50   ~ 0
+LED2_ISINK
+Text Label 8250 9850 0    50   ~ 0
+LED3_ISINK
+Wire Wire Line
+	8750 8200 8750 8100
+Wire Wire Line
+	8750 7800 7950 7800
+Wire Wire Line
+	8750 8500 7950 8500
+Text Label 8000 7800 0    50   ~ 0
+3V3_SYS
 $EndSCHEMATC
