@@ -352,6 +352,27 @@ X VPLL 9 -800 750 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# antmicroLEDIndicationDiscrete_LG_L29K-G2J1-24-Z
+#
+DEF antmicroLEDIndicationDiscrete_LG_L29K-G2J1-24-Z D 0 0 Y Y 1 F N
+F0 "D" -200 150 60 H V C CNN
+F1 "antmicroLEDIndicationDiscrete_LG_L29K-G2J1-24-Z" 0 -150 60 H V C CNN
+F2 "antmicro-footprints:LED_0603" 200 200 60 H I L CNN
+F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" 200 300 60 H I L CNN
+F4 "LG L29K-G2J1-24-Z" 200 500 60 H I L CNN "MPN"
+F5 "OSRAM Opto Semiconductors Inc." 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 -25 150 -75 100 N
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 25 125 -25 75 N
+P 3 0 1 0 -50 150 -25 150 -25 125 N
+P 3 0 1 0 0 125 25 125 25 100 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroLogicTranslatorsLevelShifters_NTB0104BQ
 #
 DEF antmicroLogicTranslatorsLevelShifters_NTB0104BQ U 0 40 Y Y 1 F N
@@ -607,6 +628,40 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroResistors0402_R_330R_0402
+#
+DEF ~antmicroResistors0402_R_330R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_330R_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
+F5 "MCMR04X3300FTL" 200 300 60 H I L CNN "MPN"
+F6 "330R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_470R_0402
+#
+DEF ~antmicroResistors0402_R_470R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_470R_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRCW0402470RFKED." 200 300 60 H I L CNN "MPN"
+F6 "470R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroResistors0603_R_0R_0603
 #
 DEF ~antmicroResistors0603_R_0R_0603 R 0 0 Y Y 1 F N
@@ -664,6 +719,28 @@ P 4 1 1 0 110 120 110 -135 -110 -135 -110 120 N
 X D+ 1 300 0 100 L 50 50 1 1 P
 X D- 2 -300 0 100 R 50 50 1 1 P
 X GND 3 0 -300 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# antmicroTactileSwitches_EVQPUA02K
+#
+DEF antmicroTactileSwitches_EVQPUA02K S 0 40 Y Y 1 F N
+F0 "S" 0 200 60 H V C CNN
+F1 "antmicroTactileSwitches_EVQPUA02K" 0 -200 60 H V C CNN
+F2 "antmicro-footprints:Panasonic_EVQPUJ_EVQPUA" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "EVQPUA02K" 200 500 60 H I L CNN "MPN"
+F5 "Panasonic" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+C -60 0 10 0 1 0 N
+C 60 0 10 0 1 0 N
+P 2 0 1 0 -100 0 -70 0 N
+P 2 0 1 0 -70 50 70 50 N
+P 2 0 1 0 -40 110 40 110 N
+P 2 0 1 0 0 50 0 110 N
+P 2 0 1 0 100 0 70 0 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
