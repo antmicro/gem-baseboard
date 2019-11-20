@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:zglue-demo-board-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "zGlue Demo Board"
 Date ""
-Rev "1.0"
+Rev "1.1"
 Comp "Antmicro"
 Comment1 "www.antmicro.com"
 Comment2 ""
@@ -543,16 +543,16 @@ Text Label 1250 1100 0    50   ~ 0
 $Comp
 L antmicroCapacitors0603:C_1u_0603 C1
 U 1 1 5DAD330C
-P 850 4300
-F 0 "C1" H 965 4345 60  0000 L CNN
-F 1 "C_1u_0603" H 850 4150 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 1050 4500 60  0001 L CNN
-F 3 "" H 850 4300 50  0001 C CNN
-F 4 "WALSIN" H 1050 4700 60  0001 L CNN "Manufacturer"
-F 5 "0603X105K160CT" H 1050 4600 60  0001 L CNN "MPN"
-F 6 "1u" H 965 4247 50  0000 L CNN "Val"
-	1    850  4300
-	1    0    0    -1  
+P 700 3850
+F 0 "C1" H 450 3900 60  0000 L CNN
+F 1 "C_1u_0603" H 700 3700 60  0001 C CNN
+F 2 "antmicro-footprints:0603-cap" H 900 4050 60  0001 L CNN
+F 3 "" H 700 3850 50  0001 C CNN
+F 4 "WALSIN" H 900 4250 60  0001 L CNN "Manufacturer"
+F 5 "0603X105K160CT" H 900 4150 60  0001 L CNN "MPN"
+F 6 "1u" H 500 3800 50  0000 L CNN "Val"
+	1    700  3850
+	0    1    1    0   
 $EndComp
 $Comp
 L antmicroCapacitors0603:C_1u_0603 C2
@@ -581,17 +581,15 @@ F 3 "" H 10850 9750 50  0001 C CNN
 	1    10850 9750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	850  3850 850  4150
 $Comp
 L power:GND #PWR01
 U 1 1 5DAEBF7E
-P 850 4450
-F 0 "#PWR01" H 850 4200 50  0001 C CNN
-F 1 "GND" H 855 4277 50  0000 C CNN
-F 2 "" H 850 4450 50  0001 C CNN
-F 3 "" H 850 4450 50  0001 C CNN
-	1    850  4450
+P 550 3850
+F 0 "#PWR01" H 550 3600 50  0001 C CNN
+F 1 "GND" H 555 3677 50  0000 C CNN
+F 2 "" H 550 3850 50  0001 C CNN
+F 3 "" H 550 3850 50  0001 C CNN
+	1    550  3850
 	1    0    0    -1  
 $EndComp
 Text Notes 1100 800  0    79   ~ 16
@@ -1014,21 +1012,6 @@ F 3 "https://www.molex.com/pdm_docs/sd/556500488_sd.pdf" H 14900 -1250 50  0001 
 $EndComp
 Text Notes 11100 950  0    50   ~ 0
 Mating - 543630489
-Text Notes 12050 9900 0    50   ~ 0
-TODO: check pin order\n
-$Comp
-L antmicroLogicTranslatorsLevelShifters:NTB0104BQ U4
-U 1 1 5D99B71D
-P 6800 5000
-F 0 "U4" H 6250 4650 50  0000 C CNN
-F 1 "NTB0104BQ" H 6400 4550 50  0000 C CNN
-F 2 "antmicro-footprints:QDHVQFN14" H 7850 5650 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/NTB0104BQ%2C115-NXP-Semiconductors-datasheet-12519051.pdf" H 7450 5750 50  0001 C CNN
-F 4 "NTB0104BQ" H 6800 5536 50  0001 C CNN "MPN"
-F 5 "NXP Semiconductors" H 6800 5537 50  0001 C CNN "Manufacturer"
-	1    6800 5000
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR026
 U 1 1 5D9BD547
@@ -1179,19 +1162,6 @@ F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8350 5300 60  0001 L CNN
 F 3 "" H 8350 5400 60  0001 L CNN
 	1    8150 5100
 	0    -1   -1   0   
-$EndComp
-$Comp
-L antmicroLogicTranslatorsLevelShifters:NTB0104BQ U3
-U 1 1 5DC43970
-P 6800 3400
-F 0 "U3" H 6250 3050 50  0000 C CNN
-F 1 "NTB0104BQ" H 6400 2950 50  0000 C CNN
-F 2 "antmicro-footprints:QDHVQFN14" H 7850 4050 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/NTB0104BQ%2C115-NXP-Semiconductors-datasheet-12519051.pdf" H 7450 4150 50  0001 C CNN
-F 4 "NTB0104BQ" H 6800 3936 50  0001 C CNN "MPN"
-F 5 "NXP Semiconductors" H 6800 3937 50  0001 C CNN "Manufacturer"
-	1    6800 3400
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR025
@@ -1349,19 +1319,6 @@ E_CTRL_SCK_3V3
 Text Label 7450 3500 0    50   ~ 0
 E_CTRL_SS_3V3
 $Comp
-L antmicroLogicTranslatorsLevelShifters:NTB0104BQ U2
-U 1 1 5DD333E1
-P 6800 1750
-F 0 "U2" H 6250 1400 50  0000 C CNN
-F 1 "NTB0104BQ" H 6400 1300 50  0000 C CNN
-F 2 "antmicro-footprints:QDHVQFN14" H 7850 2400 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/NTB0104BQ%2C115-NXP-Semiconductors-datasheet-12519051.pdf" H 7450 2500 50  0001 C CNN
-F 4 "NTB0104BQ" H 6800 2286 50  0001 C CNN "MPN"
-F 5 "NXP Semiconductors" H 6800 2287 50  0001 C CNN "Manufacturer"
-	1    6800 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR024
 U 1 1 5DD333E8
 P 6750 2250
@@ -1452,10 +1409,6 @@ Wire Wire Line
 	5950 1650 4850 1650
 Wire Wire Line
 	5950 1750 4850 1750
-Wire Wire Line
-	8400 1550 7200 1550
-Wire Wire Line
-	8400 1750 7200 1750
 $Comp
 L antmicroTestPoints:TP_SMD1MM TP5
 U 1 1 5DD33425
@@ -1499,8 +1452,6 @@ NoConn ~ 7200 3600
 NoConn ~ 6400 3600
 NoConn ~ 6400 5200
 NoConn ~ 7200 5200
-Wire Wire Line
-	8400 1650 7200 1650
 Text Label 5150 1650 0    50   ~ 0
 E_PROC_RST
 Text Label 7300 1650 0    50   ~ 0
@@ -1509,8 +1460,6 @@ Text Label 5150 1750 0    50   ~ 0
 DONE
 Text Label 7300 1750 0    50   ~ 0
 DONE_3V3
-Text Notes 11850 3350 0    50   ~ 0
-TODO: determine what to do with I2C
 $Comp
 L antmicroTestPoints:TP_SMD1MM TP19
 U 1 1 5DEEFECB
@@ -3728,12 +3677,7 @@ RPI_SCL
 NoConn ~ 11850 4650
 NoConn ~ 11050 4650
 NoConn ~ 1850 4150
-NoConn ~ 1850 4350
-NoConn ~ 1850 4450
 NoConn ~ 1850 4550
-NoConn ~ 1850 4750
-NoConn ~ 1850 4850
-NoConn ~ 1850 4950
 NoConn ~ 1850 5150
 NoConn ~ 1850 5250
 NoConn ~ 1850 5350
@@ -3746,7 +3690,6 @@ NoConn ~ 2900 5550
 NoConn ~ 2900 5350
 NoConn ~ 2900 5150
 NoConn ~ 2900 5050
-NoConn ~ 2900 4950
 NoConn ~ 2900 4850
 NoConn ~ 2900 4650
 NoConn ~ 2900 4550
@@ -4084,4 +4027,87 @@ Text Label 12650 5550 0    50   ~ 0
 I2C_0_SDA_3V3
 Wire Wire Line
 	11400 3950 10750 3950
+$Comp
+L antmicroLogicTranslatorsLevelShifters:NTS0104BQ U2
+U 1 1 5DE18FC3
+P 6800 1750
+F 0 "U2" H 6300 1450 50  0000 C CNN
+F 1 "NTS0104BQ" H 6300 1350 50  0000 C CNN
+F 2 "antmicro-footprints:QDHVQFN14" H 7850 2400 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/NTS0104BQ%2C115-NXP-Semiconductors-datasheet-11805065.pdf" H 7450 2500 50  0001 C CNN
+F 4 "NTS0104BQ" H 6800 2289 50  0001 C CNN "MPN"
+F 5 "NXP Semiconductors" H 6800 2290 50  0001 C CNN "Manufacturer"
+	1    6800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroLogicTranslatorsLevelShifters:NTS0104BQ U3
+U 1 1 5DE1ADF0
+P 6800 3400
+F 0 "U3" H 6300 3100 50  0000 C CNN
+F 1 "NTS0104BQ" H 6300 3000 50  0000 C CNN
+F 2 "antmicro-footprints:QDHVQFN14" H 7850 4050 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/NTS0104BQ%2C115-NXP-Semiconductors-datasheet-11805065.pdf" H 7450 4150 50  0001 C CNN
+F 4 "NTS0104BQ" H 6800 3939 50  0001 C CNN "MPN"
+F 5 "NXP Semiconductors" H 6800 3940 50  0001 C CNN "Manufacturer"
+	1    6800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroLogicTranslatorsLevelShifters:NTS0104BQ U4
+U 1 1 5DE1BA96
+P 6800 5000
+F 0 "U4" H 6300 4700 50  0000 C CNN
+F 1 "NTS0104BQ" H 6300 4600 50  0000 C CNN
+F 2 "antmicro-footprints:QDHVQFN14" H 7850 5650 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/NTS0104BQ%2C115-NXP-Semiconductors-datasheet-11805065.pdf" H 7450 5750 50  0001 C CNN
+F 4 "NTS0104BQ" H 6800 5539 50  0001 C CNN "MPN"
+F 5 "NXP Semiconductors" H 6800 5540 50  0001 C CNN "Manufacturer"
+	1    6800 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1550 8400 1550
+Wire Wire Line
+	7200 1750 8400 1750
+Wire Wire Line
+	7200 1650 8400 1650
+Text Notes 6100 8450 0    50   ~ 10
+DNP
+Text Notes 6100 8550 0    50   ~ 10
+DNP
+Text Notes 12200 5450 0    50   ~ 10
+DNP
+Text Notes 12200 5600 0    50   ~ 10
+DNP
+Text Notes 12200 6700 0    50   ~ 10
+DNP
+Text Notes 12200 6850 0    50   ~ 10
+DNP
+Text Notes 1300 3800 0    50   ~ 10
+DNP
+Wire Wire Line
+	1850 4450 550  4450
+Wire Wire Line
+	3750 4950 2900 4950
+Wire Wire Line
+	1850 4750 1000 4750
+Wire Wire Line
+	1850 4850 1000 4850
+Wire Wire Line
+	1850 4950 1000 4950
+Wire Wire Line
+	1850 4350 550  4350
+Text Label 550  4350 0    50   ~ 0
+DONE_3V3
+Text Label 1050 4950 0    50   ~ 0
+E_CTRL_SCK_3V3
+Text Label 1050 4750 0    50   ~ 0
+E_CTRL_SO_3V3
+Text Label 1050 4850 0    50   ~ 0
+E_CTRL_SI_3V3
+Text Label 3200 4950 0    50   ~ 0
+E_CTRL_SS_3V3
+Text Label 550  4450 0    50   ~ 0
+CTRL_RST_FLASH_SOC_CS_3V3
 $EndSCHEMATC
