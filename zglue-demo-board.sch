@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:zglue-demo-board-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1017,19 +1017,6 @@ Mating - 543630489
 Text Notes 12050 9900 0    50   ~ 0
 TODO: check pin order\n
 $Comp
-L antmicroLogicTranslatorsLevelShifters:NTB0104BQ U4
-U 1 1 5D99B71D
-P 6800 5000
-F 0 "U4" H 6250 4650 50  0000 C CNN
-F 1 "NTB0104BQ" H 6400 4550 50  0000 C CNN
-F 2 "antmicro-footprints:QDHVQFN14" H 7850 5650 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/NTB0104BQ%2C115-NXP-Semiconductors-datasheet-12519051.pdf" H 7450 5750 50  0001 C CNN
-F 4 "NTB0104BQ" H 6800 5536 50  0001 C CNN "MPN"
-F 5 "NXP Semiconductors" H 6800 5537 50  0001 C CNN "Manufacturer"
-	1    6800 5000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR026
 U 1 1 5D9BD547
 P 6750 5550
@@ -1179,19 +1166,6 @@ F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8350 5300 60  0001 L CNN
 F 3 "" H 8350 5400 60  0001 L CNN
 	1    8150 5100
 	0    -1   -1   0   
-$EndComp
-$Comp
-L antmicroLogicTranslatorsLevelShifters:NTB0104BQ U3
-U 1 1 5DC43970
-P 6800 3400
-F 0 "U3" H 6250 3050 50  0000 C CNN
-F 1 "NTB0104BQ" H 6400 2950 50  0000 C CNN
-F 2 "antmicro-footprints:QDHVQFN14" H 7850 4050 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/NTB0104BQ%2C115-NXP-Semiconductors-datasheet-12519051.pdf" H 7450 4150 50  0001 C CNN
-F 4 "NTB0104BQ" H 6800 3936 50  0001 C CNN "MPN"
-F 5 "NXP Semiconductors" H 6800 3937 50  0001 C CNN "Manufacturer"
-	1    6800 3400
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR025
@@ -1349,19 +1323,6 @@ E_CTRL_SCK_3V3
 Text Label 7450 3500 0    50   ~ 0
 E_CTRL_SS_3V3
 $Comp
-L antmicroLogicTranslatorsLevelShifters:NTB0104BQ U2
-U 1 1 5DD333E1
-P 6800 1750
-F 0 "U2" H 6250 1400 50  0000 C CNN
-F 1 "NTB0104BQ" H 6400 1300 50  0000 C CNN
-F 2 "antmicro-footprints:QDHVQFN14" H 7850 2400 50  0001 C CNN
-F 3 "https://datasheet.octopart.com/NTB0104BQ%2C115-NXP-Semiconductors-datasheet-12519051.pdf" H 7450 2500 50  0001 C CNN
-F 4 "NTB0104BQ" H 6800 2286 50  0001 C CNN "MPN"
-F 5 "NXP Semiconductors" H 6800 2287 50  0001 C CNN "Manufacturer"
-	1    6800 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR024
 U 1 1 5DD333E8
 P 6750 2250
@@ -1453,9 +1414,9 @@ Wire Wire Line
 Wire Wire Line
 	5950 1750 4850 1750
 Wire Wire Line
-	8400 1550 7200 1550
+	8400 1550 7250 1550
 Wire Wire Line
-	8400 1750 7200 1750
+	8400 1750 7250 1750
 $Comp
 L antmicroTestPoints:TP_SMD1MM TP5
 U 1 1 5DD33425
@@ -1500,7 +1461,7 @@ NoConn ~ 6400 3600
 NoConn ~ 6400 5200
 NoConn ~ 7200 5200
 Wire Wire Line
-	8400 1650 7200 1650
+	8400 1650 7250 1650
 Text Label 5150 1650 0    50   ~ 0
 E_PROC_RST
 Text Label 7300 1650 0    50   ~ 0
@@ -4084,4 +4045,52 @@ Text Label 12650 5550 0    50   ~ 0
 I2C_0_SDA_3V3
 Wire Wire Line
 	11400 3950 10750 3950
+$Comp
+L antmicroLogicTranslatorsLevelShifters:NTS0104BQ U2
+U 1 1 5DE18FC3
+P 6800 1750
+F 0 "U2" H 6300 1450 50  0000 C CNN
+F 1 "NTS0104BQ" H 6300 1350 50  0000 C CNN
+F 2 "antmicro-footprints:QDHVQFN14" H 7850 2400 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/NTS0104BQ%2C115-NXP-Semiconductors-datasheet-11805065.pdf" H 7450 2500 50  0001 C CNN
+F 4 "NTS0104BQ" H 6800 2289 50  0001 C CNN "MPN"
+F 5 "NXP Semiconductors" H 6800 2290 50  0001 C CNN "Manufacturer"
+	1    6800 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 7250 1750
+Wire Wire Line
+	7250 1750 7200 1750
+Connection ~ 7250 1650
+Wire Wire Line
+	7250 1650 7200 1650
+Connection ~ 7250 1550
+Wire Wire Line
+	7250 1550 7200 1550
+$Comp
+L antmicroLogicTranslatorsLevelShifters:NTS0104BQ U3
+U 1 1 5DE1ADF0
+P 6800 3400
+F 0 "U3" H 6300 3100 50  0000 C CNN
+F 1 "NTS0104BQ" H 6300 3000 50  0000 C CNN
+F 2 "antmicro-footprints:QDHVQFN14" H 7850 4050 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/NTS0104BQ%2C115-NXP-Semiconductors-datasheet-11805065.pdf" H 7450 4150 50  0001 C CNN
+F 4 "NTS0104BQ" H 6800 3939 50  0001 C CNN "MPN"
+F 5 "NXP Semiconductors" H 6800 3940 50  0001 C CNN "Manufacturer"
+	1    6800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroLogicTranslatorsLevelShifters:NTS0104BQ U4
+U 1 1 5DE1BA96
+P 6800 5000
+F 0 "U4" H 6300 4700 50  0000 C CNN
+F 1 "NTS0104BQ" H 6300 4600 50  0000 C CNN
+F 2 "antmicro-footprints:QDHVQFN14" H 7850 5650 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/NTS0104BQ%2C115-NXP-Semiconductors-datasheet-11805065.pdf" H 7450 5750 50  0001 C CNN
+F 4 "NTS0104BQ" H 6800 5539 50  0001 C CNN "MPN"
+F 5 "NXP Semiconductors" H 6800 5540 50  0001 C CNN "Manufacturer"
+	1    6800 5000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
