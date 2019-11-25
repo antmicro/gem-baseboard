@@ -1,0 +1,23 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.4+dfsg1-1~bpo9+1*
+G04 #@! TF.CreationDate,2019-11-25T12:29:00+01:00*
+G04 #@! TF.ProjectId,zglue-demo-board,7a676c75-652d-4646-956d-6f2d626f6172,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 5.1.4+dfsg1-1~bpo9+1) date 2019-11-25 12:29:00*
+%MOMM*%
+%LPD*%
+G04 APERTURE LIST*
+%ADD10C,0.150000*%
+G04 APERTURE END LIST*
+D10*
+X0Y-66000000D02*
+X56000000Y-66000000D01*
+X56000000Y-66000000D02*
+X56000000Y0D01*
+X0Y0D02*
+X0Y-66000000D01*
+X0Y0D02*
+X56000000Y0D01*
+M02*

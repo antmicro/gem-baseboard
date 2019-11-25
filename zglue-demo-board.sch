@@ -3633,13 +3633,13 @@ Wire Wire Line
 Wire Wire Line
 	3200 4250 2900 4250
 Wire Wire Line
-	3500 4150 4400 4150
+	3500 4150 4600 4150
 Wire Wire Line
-	3500 4250 4400 4250
+	3500 4250 4600 4250
 Text Label 3800 4150 0    50   ~ 0
-DBG_RX_3V3
+RPI_DBG_RX_3V3
 Text Label 3800 4250 0    50   ~ 0
-DBG_TX_3V3
+RPI_DBG_TX_3V3
 Wire Wire Line
 	1850 3950 1000 3950
 Wire Wire Line
@@ -4061,7 +4061,7 @@ DNP
 Text Notes 1300 3800 0    50   ~ 10
 DNP
 Wire Wire Line
-	1850 4450 550  4450
+	1850 4450 1000 4450
 Wire Wire Line
 	3750 4950 2900 4950
 Wire Wire Line
@@ -4070,20 +4070,6 @@ Wire Wire Line
 	1850 4850 1000 4850
 Wire Wire Line
 	1850 4950 1000 4950
-Wire Wire Line
-	1850 4350 550  4350
-Text Label 550  4350 0    50   ~ 0
-DONE_3V3
-Text Label 1050 4950 0    50   ~ 0
-E_CTRL_SCK_3V3
-Text Label 1050 4750 0    50   ~ 0
-E_CTRL_SO_3V3
-Text Label 1050 4850 0    50   ~ 0
-E_CTRL_SI_3V3
-Text Label 3200 4950 0    50   ~ 0
-E_CTRL_SS_3V3
-Text Label 550  4450 0    50   ~ 0
-CTRL_RST_FLASH_SOC_CS_3V3
 $Comp
 L antmicroRectangularConnectorsHeadersMalePins:3220-10-0100-00 J1
 U 1 1 5E6FE883
@@ -4110,4 +4096,50 @@ F 5 "CNC Tech" H 12300 10550 60  0001 L CNN "Manufacturer"
 	1    12100 9450
 	1    0    0    -1  
 $EndComp
+Text Label 1050 4450 0    50   ~ 0
+E_PROC_RST_3V3
+Text Label 1050 4950 0    50   ~ 0
+E_PROC_SCK_3V3
+Text Label 3200 4950 0    50   ~ 0
+E_PROC_SS_3V3
+Text Label 1050 4850 0    50   ~ 0
+E_PROC_SO_3V3
+Text Label 1050 4750 0    50   ~ 0
+E_PROC_SI_3V3
+$Comp
+L antmicroResistors0402:R_0R_0402 R58
+U 1 1 5DEF0282
+P 4750 4150
+F 0 "R58" H 4550 4200 60  0000 C CNN
+F 1 "R_0R_0402" H 4750 4000 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4950 4350 60  0001 L CNN
+F 3 "" H 4750 4150 50  0001 C CNN
+F 4 "PANASONIC" H 4950 4550 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 4950 4450 60  0001 L CNN "MPN"
+F 6 "0R" H 4950 4200 50  0000 C CNN "Val"
+	1    4750 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R59
+U 1 1 5DEF05BB
+P 4750 4250
+F 0 "R59" H 4550 4300 60  0000 C CNN
+F 1 "R_0R_0402" H 4750 4100 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4950 4450 60  0001 L CNN
+F 3 "" H 4750 4250 50  0001 C CNN
+F 4 "PANASONIC" H 4950 4650 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 4950 4550 60  0001 L CNN "MPN"
+F 6 "0R" H 4950 4300 50  0000 C CNN "Val"
+	1    4750 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4150 5650 4150
+Wire Wire Line
+	4900 4250 5650 4250
+Text Label 5150 4250 0    50   ~ 0
+DBG_RX_3V3
+Text Label 5150 4150 0    50   ~ 0
+DBG_TX_3V3
 $EndSCHEMATC
