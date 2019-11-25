@@ -1,29 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Jumper_Jumper_3_Open
-#
-DEF Jumper_Jumper_3_Open JP 0 0 Y N 1 F N
-F0 "JP" -100 -100 50 H V C CNN
-F1 "Jumper_Jumper_3_Open" 0 110 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Jumper*
-$ENDFPLIST
-DRAW
-A -65 -30 89 1282 518 0 1 0 N -120 40 -10 40
-A 65 -30 89 1282 518 0 1 0 N 10 40 120 40
-C -130 0 20 0 0 0 N
-C 0 0 20 0 0 0 N
-C 130 0 20 0 0 0 N
-P 2 0 1 0 0 -20 0 -50 N
-X A 1 -250 0 100 R 50 50 1 1 P
-X C 2 0 -150 100 U 50 50 1 1 I
-X B 3 250 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # antmicroB2bConnectors_556500488
 #
 DEF antmicroB2bConnectors_556500488 J 0 40 Y Y 1 F N
@@ -437,7 +414,31 @@ F1 "antmicroMechanicalParts_antmicro_logo" 0 -200 50 H V C CNN
 F2 "antmicro-footprints:antmicro-logo" -100 250 50 H I C CNN
 F3 "" 0 350 50 H I C CNN
 DRAW
-T 0 50 50 197 0 0 0 antmicro Normal 1 C C
+T 0 50 50 79 0 0 0 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# antmicroMechanicalParts_oshw_logo
+#
+DEF antmicroMechanicalParts_oshw_logo N 0 40 Y Y 1 F N
+F0 "N" 20 40 50 H V C CNN
+F1 "antmicroMechanicalParts_oshw_logo" 30 -150 50 H V C CNN
+F2 "antmicro-footprints:oshw-logo" 20 -240 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 30 -40 79 0 1 1 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# antmicroMechanicalParts_zglue_logo
+#
+DEF antmicroMechanicalParts_zglue_logo N 0 40 Y Y 1 F N
+F0 "N" 20 40 50 H V C CNN
+F1 "antmicroMechanicalParts_zglue_logo" 30 -150 50 H V C CNN
+F2 "antmicro-footprints:zglue-logo" 20 -240 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 30 -40 79 0 1 1 Logo Normal 0 C C
 ENDDRAW
 ENDDEF
 #
@@ -829,6 +830,29 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# zglue-demo-board-rescue_Jumper_3_Open-Jumper
+#
+DEF zglue-demo-board-rescue_Jumper_3_Open-Jumper JP 0 0 Y N 1 F N
+F0 "JP" -100 -100 50 H V C CNN
+F1 "zglue-demo-board-rescue_Jumper_3_Open-Jumper" 0 110 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jumper*
+$ENDFPLIST
+DRAW
+A -65 -30 89 1282 518 0 1 0 N -120 40 -10 40
+A 65 -30 89 1282 518 0 1 0 N 10 40 120 40
+C -130 0 20 0 0 0 N
+C 0 0 20 0 0 0 N
+C 130 0 20 0 0 0 N
+P 2 0 1 0 0 -20 0 -50 N
+X A 1 -250 0 100 R 50 50 1 1 P
+X C 2 0 -150 100 U 50 50 1 1 I
+X B 3 250 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

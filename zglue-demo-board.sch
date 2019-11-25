@@ -2478,7 +2478,7 @@ F 3 "" H 1500 10950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:Jumper_3_Open JP2
+L zglue-demo-board-rescue:Jumper_3_Open-Jumper JP2
 U 1 1 5F6F7935
 P 4350 2200
 F 0 "JP2" H 4350 2424 50  0000 C CNN
@@ -2543,7 +2543,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 2500 3350 2500
 $Comp
-L Jumper:Jumper_3_Open JP3
+L zglue-demo-board-rescue:Jumper_3_Open-Jumper JP3
 U 1 1 5FF28200
 P 4350 2850
 F 0 "JP3" H 4350 3074 50  0000 C CNN
@@ -2562,7 +2562,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 3150 3350 3150
 $Comp
-L Jumper:Jumper_3_Open JP1
+L zglue-demo-board-rescue:Jumper_3_Open-Jumper JP1
 U 1 1 5FF6DF38
 P 4350 1600
 F 0 "JP1" H 4350 1824 50  0000 C CNN
@@ -4142,4 +4142,26 @@ Text Label 5150 4250 0    50   ~ 0
 DBG_RX_3V3
 Text Label 5150 4150 0    50   ~ 0
 DBG_TX_3V3
+$Comp
+L antmicroMechanicalParts:oshw_logo N3
+U 1 1 5DE869F8
+P 8200 750
+F 0 "N3" H 8394 753 50  0000 L CNN
+F 1 "oshw_logo" H 8394 662 50  0000 L CNN
+F 2 "antmicro-footprints:oshw-logo" H 8220 510 50  0001 C CNN
+F 3 "" H 8200 750 50  0001 C CNN
+	1    8200 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:zglue_logo N2
+U 1 1 5DF9381C
+P 9000 750
+F 0 "N2" H 9194 753 50  0000 L CNN
+F 1 "zglue_logo" H 9194 662 50  0000 L CNN
+F 2 "antmicro-footprints:zglue-logo" H 9020 510 50  0001 C CNN
+F 3 "" H 9000 750 50  0001 C CNN
+	1    9000 750 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

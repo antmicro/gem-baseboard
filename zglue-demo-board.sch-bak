@@ -4107,10 +4107,10 @@ E_PROC_SO_3V3
 Text Label 1050 4750 0    50   ~ 0
 E_PROC_SI_3V3
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R58
 U 1 1 5DEF0282
 P 4750 4150
-F 0 "R?" H 4550 4200 60  0000 C CNN
+F 0 "R58" H 4550 4200 60  0000 C CNN
 F 1 "R_0R_0402" H 4750 4000 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 4950 4350 60  0001 L CNN
 F 3 "" H 4750 4150 50  0001 C CNN
@@ -4121,10 +4121,10 @@ F 6 "0R" H 4950 4200 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R59
 U 1 1 5DEF05BB
 P 4750 4250
-F 0 "R?" H 4550 4300 60  0000 C CNN
+F 0 "R59" H 4550 4300 60  0000 C CNN
 F 1 "R_0R_0402" H 4750 4100 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 4950 4450 60  0001 L CNN
 F 3 "" H 4750 4250 50  0001 C CNN
@@ -4142,4 +4142,37 @@ Text Label 5150 4250 0    50   ~ 0
 DBG_RX_3V3
 Text Label 5150 4150 0    50   ~ 0
 DBG_TX_3V3
+$Comp
+L antmicroMechanicalParts:zglue_logo_500mil N4
+U 1 1 5DE6C23A
+P 9050 750
+F 0 "N4" H 9244 753 50  0000 L CNN
+F 1 "zglue_logo_500mil" H 9244 662 50  0000 L CNN
+F 2 "antmicro-footprints:zglue-logo-10000dpi" H 9070 510 50  0001 C CNN
+F 3 "" H 9050 750 50  0001 C CNN
+	1    9050 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:oshw_logo N3
+U 1 1 5DE869F8
+P 8200 750
+F 0 "N3" H 8394 753 50  0000 L CNN
+F 1 "oshw_logo" H 8394 662 50  0000 L CNN
+F 2 "antmicro-footprints:oshw-logo" H 8220 510 50  0001 C CNN
+F 3 "" H 8200 750 50  0001 C CNN
+	1    8200 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:zglue_logo N2
+U 1 1 5DF9381C
+P 9050 950
+F 0 "N2" H 9244 953 50  0000 L CNN
+F 1 "zglue_logo" H 9244 862 50  0000 L CNN
+F 2 "antmicro-footprints:zglue-logo" H 9070 710 50  0001 C CNN
+F 3 "" H 9050 950 50  0001 C CNN
+	1    9050 950 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
