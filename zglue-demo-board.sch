@@ -2478,10 +2478,10 @@ F 3 "" H 1500 10950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-demo-board-rescue:Jumper_3_Open-Jumper JP2
+L zglue-demo-board-rescue:Jumper_3_Open-Jumper VCCIO2
 U 1 1 5F6F7935
 P 4350 2200
-F 0 "JP2" H 4350 2424 50  0000 C CNN
+F 0 "VCCIO2" H 4350 2424 50  0000 C CNN
 F 1 "Jumper_3_Open" H 4350 2333 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 4350 2200 50  0001 C CNN
 F 3 "~" H 4350 2200 50  0001 C CNN
@@ -2543,10 +2543,10 @@ Wire Wire Line
 Wire Wire Line
 	4600 2500 3350 2500
 $Comp
-L zglue-demo-board-rescue:Jumper_3_Open-Jumper JP3
+L zglue-demo-board-rescue:Jumper_3_Open-Jumper VCCIO3
 U 1 1 5FF28200
 P 4350 2850
-F 0 "JP3" H 4350 3074 50  0000 C CNN
+F 0 "VCCIO3" H 4350 3074 50  0000 C CNN
 F 1 "Jumper_3_Open" H 4350 2983 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 4350 2850 50  0001 C CNN
 F 3 "~" H 4350 2850 50  0001 C CNN
@@ -2562,10 +2562,10 @@ Wire Wire Line
 Wire Wire Line
 	4600 3150 3350 3150
 $Comp
-L zglue-demo-board-rescue:Jumper_3_Open-Jumper JP1
+L zglue-demo-board-rescue:Jumper_3_Open-Jumper VCCIO1
 U 1 1 5FF6DF38
 P 4350 1600
-F 0 "JP1" H 4350 1824 50  0000 C CNN
+F 0 "VCCIO1" H 4350 1824 50  0000 C CNN
 F 1 "Jumper_3_Open" H 4350 1733 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 4350 1600 50  0001 C CNN
 F 3 "~" H 4350 1600 50  0001 C CNN
@@ -3186,19 +3186,8 @@ Wire Wire Line
 	12650 2000 12650 850 
 Wire Wire Line
 	11700 2000 12650 2000
-$Comp
-L power:GND #PWR0103
-U 1 1 5DCDFECB
-P 13200 850
-F 0 "#PWR0103" H 13200 600 50  0001 C CNN
-F 1 "GND" H 13205 677 50  0000 C CNN
-F 2 "" H 13200 850 50  0001 C CNN
-F 3 "" H 13200 850 50  0001 C CNN
-	1    13200 850 
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	13200 850  13050 850 
+	13550 850  13050 850 
 $Comp
 L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D9
 U 1 1 5DD72331
@@ -4164,4 +4153,6 @@ F 3 "" H 9000 750 50  0001 C CNN
 	1    9000 750 
 	1    0    0    -1  
 $EndComp
+Text Label 13250 850  0    50   ~ 0
+VUSB
 $EndSCHEMATC
