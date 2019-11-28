@@ -1,0 +1,5 @@
+1. Remove R58, R59 and cross UART TX and RX
+2. add 0R resistor for disconnecting 3V3 sys 
+3. Add 0R resistor to connect CAM_ENABLE to 3V3
+3. Swapped SDA/SCL on resistors R50-R57
+

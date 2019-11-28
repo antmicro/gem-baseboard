@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:zglue-demo-board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -117,7 +116,7 @@ Wire Wire Line
 Wire Wire Line
 	11200 1300 11200 1600
 $Comp
-L power:GND #PWR020
+L zglue-demo-board:GND #PWR020
 U 1 1 5DD41DEC
 P 11200 3400
 F 0 "#PWR020" H 11200 3150 50  0001 C CNN
@@ -128,7 +127,7 @@ F 3 "" H 11200 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR021
+L zglue-demo-board:GND #PWR021
 U 1 1 5DD4C734
 P 11750 3400
 F 0 "#PWR021" H 11750 3150 50  0001 C CNN
@@ -231,7 +230,7 @@ Baseboard connectors
 Wire Wire Line
 	15650 1400 14750 1400
 $Comp
-L power:GND #PWR023
+L zglue-demo-board:GND #PWR023
 U 1 1 5E03411C
 P 14800 3300
 F 0 "#PWR023" H 14800 3050 50  0001 C CNN
@@ -315,7 +314,7 @@ Wire Wire Line
 Wire Wire Line
 	14300 1600 13300 1600
 $Comp
-L power:GND #PWR022
+L zglue-demo-board:GND #PWR022
 U 1 1 5E378B12
 P 14250 3300
 F 0 "#PWR022" H 14250 3050 50  0001 C CNN
@@ -368,12 +367,12 @@ Connection ~ 14250 3200
 Wire Wire Line
 	14250 3200 14250 3300
 $Comp
-L antmicroRectangularConnectorsHeadersFemalePins:2x20_Header_Female J4
+L zglue-demo-board:2x20_Header_Female J4
 U 1 1 5DA150DE
 P 2400 4150
 F 0 "J4" H 2375 4675 50  0000 C CNN
 F 1 "2x20_Header_Female" H 2375 4584 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_2x40_P2.54_Drill1mm" H 3400 3250 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:PinHeader_2x40_P2.54_Drill1mm" H 3400 3250 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2585490.pdf?_ga=2.43255777.554339948.1570014617-156563690.1566371002&_gac=1.3485316.1567754175.EAIaIQobChMI-6rQsNO75AIVzpAYCh2nygb2EAQYASABEgIdyvD_BwE" H 3400 3400 60  0001 L CNN
 F 4 "2214S-40SG-85 " H 2050 2250 60  0001 L CNN "MPN"
 F 5 "MULTICOMP" H 2200 2150 60  0001 L CNN "Manufacturer"
@@ -385,7 +384,7 @@ Wire Wire Line
 Text Label 900  3850 0    50   ~ 0
 3V3_SYS
 $Comp
-L power:GND #PWR04
+L zglue-demo-board:GND #PWR04
 U 1 1 5DA1EAAD
 P 1700 5800
 F 0 "#PWR04" H 1700 5550 50  0001 C CNN
@@ -414,7 +413,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 4650 1800 3850
 $Comp
-L power:GND #PWR08
+L zglue-demo-board:GND #PWR08
 U 1 1 5DA32AAA
 P 3100 5800
 F 0 "#PWR08" H 3100 5550 50  0001 C CNN
@@ -449,12 +448,12 @@ Wire Wire Line
 	3100 4050 2900 4050
 Connection ~ 3100 4450
 $Comp
-L antmicroDF13Connectors:DF13A-2P-1.25H J2
+L zglue-demo-board:DF13A-2P-1.25H J2
 U 1 1 5DA507A8
 P 1850 1250
 F 0 "J2" H 1978 1401 50  0000 L CNN
 F 1 "DF13A-2P-1.25H" H 1978 1310 50  0000 L CNN
-F 2 "antmicro-footprints:DF13A-2P-1.25H" H 1750 800 50  0001 C CNN
+F 2 "zglue-demo-board-footprints:DF13A-2P-1.25H" H 1750 800 50  0001 C CNN
 F 3 "" H 1850 1200 50  0001 C CNN
 F 4 "DF13A-2P-1.25H" H 1900 1000 50  0001 C CNN "MPN"
 F 5 "Hirose" H 1850 900 50  0001 C CNN "Manufacturer"
@@ -466,7 +465,7 @@ Text Label 11350 9250 0    50   ~ 0
 Wire Wire Line
 	1650 1100 1250 1100
 $Comp
-L power:GND #PWR03
+L zglue-demo-board:GND #PWR03
 U 1 1 5DA5701F
 P 1500 1250
 F 0 "#PWR03" H 1500 1000 50  0001 C CNN
@@ -498,7 +497,7 @@ Text Label 12550 9350 0    50   ~ 0
 TCK
 NoConn ~ 12300 9650
 $Comp
-L power:GND #PWR05
+L zglue-demo-board:GND #PWR05
 U 1 1 5DAABB13
 P 11750 9650
 F 0 "#PWR05" H 11750 9400 50  0001 C CNN
@@ -528,12 +527,12 @@ Connection ~ 11750 9650
 Text Label 1250 1100 0    50   ~ 0
 5V0_IN
 $Comp
-L antmicroCapacitors0603:C_1u_0603 C1
+L zglue-demo-board:C_1u_0603 C1
 U 1 1 5DAD330C
 P 700 3850
 F 0 "C1" H 450 3900 60  0000 L CNN
 F 1 "C_1u_0603" H 700 3700 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 900 4050 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0603-cap" H 900 4050 60  0001 L CNN
 F 3 "" H 700 3850 50  0001 C CNN
 F 4 "WALSIN" H 900 4250 60  0001 L CNN "Manufacturer"
 F 5 "0603X105K160CT" H 900 4150 60  0001 L CNN "MPN"
@@ -542,12 +541,12 @@ F 6 "1u" H 500 3800 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_1u_0603 C2
+L zglue-demo-board:C_1u_0603 C2
 U 1 1 5DAD3394
 P 10850 9550
 F 0 "C2" H 10965 9595 60  0000 L CNN
 F 1 "C_1u_0603" H 10850 9400 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 11050 9750 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0603-cap" H 11050 9750 60  0001 L CNN
 F 3 "" H 10850 9550 50  0001 C CNN
 F 4 "WALSIN" H 11050 9950 60  0001 L CNN "Manufacturer"
 F 5 "0603X105K160CT" H 11050 9850 60  0001 L CNN "MPN"
@@ -558,7 +557,7 @@ $EndComp
 Wire Wire Line
 	10850 9400 10850 9250
 $Comp
-L power:GND #PWR02
+L zglue-demo-board:GND #PWR02
 U 1 1 5DAE3748
 P 10850 9750
 F 0 "#PWR02" H 10850 9500 50  0001 C CNN
@@ -569,7 +568,7 @@ F 3 "" H 10850 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR01
+L zglue-demo-board:GND #PWR01
 U 1 1 5DAEBF7E
 P 550 3850
 F 0 "#PWR01" H 550 3600 50  0001 C CNN
@@ -586,12 +585,12 @@ RPi connector
 Text Notes 11700 8950 0    79   ~ 16
 JTAG interface
 $Comp
-L antmicroUSBDVIHDMIConnectors:0473460001 J5
+L zglue-demo-board:0473460001 J5
 U 1 1 5DB1F3A2
 P 12150 7900
 F 0 "J5" H 12213 8623 50  0000 C CNN
 F 1 "0473460001" H 12213 8532 50  0000 C CNN
-F 2 "antmicro-footprints:USB_Micro_B_Female_0473460001" H 12350 8100 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:USB_Micro_B_Female_0473460001" H 12350 8100 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" H 12350 8200 60  0001 L CNN
 F 4 "0473460001" H 12350 8400 60  0001 L CNN "MPN"
 F 5 "Molex" H 12350 9000 60  0001 L CNN "Manufacturer"
@@ -617,7 +616,7 @@ Wire Wire Line
 Wire Wire Line
 	12500 8100 12500 8300
 $Comp
-L power:GND #PWR011
+L zglue-demo-board:GND #PWR011
 U 1 1 5DCF0111
 P 12500 8300
 F 0 "#PWR011" H 12500 8050 50  0001 C CNN
@@ -641,12 +640,12 @@ Wire Wire Line
 	3050 3850 3800 3850
 Connection ~ 3050 3850
 $Comp
-L antmicroCapacitors0603:C_1u_0603 C3
+L zglue-demo-board:C_1u_0603 C3
 U 1 1 5DD52E0F
 P 3950 3850
 F 0 "C3" H 4065 3895 60  0000 L CNN
 F 1 "C_1u_0603" H 3950 3700 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 4150 4050 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0603-cap" H 4150 4050 60  0001 L CNN
 F 3 "" H 3950 3850 50  0001 C CNN
 F 4 "WALSIN" H 4150 4250 60  0001 L CNN "Manufacturer"
 F 5 "0603X105K160CT" H 4150 4150 60  0001 L CNN "MPN"
@@ -655,7 +654,7 @@ F 6 "1u" H 4065 3797 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR09
+L zglue-demo-board:GND #PWR09
 U 1 1 5DD5FD42
 P 4100 3850
 F 0 "#PWR09" H 4100 3600 50  0001 C CNN
@@ -668,56 +667,56 @@ $EndComp
 Text Notes 11950 7100 0    79   ~ 16
 FPGA USB
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP1
+L zglue-demo-board:TP_SMD1MM TP1
 U 1 1 5DD6240E
 P 12600 2900
 F 0 "TP1" V 12600 2850 50  0000 R CNN
 F 1 "TP_SMD1MM" H 12600 2800 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 12800 3100 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 12800 3100 60  0001 L CNN
 F 3 "" H 12800 3200 60  0001 L CNN
 	1    12600 2900
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP2
+L zglue-demo-board:TP_SMD1MM TP2
 U 1 1 5DD62540
 P 12600 3000
 F 0 "TP2" V 12600 2950 50  0000 R CNN
 F 1 "TP_SMD1MM" H 12600 2900 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 12800 3200 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 12800 3200 60  0001 L CNN
 F 3 "" H 12800 3300 60  0001 L CNN
 	1    12600 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP3
+L zglue-demo-board:TP_SMD1MM TP3
 U 1 1 5DD6258C
 P 12600 3100
 F 0 "TP3" V 12600 3050 50  0000 R CNN
 F 1 "TP_SMD1MM" H 12600 3000 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 12800 3300 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 12800 3300 60  0001 L CNN
 F 3 "" H 12800 3400 60  0001 L CNN
 	1    12600 3100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP4
+L zglue-demo-board:TP_SMD1MM TP4
 U 1 1 5DD625D6
 P 12600 3200
 F 0 "TP4" V 12600 3150 50  0000 R CNN
 F 1 "TP_SMD1MM" H 12600 3100 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 12800 3400 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 12800 3400 60  0001 L CNN
 F 3 "" H 12800 3500 60  0001 L CNN
 	1    12600 3200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroDiodesRectifiersSingle:MBR0540T1G D3
+L zglue-demo-board:MBR0540T1G D3
 U 1 1 5DD6DAC1
 P 1950 2150
 F 0 "D3" H 1950 2412 60  0000 C CNN
 F 1 "MBR0540T1G" H 1950 2306 60  0000 C CNN
-F 2 "antmicro-footprints:SOD-123" H 2150 2350 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:SOD-123" H 2150 2350 60  0001 L CNN
 F 3 "http://www.onsemi.com/pub/Collateral/MBR0540T1-D.PDF" H 2150 2450 60  0001 L CNN
 F 4 "MBR0540T1G" H 2150 2650 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 2150 3250 60  0001 L CNN "Manufacturer"
@@ -725,12 +724,12 @@ F 5 "ON Semiconductor" H 2150 3250 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroDiodesRectifiersSingle:MBR0540T1G D4
+L zglue-demo-board:MBR0540T1G D4
 U 1 1 5DD6DCA3
 P 1950 2600
 F 0 "D4" H 1950 2862 60  0000 C CNN
 F 1 "MBR0540T1G" H 1950 2756 60  0000 C CNN
-F 2 "antmicro-footprints:SOD-123" H 2150 2800 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:SOD-123" H 2150 2800 60  0001 L CNN
 F 3 "http://www.onsemi.com/pub/Collateral/MBR0540T1-D.PDF" H 2150 2900 60  0001 L CNN
 F 4 "MBR0540T1G" H 2150 3100 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 2150 3700 60  0001 L CNN "Manufacturer"
@@ -754,12 +753,12 @@ Text Label 1150 2600 0    50   ~ 0
 Text Notes 1450 1750 0    79   ~ 16
 5V0 power path
 $Comp
-L antmicroTVSDiodes:TPD2EUSB30DRTR D2
+L zglue-demo-board:TPD2EUSB30DRTR D2
 U 1 1 5DDDEEAA
 P 9400 10550
 F 0 "D2" H 9400 10907 60  0000 C CNN
 F 1 "TPD2EUSB30DRTR" H 9400 10801 60  0000 C CNN
-F 2 "antmicro-footprints:SOT-3" H 9600 10750 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:SOT-3" H 9600 10750 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd2eusb30" H 9600 10850 60  0001 L CNN
 F 4 "Texas Instruments" H 9600 11650 60  0001 L CNN "Manufacturer"
 F 5 "TPD2EUSB30DRTR" H 9600 11050 60  0001 L CNN "MPN"
@@ -771,7 +770,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 10550 10400 10550
 $Comp
-L power:GND #PWR010
+L zglue-demo-board:GND #PWR010
 U 1 1 5DDDEEB3
 P 9400 10900
 F 0 "#PWR010" H 9400 10650 50  0001 C CNN
@@ -784,12 +783,12 @@ $EndComp
 Wire Wire Line
 	9400 10850 9400 10900
 $Comp
-L antmicroFCCConnectors:WE_686115148922 J8
+L zglue-demo-board:WE_686115148922 J8
 U 1 1 5DE5416C
 P 15250 7000
 F 0 "J8" H 15150 6450 50  0000 L CNN
 F 1 "WE_686115148922" H 15100 6350 50  0000 L CNN
-F 2 "antmicro-footprints:WE_686115148922" H 13900 6350 50  0001 C CNN
+F 2 "zglue-demo-board-footprints:WE_686115148922" H 13900 6350 50  0001 C CNN
 F 3 "https://katalog.we-online.com/em/datasheet/686115148922.pdf" H 14750 6250 50  0001 C CNN
 F 4 "686115148922" H 16200 6350 60  0001 L CNN "MPN"
 F 5 "Wurth Elektronik " H 15100 6350 60  0001 L CNN "Manufacturer"
@@ -850,7 +849,7 @@ CSI_D2_IN_P
 Text Label 14200 6400 0    50   ~ 0
 CSI_D2_IN_N
 $Comp
-L power:GND #PWR018
+L zglue-demo-board:GND #PWR018
 U 1 1 5DF22A17
 P 14900 7600
 F 0 "#PWR018" H 14900 7350 50  0001 C CNN
@@ -863,12 +862,12 @@ $EndComp
 Text Label 14200 7400 0    50   ~ 0
 3V3_SYS
 $Comp
-L antmicroResistors0603:R_0R_0603 R1
+L zglue-demo-board:R_0R_0603 R1
 U 1 1 5DF23DD5
 P 1550 3850
 F 0 "R1" H 1550 4063 60  0000 C CNN
 F 1 "R_0R_0603" H 1550 3700 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 1750 4050 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0603-res" H 1750 4050 60  0001 L CNN
 F 3 "" H 1550 3850 50  0001 C CNN
 F 4 "BOURNS" H 1750 4250 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 1750 4150 60  0001 L CNN "MPN"
@@ -931,7 +930,7 @@ Wire Wire Line
 Wire Wire Line
 	15050 8250 14100 8250
 $Comp
-L power:GND #PWR019
+L zglue-demo-board:GND #PWR019
 U 1 1 5DF513F6
 P 14900 9650
 F 0 "#PWR019" H 14900 9400 50  0001 C CNN
@@ -974,33 +973,37 @@ LED2_ISINK
 Text Label 11950 2300 0    50   ~ 0
 LED3_ISINK
 $Comp
-L antmicroB2bConnectors:556500488 J6
+L zglue-demo-board:556500488 J6
 U 1 1 5D987157
 P 11600 1050
 F 0 "J6" H 11725 1065 50  0000 C CNN
 F 1 "556500488" H 11725 974 50  0000 C CNN
-F 2 "antmicro-footprints:556500488" H 11350 -1300 50  0001 C CNN
+F 2 "zglue-demo-board-footprints:556500488" H 11350 -1300 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/556500488_sd.pdf" H 11850 -1250 50  0001 C CNN
+F 4 "556500488" H 0   0   50  0001 C CNN "MPN"
+F 5 "Molex" H 0   0   50  0001 C CNN "Manufacturer"
 	1    11600 1050
 	-1   0    0    -1  
 $EndComp
 Text Notes 14200 950  0    50   ~ 0
 Mating - 543630489
 $Comp
-L antmicroB2bConnectors:556500488 J7
+L zglue-demo-board:556500488 J7
 U 1 1 5D987A00
 P 14650 1050
 F 0 "J7" H 14775 1065 50  0000 C CNN
 F 1 "556500488" H 14775 974 50  0000 C CNN
-F 2 "antmicro-footprints:556500488" H 14400 -1300 50  0001 C CNN
+F 2 "zglue-demo-board-footprints:556500488" H 14400 -1300 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/556500488_sd.pdf" H 14900 -1250 50  0001 C CNN
+F 4 "556500488" H 0   0   50  0001 C CNN "MPN"
+F 5 "Molex" H 0   0   50  0001 C CNN "Manufacturer"
 	1    14650 1050
 	-1   0    0    -1  
 $EndComp
 Text Notes 11100 950  0    50   ~ 0
 Mating - 543630489
 $Comp
-L power:GND #PWR026
+L zglue-demo-board:GND #PWR026
 U 1 1 5D9BD547
 P 6750 5550
 F 0 "#PWR026" H 6750 5300 50  0001 C CNN
@@ -1013,12 +1016,12 @@ $EndComp
 Wire Wire Line
 	6850 5450 6850 5600
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C14
+L zglue-demo-board:C_100n_0402_6V3 C14
 U 1 1 5D9DFA74
 P 9300 5350
 F 0 "C14" V 9042 5350 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 9300 5200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9500 5550 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 9500 5550 60  0001 L CNN
 F 3 "" H 9300 5350 50  0001 C CNN
 F 4 "Walsin" H 9500 5750 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9500 5650 60  0001 L CNN "MPN"
@@ -1031,12 +1034,12 @@ Wire Wire Line
 Text Label 8700 4450 0    50   ~ 0
 3V3_SYS
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C13
+L zglue-demo-board:C_100n_0402_6V3 C13
 U 1 1 5DA6C840
 P 9300 4700
 F 0 "C13" V 9042 4700 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 9300 4550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9500 4900 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 9500 4900 60  0001 L CNN
 F 3 "" H 9300 4700 50  0001 C CNN
 F 4 "Walsin" H 9500 5100 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9500 5000 60  0001 L CNN "MPN"
@@ -1045,7 +1048,7 @@ F 6 "100n" V 9140 4700 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR031
+L zglue-demo-board:GND #PWR031
 U 1 1 5DA6C8D1
 P 9300 4850
 F 0 "#PWR031" H 9300 4600 50  0001 C CNN
@@ -1058,7 +1061,7 @@ $EndComp
 Wire Wire Line
 	9300 4450 9300 4550
 $Comp
-L power:GND #PWR032
+L zglue-demo-board:GND #PWR032
 U 1 1 5DAC5B79
 P 9300 5500
 F 0 "#PWR032" H 9300 5250 50  0001 C CNN
@@ -1107,51 +1110,51 @@ E_PROC_SCK_3V3
 Text Label 7450 5100 0    50   ~ 0
 E_PROC_SS_3V3
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP12
+L zglue-demo-board:TP_SMD1MM TP12
 U 1 1 5DBF2E9B
 P 8150 4800
 F 0 "TP12" V 8150 4750 50  0000 R CNN
 F 1 "TP_SMD1MM" H 8150 4700 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8350 5000 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 8350 5000 60  0001 L CNN
 F 3 "" H 8350 5100 60  0001 L CNN
 	1    8150 4800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP13
+L zglue-demo-board:TP_SMD1MM TP13
 U 1 1 5DBF31F6
 P 8150 4900
 F 0 "TP13" V 8150 4850 50  0000 R CNN
 F 1 "TP_SMD1MM" H 8150 4800 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8350 5100 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 8350 5100 60  0001 L CNN
 F 3 "" H 8350 5200 60  0001 L CNN
 	1    8150 4900
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP14
+L zglue-demo-board:TP_SMD1MM TP14
 U 1 1 5DBF324E
 P 8150 5000
 F 0 "TP14" V 8150 4950 50  0000 R CNN
 F 1 "TP_SMD1MM" H 8150 4900 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8350 5200 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 8350 5200 60  0001 L CNN
 F 3 "" H 8350 5300 60  0001 L CNN
 	1    8150 5000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP15
+L zglue-demo-board:TP_SMD1MM TP15
 U 1 1 5DBF32A4
 P 8150 5100
 F 0 "TP15" V 8150 5050 50  0000 R CNN
 F 1 "TP_SMD1MM" H 8150 5000 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8350 5300 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 8350 5300 60  0001 L CNN
 F 3 "" H 8350 5400 60  0001 L CNN
 	1    8150 5100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR025
+L zglue-demo-board:GND #PWR025
 U 1 1 5DC43977
 P 6750 3900
 F 0 "#PWR025" H 6750 3650 50  0001 C CNN
@@ -1162,12 +1165,12 @@ F 3 "" H 6750 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C12
+L zglue-demo-board:C_100n_0402_6V3 C12
 U 1 1 5DC43984
 P 9300 3750
 F 0 "C12" V 9042 3750 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 9300 3600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9500 3950 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 9500 3950 60  0001 L CNN
 F 3 "" H 9300 3750 50  0001 C CNN
 F 4 "Walsin" H 9500 4150 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9500 4050 60  0001 L CNN "MPN"
@@ -1180,12 +1183,12 @@ Wire Wire Line
 Text Label 8700 2850 0    50   ~ 0
 3V3_SYS
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C11
+L zglue-demo-board:C_100n_0402_6V3 C11
 U 1 1 5DC43990
 P 9300 3100
 F 0 "C11" V 9042 3100 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 9300 2950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9500 3300 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 9500 3300 60  0001 L CNN
 F 3 "" H 9300 3100 50  0001 C CNN
 F 4 "Walsin" H 9500 3500 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9500 3400 60  0001 L CNN "MPN"
@@ -1194,7 +1197,7 @@ F 6 "100n" V 9140 3100 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR029
+L zglue-demo-board:GND #PWR029
 U 1 1 5DC43997
 P 9300 3250
 F 0 "#PWR029" H 9300 3000 50  0001 C CNN
@@ -1209,7 +1212,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 3900 6750 3850
 $Comp
-L power:GND #PWR030
+L zglue-demo-board:GND #PWR030
 U 1 1 5DC4399F
 P 9300 3900
 F 0 "#PWR030" H 9300 3650 50  0001 C CNN
@@ -1246,45 +1249,45 @@ Wire Wire Line
 Wire Wire Line
 	8050 3500 7200 3500
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP8
+L zglue-demo-board:TP_SMD1MM TP8
 U 1 1 5DC439BC
 P 8150 3200
 F 0 "TP8" V 8150 3150 50  0000 R CNN
 F 1 "TP_SMD1MM" H 8150 3100 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8350 3400 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 8350 3400 60  0001 L CNN
 F 3 "" H 8350 3500 60  0001 L CNN
 	1    8150 3200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP9
+L zglue-demo-board:TP_SMD1MM TP9
 U 1 1 5DC439C3
 P 8150 3300
 F 0 "TP9" V 8150 3250 50  0000 R CNN
 F 1 "TP_SMD1MM" H 8150 3200 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8350 3500 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 8350 3500 60  0001 L CNN
 F 3 "" H 8350 3600 60  0001 L CNN
 	1    8150 3300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP10
+L zglue-demo-board:TP_SMD1MM TP10
 U 1 1 5DC439CA
 P 8150 3400
 F 0 "TP10" V 8150 3350 50  0000 R CNN
 F 1 "TP_SMD1MM" H 8150 3300 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8350 3600 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 8350 3600 60  0001 L CNN
 F 3 "" H 8350 3700 60  0001 L CNN
 	1    8150 3400
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP11
+L zglue-demo-board:TP_SMD1MM TP11
 U 1 1 5DC439D1
 P 8150 3500
 F 0 "TP11" V 8150 3450 50  0000 R CNN
 F 1 "TP_SMD1MM" H 8150 3400 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8350 3700 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 8350 3700 60  0001 L CNN
 F 3 "" H 8350 3800 60  0001 L CNN
 	1    8150 3500
 	0    -1   -1   0   
@@ -1306,7 +1309,7 @@ E_CTRL_SCK_3V3
 Text Label 7450 3500 0    50   ~ 0
 E_CTRL_SS_3V3
 $Comp
-L power:GND #PWR024
+L zglue-demo-board:GND #PWR024
 U 1 1 5DD333E8
 P 6750 2250
 F 0 "#PWR024" H 6750 2000 50  0001 C CNN
@@ -1321,12 +1324,12 @@ Wire Wire Line
 Wire Wire Line
 	6850 2350 7400 2350
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C10
+L zglue-demo-board:C_100n_0402_6V3 C10
 U 1 1 5DD333F5
 P 9300 2100
 F 0 "C10" V 9042 2100 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 9300 1950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9500 2300 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 9500 2300 60  0001 L CNN
 F 3 "" H 9300 2100 50  0001 C CNN
 F 4 "Walsin" H 9500 2500 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9500 2400 60  0001 L CNN "MPN"
@@ -1339,12 +1342,12 @@ Wire Wire Line
 Text Label 8700 1200 0    50   ~ 0
 3V3_SYS
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C9
+L zglue-demo-board:C_100n_0402_6V3 C9
 U 1 1 5DD33401
 P 9300 1450
 F 0 "C9" V 9042 1450 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 9300 1300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9500 1650 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 9500 1650 60  0001 L CNN
 F 3 "" H 9300 1450 50  0001 C CNN
 F 4 "Walsin" H 9500 1850 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 9500 1750 60  0001 L CNN "MPN"
@@ -1353,7 +1356,7 @@ F 6 "100n" V 9140 1450 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR027
+L zglue-demo-board:GND #PWR027
 U 1 1 5DD33408
 P 9300 1600
 F 0 "#PWR027" H 9300 1350 50  0001 C CNN
@@ -1368,7 +1371,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 2250 6750 2200
 $Comp
-L power:GND #PWR028
+L zglue-demo-board:GND #PWR028
 U 1 1 5DD33410
 P 9300 2250
 F 0 "#PWR028" H 9300 2000 50  0001 C CNN
@@ -1397,34 +1400,34 @@ Wire Wire Line
 Wire Wire Line
 	5950 1750 4850 1750
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP5
+L zglue-demo-board:TP_SMD1MM TP5
 U 1 1 5DD33425
 P 8500 1550
 F 0 "TP5" V 8500 1500 50  0000 R CNN
 F 1 "TP_SMD1MM" H 8500 1450 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8700 1750 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 8700 1750 60  0001 L CNN
 F 3 "" H 8700 1850 60  0001 L CNN
 	1    8500 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP6
+L zglue-demo-board:TP_SMD1MM TP6
 U 1 1 5DD3342C
 P 8500 1650
 F 0 "TP6" V 8500 1600 50  0000 R CNN
 F 1 "TP_SMD1MM" H 8500 1550 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8700 1850 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 8700 1850 60  0001 L CNN
 F 3 "" H 8700 1950 60  0001 L CNN
 	1    8500 1650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP7
+L zglue-demo-board:TP_SMD1MM TP7
 U 1 1 5DD33433
 P 8500 1750
 F 0 "TP7" V 8500 1700 50  0000 R CNN
 F 1 "TP_SMD1MM" H 8500 1650 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8700 1950 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 8700 1950 60  0001 L CNN
 F 3 "" H 8700 2050 60  0001 L CNN
 	1    8500 1750
 	0    -1   -1   0   
@@ -1448,45 +1451,45 @@ DONE
 Text Label 7300 1750 0    50   ~ 0
 DONE_3V3
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP19
+L zglue-demo-board:TP_SMD1MM TP19
 U 1 1 5DEEFECB
 P 12600 2800
 F 0 "TP19" V 12600 2750 50  0000 R CNN
 F 1 "TP_SMD1MM" H 12600 2700 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 12800 3000 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 12800 3000 60  0001 L CNN
 F 3 "" H 12800 3100 60  0001 L CNN
 	1    12600 2800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP18
+L zglue-demo-board:TP_SMD1MM TP18
 U 1 1 5DEF00A4
 P 12600 2700
 F 0 "TP18" V 12600 2650 50  0000 R CNN
 F 1 "TP_SMD1MM" H 12600 2600 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 12800 2900 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 12800 2900 60  0001 L CNN
 F 3 "" H 12800 3000 60  0001 L CNN
 	1    12600 2700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP17
+L zglue-demo-board:TP_SMD1MM TP17
 U 1 1 5DEF011E
 P 12600 2600
 F 0 "TP17" V 12600 2550 50  0000 R CNN
 F 1 "TP_SMD1MM" H 12600 2500 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 12800 2800 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 12800 2800 60  0001 L CNN
 F 3 "" H 12800 2900 60  0001 L CNN
 	1    12600 2600
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP16
+L zglue-demo-board:TP_SMD1MM TP16
 U 1 1 5DEF019E
 P 12600 2500
 F 0 "TP16" V 12600 2450 50  0000 R CNN
 F 1 "TP_SMD1MM" H 12600 2400 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 12800 2700 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 12800 2700 60  0001 L CNN
 F 3 "" H 12800 2800 60  0001 L CNN
 	1    12600 2500
 	0    -1   -1   0   
@@ -1494,7 +1497,7 @@ $EndComp
 Text Notes 5700 850  0    79   ~ 16
 Voltage level translation
 $Comp
-L power:GND #PWR043
+L zglue-demo-board:GND #PWR043
 U 1 1 5DC2BFB5
 P 5500 10900
 F 0 "#PWR043" H 5500 10650 50  0001 C CNN
@@ -1549,12 +1552,12 @@ Connection ~ 4800 10850
 Wire Wire Line
 	4800 10850 4900 10850
 $Comp
-L antmicroResistors0402:R_0R_0402 R11
+L zglue-demo-board:R_0R_0402 R11
 U 1 1 5DD5453B
 P 6200 6700
 F 0 "R11" H 5900 6750 60  0000 C CNN
 F 1 "R_0R_0402" H 6200 6550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 6900 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6400 6900 60  0001 L CNN
 F 3 "" H 6200 6700 50  0001 C CNN
 F 4 "PANASONIC" H 6400 7100 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6400 7000 60  0001 L CNN "MPN"
@@ -1563,12 +1566,12 @@ F 6 "0R" H 6450 6750 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R12
+L zglue-demo-board:R_0R_0402 R12
 U 1 1 5DDD01FB
 P 6200 6800
 F 0 "R12" H 5900 6850 60  0000 C CNN
 F 1 "R_0R_0402" H 6200 6650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 7000 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6400 7000 60  0001 L CNN
 F 3 "" H 6200 6800 50  0001 C CNN
 F 4 "PANASONIC" H 6400 7200 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6400 7100 60  0001 L CNN "MPN"
@@ -1577,12 +1580,12 @@ F 6 "0R" H 6450 6850 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R13
+L zglue-demo-board:R_0R_0402 R13
 U 1 1 5DDEEF9C
 P 6200 6900
 F 0 "R13" H 5900 6950 60  0000 C CNN
 F 1 "R_0R_0402" H 6200 6750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 7100 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6400 7100 60  0001 L CNN
 F 3 "" H 6200 6900 50  0001 C CNN
 F 4 "PANASONIC" H 6400 7300 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6400 7200 60  0001 L CNN "MPN"
@@ -1591,12 +1594,12 @@ F 6 "0R" H 6450 6950 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R14
+L zglue-demo-board:R_0R_0402 R14
 U 1 1 5DE2CAD8
 P 6200 7100
 F 0 "R14" H 5900 7150 60  0000 C CNN
 F 1 "R_0R_0402" H 6200 6950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 7300 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6400 7300 60  0001 L CNN
 F 3 "" H 6200 7100 50  0001 C CNN
 F 4 "PANASONIC" H 6400 7500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6400 7400 60  0001 L CNN "MPN"
@@ -1605,12 +1608,12 @@ F 6 "0R" H 6450 7150 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R15
+L zglue-demo-board:R_0R_0402 R15
 U 1 1 5DE6A620
 P 6200 7300
 F 0 "R15" H 5900 7350 60  0000 C CNN
 F 1 "R_0R_0402" H 6200 7150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 7500 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6400 7500 60  0001 L CNN
 F 3 "" H 6200 7300 50  0001 C CNN
 F 4 "PANASONIC" H 6400 7700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6400 7600 60  0001 L CNN "MPN"
@@ -1619,12 +1622,12 @@ F 6 "0R" H 6450 7350 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R16
+L zglue-demo-board:R_0R_0402 R16
 U 1 1 5DE893CB
 P 6200 7400
 F 0 "R16" H 5900 7450 60  0000 C CNN
 F 1 "R_0R_0402" H 6200 7250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 7600 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6400 7600 60  0001 L CNN
 F 3 "" H 6200 7400 50  0001 C CNN
 F 4 "PANASONIC" H 6400 7800 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6400 7700 60  0001 L CNN "MPN"
@@ -1633,12 +1636,12 @@ F 6 "0R" H 6450 7450 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R17
+L zglue-demo-board:R_0R_0402 R17
 U 1 1 5DEA9262
 P 6200 7550
 F 0 "R17" H 5900 7600 60  0000 C CNN
 F 1 "R_0R_0402" H 6200 7400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 7750 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6400 7750 60  0001 L CNN
 F 3 "" H 6200 7550 50  0001 C CNN
 F 4 "PANASONIC" H 6400 7950 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6400 7850 60  0001 L CNN "MPN"
@@ -1647,12 +1650,12 @@ F 6 "0R" H 6450 7600 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R18
+L zglue-demo-board:R_0R_0402 R18
 U 1 1 5DEA926C
 P 6200 7650
 F 0 "R18" H 5900 7700 60  0000 C CNN
 F 1 "R_0R_0402" H 6200 7500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 7850 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6400 7850 60  0001 L CNN
 F 3 "" H 6200 7650 50  0001 C CNN
 F 4 "PANASONIC" H 6400 8050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6400 7950 60  0001 L CNN "MPN"
@@ -1661,12 +1664,12 @@ F 6 "0R" H 6450 7700 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R19
+L zglue-demo-board:R_0R_0402 R19
 U 1 1 5DEA9276
 P 6200 7750
 F 0 "R19" H 5900 7800 60  0000 C CNN
 F 1 "R_0R_0402" H 6200 7600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 7950 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6400 7950 60  0001 L CNN
 F 3 "" H 6200 7750 50  0001 C CNN
 F 4 "PANASONIC" H 6400 8150 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6400 8050 60  0001 L CNN "MPN"
@@ -1675,12 +1678,12 @@ F 6 "0R" H 6450 7800 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R20
+L zglue-demo-board:R_0R_0402 R20
 U 1 1 5DEA928A
 P 6200 7950
 F 0 "R20" H 5900 8000 60  0000 C CNN
 F 1 "R_0R_0402" H 6200 7800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 8150 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6400 8150 60  0001 L CNN
 F 3 "" H 6200 7950 50  0001 C CNN
 F 4 "PANASONIC" H 6400 8350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6400 8250 60  0001 L CNN "MPN"
@@ -1689,12 +1692,12 @@ F 6 "0R" H 6450 8000 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R21
+L zglue-demo-board:R_0R_0402 R21
 U 1 1 5DEA929E
 P 6200 8150
 F 0 "R21" H 5900 8200 60  0000 C CNN
 F 1 "R_0R_0402" H 6200 8000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 8350 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6400 8350 60  0001 L CNN
 F 3 "" H 6200 8150 50  0001 C CNN
 F 4 "PANASONIC" H 6400 8550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6400 8450 60  0001 L CNN "MPN"
@@ -1703,12 +1706,12 @@ F 6 "0R" H 6450 8200 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R22
+L zglue-demo-board:R_0R_0402 R22
 U 1 1 5DEA92A8
 P 6200 8250
 F 0 "R22" H 5900 8300 60  0000 C CNN
 F 1 "R_0R_0402" H 6200 8100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 8450 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6400 8450 60  0001 L CNN
 F 3 "" H 6200 8250 50  0001 C CNN
 F 4 "PANASONIC" H 6400 8650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6400 8550 60  0001 L CNN "MPN"
@@ -1778,12 +1781,12 @@ FLASH_IO3
 Text Label 13300 3000 0    50   ~ 0
 FLASH_IO2
 $Comp
-L antmicroFerriteBeadsandChips:BLM18AG601SN1D FB1
+L zglue-demo-board:BLM18AG601SN1D FB1
 U 1 1 5E8DECA8
 P 1850 8000
 F 0 "FB1" H 1850 8287 60  0000 C CNN
 F 1 "BLM18AG601SN1D" H 1850 8181 60  0000 C CNN
-F 2 "antmicro-footprints:0603-res" H 2050 8200 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0603" H 2050 8200 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 2050 8300 60  0001 L CNN
 F 4 "BLM18AG601SN1D" H 2050 8500 60  0001 L CNN "MPN"
 F 5 "Murata Electronics North America" H 2050 9100 60  0001 L CNN "Manufacturer"
@@ -1793,12 +1796,12 @@ $EndComp
 Text Label 2250 8000 0    50   ~ 0
 VPHY
 $Comp
-L antmicroFerriteBeadsandChips:BLM18AG601SN1D FB2
+L zglue-demo-board:BLM18AG601SN1D FB2
 U 1 1 5E95DFBD
 P 1850 8550
 F 0 "FB2" H 1650 8450 60  0000 C CNN
 F 1 "BLM18AG601SN1D" H 1550 8350 60  0000 C CNN
-F 2 "antmicro-footprints:0603-res" H 2050 8750 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0603" H 2050 8750 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 2050 8850 60  0001 L CNN
 F 4 "BLM18AG601SN1D" H 2050 9050 60  0001 L CNN "MPN"
 F 5 "Murata Electronics North America" H 2050 9650 60  0001 L CNN "Manufacturer"
@@ -1810,12 +1813,12 @@ Wire Wire Line
 Text Label 2250 8550 0    50   ~ 0
 VPLL
 $Comp
-L antmicroResistors0402:R_2k_0402 R10
+L zglue-demo-board:R_2k_0402 R10
 U 1 1 5E9B4661
 P 3750 9100
 F 0 "R10" H 3550 9050 60  0000 C CNN
 F 1 "R_2k_0402" H 3750 8950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3950 9300 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 3950 9300 60  0001 L CNN
 F 3 "" H 3750 9100 50  0001 C CNN
 F 4 "VISHAY" H 3950 9500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW04022K00FKED" H 3950 9400 60  0001 L CNN "MPN"
@@ -1834,12 +1837,12 @@ Wire Wire Line
 Wire Wire Line
 	2250 9550 3000 9550
 $Comp
-L antmicroResistors0402:R_2k_0402 R5
+L zglue-demo-board:R_2k_0402 R5
 U 1 1 5EA9067A
 P 2650 9650
 F 0 "R5" H 2650 9550 60  0000 C CNN
 F 1 "R_2k_0402" H 2650 9500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2850 9850 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 2850 9850 60  0001 L CNN
 F 3 "" H 2650 9650 50  0001 C CNN
 F 4 "VISHAY" H 2850 10050 60  0001 L CNN "Manufacturer"
 F 5 "CRCW04022K00FKED" H 2850 9950 60  0001 L CNN "MPN"
@@ -1857,7 +1860,7 @@ Connection ~ 3000 9550
 Wire Wire Line
 	3000 9550 4100 9550
 $Comp
-L power:GND #PWR034
+L zglue-demo-board:GND #PWR034
 U 1 1 5EAEC207
 P 1350 9800
 F 0 "#PWR034" H 1350 9550 50  0001 C CNN
@@ -1886,12 +1889,12 @@ Wire Wire Line
 Wire Wire Line
 	2750 8100 4100 8100
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C25
+L zglue-demo-board:C_4u7_0402 C25
 U 1 1 5EC07926
 P 2500 8150
 F 0 "C25" H 2615 8195 60  0000 L CNN
 F 1 "C_4u7_0402" H 2500 8000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2700 8350 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 2700 8350 60  0001 L CNN
 F 3 "" H 2500 8150 50  0001 C CNN
 F 4 "MURATA" H 2700 8550 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60G475ME" H 2700 8450 60  0001 L CNN "MPN"
@@ -1903,12 +1906,12 @@ Connection ~ 2500 8000
 Wire Wire Line
 	2500 8000 4100 8000
 $Comp
-L antmicroCapacitors0402:C_4u7_0402 C26
+L zglue-demo-board:C_4u7_0402 C26
 U 1 1 5EC07A20
 P 2500 8700
 F 0 "C26" H 2615 8745 60  0000 L CNN
 F 1 "C_4u7_0402" H 2500 8550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2700 8900 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 2700 8900 60  0001 L CNN
 F 3 "" H 2500 8700 50  0001 C CNN
 F 4 "MURATA" H 2700 9100 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60G475ME" H 2700 9000 60  0001 L CNN "MPN"
@@ -1920,12 +1923,12 @@ Connection ~ 2500 8550
 Wire Wire Line
 	2500 8550 2750 8550
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C21
+L zglue-demo-board:C_100n_0402_6V3 C21
 U 1 1 5EC07BEB
 P 2100 8150
 F 0 "C21" H 2215 8195 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 2100 8000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2300 8350 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 2300 8350 60  0001 L CNN
 F 3 "" H 2100 8150 50  0001 C CNN
 F 4 "Walsin" H 2300 8550 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2300 8450 60  0001 L CNN "MPN"
@@ -1937,12 +1940,12 @@ Connection ~ 2100 8000
 Wire Wire Line
 	2100 8000 2500 8000
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C22
+L zglue-demo-board:C_100n_0402_6V3 C22
 U 1 1 5EC07DD9
 P 2100 8700
 F 0 "C22" H 2215 8745 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 2100 8550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2300 8900 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 2300 8900 60  0001 L CNN
 F 3 "" H 2100 8700 50  0001 C CNN
 F 4 "Walsin" H 2300 9100 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2300 9000 60  0001 L CNN "MPN"
@@ -1954,7 +1957,7 @@ Connection ~ 2100 8550
 Wire Wire Line
 	2100 8550 2500 8550
 $Comp
-L power:GND #PWR037
+L zglue-demo-board:GND #PWR037
 U 1 1 5EC081C1
 P 2100 8300
 F 0 "#PWR037" H 2100 8050 50  0001 C CNN
@@ -1965,7 +1968,7 @@ F 3 "" H 2100 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR039
+L zglue-demo-board:GND #PWR039
 U 1 1 5EC0826A
 P 2500 8300
 F 0 "#PWR039" H 2500 8050 50  0001 C CNN
@@ -1976,7 +1979,7 @@ F 3 "" H 2500 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR038
+L zglue-demo-board:GND #PWR038
 U 1 1 5EC08313
 P 2100 8850
 F 0 "#PWR038" H 2100 8600 50  0001 C CNN
@@ -1987,7 +1990,7 @@ F 3 "" H 2100 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR040
+L zglue-demo-board:GND #PWR040
 U 1 1 5EC083BC
 P 2500 8850
 F 0 "#PWR040" H 2500 8600 50  0001 C CNN
@@ -1998,12 +2001,12 @@ F 3 "" H 2500 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_12k_0402 R9
+L zglue-demo-board:R_12k_0402 R9
 U 1 1 5EC09320
 P 3750 8800
 F 0 "R9" H 3550 8900 60  0000 C CNN
 F 1 "R_12k_0402" H 3750 8650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3950 9000 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 3950 9000 60  0001 L CNN
 F 3 "" H 3750 8800 50  0001 C CNN
 F 4 "VISHAY" H 3950 9200 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040212K0FKEDHP" H 3950 9100 60  0001 L CNN "MPN"
@@ -2012,7 +2015,7 @@ F 6 "12k" H 3950 8900 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR042
+L zglue-demo-board:GND #PWR042
 U 1 1 5EC09A51
 P 3100 8800
 F 0 "#PWR042" H 3100 8550 50  0001 C CNN
@@ -2073,12 +2076,12 @@ Connection ~ 4000 6900
 Text Label 2950 6900 0    50   ~ 0
 1V8_FTDI
 $Comp
-L antmicroResistors0402:R_0R_0402 R8
+L zglue-demo-board:R_0R_0402 R8
 U 1 1 5EE7FC51
 P 3600 7500
 F 0 "R8" H 3400 7450 60  0000 C CNN
 F 1 "R_0R_0402" H 3600 7350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3800 7700 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 3800 7700 60  0001 L CNN
 F 3 "" H 3600 7500 50  0001 C CNN
 F 4 "PANASONIC" H 3800 7900 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 3800 7800 60  0001 L CNN "MPN"
@@ -2092,12 +2095,12 @@ Text Label 2950 7500 0    50   ~ 0
 3V3_FTDI
 NoConn ~ 4100 10100
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C15
+L zglue-demo-board:C_100n_0402_6V3 C15
 U 1 1 5EEF0343
 P 1150 6450
 F 0 "C15" H 1265 6495 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 1150 6300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 1350 6650 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 1350 6650 60  0001 L CNN
 F 3 "" H 1150 6450 50  0001 C CNN
 F 4 "Walsin" H 1350 6850 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 1350 6750 60  0001 L CNN "MPN"
@@ -2106,7 +2109,7 @@ F 6 "100n" H 1265 6397 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR033
+L zglue-demo-board:GND #PWR033
 U 1 1 5EEF044E
 P 1150 6700
 F 0 "#PWR033" H 1150 6450 50  0001 C CNN
@@ -2123,12 +2126,12 @@ VCCIO
 Wire Wire Line
 	1150 6600 1150 6700
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C18
+L zglue-demo-board:C_100n_0402_6V3 C18
 U 1 1 5EF5FD2A
 P 1550 6450
 F 0 "C18" H 1665 6495 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 1550 6300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 1750 6650 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 1750 6650 60  0001 L CNN
 F 3 "" H 1550 6450 50  0001 C CNN
 F 4 "Walsin" H 1750 6850 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 1750 6750 60  0001 L CNN "MPN"
@@ -2137,12 +2140,12 @@ F 6 "100n" H 1665 6397 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C19
+L zglue-demo-board:C_100n_0402_6V3 C19
 U 1 1 5EF5FF23
 P 2000 6450
 F 0 "C19" H 2115 6495 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 2000 6300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2200 6650 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 2200 6650 60  0001 L CNN
 F 3 "" H 2000 6450 50  0001 C CNN
 F 4 "Walsin" H 2200 6850 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2200 6750 60  0001 L CNN "MPN"
@@ -2153,12 +2156,12 @@ $EndComp
 Wire Wire Line
 	1150 6250 1550 6250
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C23
+L zglue-demo-board:C_100n_0402_6V3 C23
 U 1 1 5EF9847A
 P 2400 6450
 F 0 "C23" H 2515 6495 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 2400 6300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2600 6650 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 2600 6650 60  0001 L CNN
 F 3 "" H 2400 6450 50  0001 C CNN
 F 4 "Walsin" H 2600 6850 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2600 6750 60  0001 L CNN "MPN"
@@ -2188,12 +2191,12 @@ Connection ~ 2000 6600
 Wire Wire Line
 	2000 6600 1550 6600
 $Comp
-L antmicroUSBDVIHDMIConnectors:0473460001 J10
+L zglue-demo-board:0473460001 J10
 U 1 1 5F07CDA1
 P 10150 7900
 F 0 "J10" H 10213 8623 50  0000 C CNN
 F 1 "0473460001" H 10213 8532 50  0000 C CNN
-F 2 "antmicro-footprints:USB_Micro_B_Female_0473460001" H 10350 8100 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:USB_Micro_B_Female_0473460001" H 10350 8100 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" H 10350 8200 60  0001 L CNN
 F 4 "0473460001" H 10350 8400 60  0001 L CNN "MPN"
 F 5 "Molex" H 10350 9000 60  0001 L CNN "Manufacturer"
@@ -2216,7 +2219,7 @@ Wire Wire Line
 	10500 8100 10500 8300
 Connection ~ 10500 8100
 $Comp
-L power:GND #PWR045
+L zglue-demo-board:GND #PWR045
 U 1 1 5F07CDB0
 P 10500 8300
 F 0 "#PWR045" H 10500 8050 50  0001 C CNN
@@ -2235,12 +2238,12 @@ PROG_USB_D_N
 Text Notes 8600 7100 0    79   ~ 16
 Flash Programming and debug USB connector
 $Comp
-L antmicroTVSDiodes:TPD2EUSB30DRTR D5
+L zglue-demo-board:TPD2EUSB30DRTR D5
 U 1 1 5F07CDBC
 P 9400 9500
 F 0 "D5" H 9400 9857 60  0000 C CNN
 F 1 "TPD2EUSB30DRTR" H 9400 9751 60  0000 C CNN
-F 2 "antmicro-footprints:SOT-3" H 9600 9700 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:SOT-3" H 9600 9700 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd2eusb30" H 9600 9800 60  0001 L CNN
 F 4 "Texas Instruments" H 9600 10600 60  0001 L CNN "Manufacturer"
 F 5 "TPD2EUSB30DRTR" H 9600 10000 60  0001 L CNN "MPN"
@@ -2250,7 +2253,7 @@ $EndComp
 Wire Wire Line
 	9100 9500 8450 9500
 $Comp
-L power:GND #PWR044
+L zglue-demo-board:GND #PWR044
 U 1 1 5F07CDC5
 P 9400 9850
 F 0 "#PWR044" H 9400 9600 50  0001 C CNN
@@ -2263,12 +2266,12 @@ $EndComp
 Wire Wire Line
 	9400 9800 9400 9850
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C20
+L zglue-demo-board:C_100n_0402_6V3 C20
 U 1 1 5F0F7D6D
 P 2000 7100
 F 0 "C20" H 2115 7145 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 2000 6950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2200 7300 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 2200 7300 60  0001 L CNN
 F 3 "" H 2000 7100 50  0001 C CNN
 F 4 "Walsin" H 2200 7500 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2200 7400 60  0001 L CNN "MPN"
@@ -2277,12 +2280,12 @@ F 6 "100n" H 2115 7047 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C24
+L zglue-demo-board:C_100n_0402_6V3 C24
 U 1 1 5F0F7D77
 P 2400 7100
 F 0 "C24" H 2515 7145 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 2400 6950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2600 7300 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 2600 7300 60  0001 L CNN
 F 3 "" H 2400 7100 50  0001 C CNN
 F 4 "Walsin" H 2600 7500 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2600 7400 60  0001 L CNN "MPN"
@@ -2302,7 +2305,7 @@ Connection ~ 2000 6900
 Wire Wire Line
 	2400 7250 2000 7250
 $Comp
-L power:GND #PWR036
+L zglue-demo-board:GND #PWR036
 U 1 1 5F175C3A
 P 2000 7250
 F 0 "#PWR036" H 2000 7000 50  0001 C CNN
@@ -2326,12 +2329,12 @@ Connection ~ 1300 9350
 Wire Wire Line
 	1300 9350 1200 9350
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C16
+L zglue-demo-board:C_100n_0402_6V3 C16
 U 1 1 5F272B30
 P 1200 10350
 F 0 "C16" H 1315 10395 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 1200 10200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 1400 10550 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 1400 10550 60  0001 L CNN
 F 3 "" H 1200 10350 50  0001 C CNN
 F 4 "Walsin" H 1400 10750 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 1400 10650 60  0001 L CNN "MPN"
@@ -2347,12 +2350,12 @@ Wire Wire Line
 Text Notes 3850 6450 0    79   ~ 16
 Flash Programming and debug FTDI
 $Comp
-L antmicroResistors0402:R_10k_0402 R4
+L zglue-demo-board:R_10k_0402 R4
 U 1 1 5F3FE345
 P 2300 10000
 F 0 "R4" V 2255 10070 60  0000 L CNN
 F 1 "R_10k_0402" H 2300 9850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 2500 10200 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 2500 10200 60  0001 L CNN
 F 3 "" H 2300 10000 50  0001 C CNN
 F 4 "VISHAY" H 2500 10400 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2500 10300 60  0001 L CNN "MPN"
@@ -2361,12 +2364,12 @@ F 6 "10k" V 2353 10070 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R6
+L zglue-demo-board:R_10k_0402 R6
 U 1 1 5F3FE4D7
 P 3150 10000
 F 0 "R6" V 3105 10070 60  0000 L CNN
 F 1 "R_10k_0402" H 3150 9850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3350 10200 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 3350 10200 60  0001 L CNN
 F 3 "" H 3150 10000 50  0001 C CNN
 F 4 "VISHAY" H 3350 10400 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 3350 10300 60  0001 L CNN "MPN"
@@ -2375,12 +2378,12 @@ F 6 "10k" V 3203 10070 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R7
+L zglue-demo-board:R_10k_0402 R7
 U 1 1 5F3FE5E1
 P 3450 10000
 F 0 "R7" V 3405 10070 60  0000 L CNN
 F 1 "R_10k_0402" H 3450 9850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3650 10200 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 3650 10200 60  0001 L CNN
 F 3 "" H 3450 10000 50  0001 C CNN
 F 4 "VISHAY" H 3650 10400 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 3650 10300 60  0001 L CNN "MPN"
@@ -2412,12 +2415,12 @@ Connection ~ 3150 10150
 Wire Wire Line
 	3150 10150 3450 10150
 $Comp
-L antmicroOscillators:ASFLMB-12.000MHZ-LC-T Y1
+L zglue-demo-board:ASFLMB-12.000MHZ-LC-T Y1
 U 1 1 5F54A817
 P 2500 10700
 F 0 "Y1" H 2500 11015 50  0000 C CNN
 F 1 "ASFLMB-12.000MHZ-LC-T" H 2500 10924 50  0000 C CNN
-F 2 "antmicro-footprints:ASFLMB" H 2750 10400 50  0001 C CNN
+F 2 "zglue-demo-board-footprints:ASFLMB" H 2750 10400 50  0001 C CNN
 F 3 "" H 2600 11200 50  0001 C CNN
 F 4 "7C-24.000MBB-T" H 2550 11000 50  0001 C CNN "MPN"
 F 5 "TXC" H 2500 11100 50  0001 C CNN "Manufacturer"
@@ -2431,7 +2434,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 9900 4100 9900
 $Comp
-L power:GND #PWR041
+L zglue-demo-board:GND #PWR041
 U 1 1 5F58F560
 P 3000 10800
 F 0 "#PWR041" H 3000 10550 50  0001 C CNN
@@ -2453,12 +2456,12 @@ Connection ~ 2000 10650
 Wire Wire Line
 	2000 10650 1500 10650
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C17
+L zglue-demo-board:C_100n_0402_6V3 C17
 U 1 1 5F65FBB3
 P 1500 10800
 F 0 "C17" H 1615 10845 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 1500 10650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 1700 11000 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 1700 11000 60  0001 L CNN
 F 3 "" H 1500 10800 50  0001 C CNN
 F 4 "Walsin" H 1700 11200 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 1700 11100 60  0001 L CNN "MPN"
@@ -2467,7 +2470,7 @@ F 6 "100n" H 1615 10747 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR035
+L zglue-demo-board:GND #PWR035
 U 1 1 5F65FCAA
 P 1500 10950
 F 0 "#PWR035" H 1500 10700 50  0001 C CNN
@@ -2478,7 +2481,7 @@ F 3 "" H 1500 10950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L zglue-demo-board-rescue:Jumper_3_Open-Jumper VCCIO2
+L zglue-demo-board:Jumper_3_Open-Jumper VCCIO2
 U 1 1 5F6F7935
 P 4350 2200
 F 0 "VCCIO2" H 4350 2424 50  0000 C CNN
@@ -2543,7 +2546,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 2500 3350 2500
 $Comp
-L zglue-demo-board-rescue:Jumper_3_Open-Jumper VCCIO3
+L zglue-demo-board:Jumper_3_Open-Jumper VCCIO3
 U 1 1 5FF28200
 P 4350 2850
 F 0 "VCCIO3" H 4350 3074 50  0000 C CNN
@@ -2562,7 +2565,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 3150 3350 3150
 $Comp
-L zglue-demo-board-rescue:Jumper_3_Open-Jumper VCCIO1
+L zglue-demo-board:Jumper_3_Open-Jumper VCCIO1
 U 1 1 5FF6DF38
 P 4350 1600
 F 0 "VCCIO1" H 4350 1824 50  0000 C CNN
@@ -2605,12 +2608,12 @@ VCCIO2
 Text Label 8700 5200 0    50   ~ 0
 VCCIO3
 $Comp
-L antmicroResistors0402:R_0R_0402 R26
+L zglue-demo-board:R_0R_0402 R26
 U 1 1 602CEE2B
 P 6100 3200
 F 0 "R26" H 5900 3250 60  0000 C CNN
 F 1 "R_0R_0402" H 6100 3050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6300 3400 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6300 3400 60  0001 L CNN
 F 3 "" H 6100 3200 50  0001 C CNN
 F 4 "PANASONIC" H 6300 3600 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6300 3500 60  0001 L CNN "MPN"
@@ -2619,12 +2622,12 @@ F 6 "0R" H 6300 3250 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R27
+L zglue-demo-board:R_0R_0402 R27
 U 1 1 602CF703
 P 6100 3300
 F 0 "R27" H 5900 3350 60  0000 C CNN
 F 1 "R_0R_0402" H 6100 3150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6300 3500 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6300 3500 60  0001 L CNN
 F 3 "" H 6100 3300 50  0001 C CNN
 F 4 "PANASONIC" H 6300 3700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6300 3600 60  0001 L CNN "MPN"
@@ -2633,12 +2636,12 @@ F 6 "0R" H 6300 3350 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R28
+L zglue-demo-board:R_0R_0402 R28
 U 1 1 602CF7D9
 P 6100 3400
 F 0 "R28" H 5900 3450 60  0000 C CNN
 F 1 "R_0R_0402" H 6100 3250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6300 3600 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6300 3600 60  0001 L CNN
 F 3 "" H 6100 3400 50  0001 C CNN
 F 4 "PANASONIC" H 6300 3800 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6300 3700 60  0001 L CNN "MPN"
@@ -2647,12 +2650,12 @@ F 6 "0R" H 6300 3450 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R29
+L zglue-demo-board:R_0R_0402 R29
 U 1 1 602CF8B9
 P 6100 3500
 F 0 "R29" H 5900 3550 60  0000 C CNN
 F 1 "R_0R_0402" H 6100 3350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6300 3700 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6300 3700 60  0001 L CNN
 F 3 "" H 6100 3500 50  0001 C CNN
 F 4 "PANASONIC" H 6300 3900 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6300 3800 60  0001 L CNN "MPN"
@@ -2661,12 +2664,12 @@ F 6 "0R" H 6300 3550 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R30
+L zglue-demo-board:R_0R_0402 R30
 U 1 1 602CF993
 P 6100 4800
 F 0 "R30" H 5900 4850 60  0000 C CNN
 F 1 "R_0R_0402" H 6100 4650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6300 5000 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6300 5000 60  0001 L CNN
 F 3 "" H 6100 4800 50  0001 C CNN
 F 4 "PANASONIC" H 6300 5200 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6300 5100 60  0001 L CNN "MPN"
@@ -2675,12 +2678,12 @@ F 6 "0R" H 6300 4850 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R31
+L zglue-demo-board:R_0R_0402 R31
 U 1 1 602CFAA5
 P 6100 4900
 F 0 "R31" H 5900 4950 60  0000 C CNN
 F 1 "R_0R_0402" H 6100 4750 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6300 5100 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6300 5100 60  0001 L CNN
 F 3 "" H 6100 4900 50  0001 C CNN
 F 4 "PANASONIC" H 6300 5300 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6300 5200 60  0001 L CNN "MPN"
@@ -2689,12 +2692,12 @@ F 6 "0R" H 6300 4950 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R32
+L zglue-demo-board:R_0R_0402 R32
 U 1 1 602CFB87
 P 6100 5000
 F 0 "R32" H 5900 5050 60  0000 C CNN
 F 1 "R_0R_0402" H 6100 4850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6300 5200 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6300 5200 60  0001 L CNN
 F 3 "" H 6100 5000 50  0001 C CNN
 F 4 "PANASONIC" H 6300 5400 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6300 5300 60  0001 L CNN "MPN"
@@ -2703,12 +2706,12 @@ F 6 "0R" H 6300 5050 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R33
+L zglue-demo-board:R_0R_0402 R33
 U 1 1 602CFC67
 P 6100 5100
 F 0 "R33" H 5900 5150 60  0000 C CNN
 F 1 "R_0R_0402" H 6100 4950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6300 5300 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6300 5300 60  0001 L CNN
 F 3 "" H 6100 5100 50  0001 C CNN
 F 4 "PANASONIC" H 6300 5500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6300 5400 60  0001 L CNN "MPN"
@@ -2717,12 +2720,12 @@ F 6 "0R" H 6300 5150 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R25
+L zglue-demo-board:R_0R_0402 R25
 U 1 1 602D0677
 P 6100 1750
 F 0 "R25" H 5900 1800 60  0000 C CNN
 F 1 "R_0R_0402" H 6100 1600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6300 1950 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6300 1950 60  0001 L CNN
 F 3 "" H 6100 1750 50  0001 C CNN
 F 4 "PANASONIC" H 6300 2150 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6300 2050 60  0001 L CNN "MPN"
@@ -2731,12 +2734,12 @@ F 6 "0R" H 6300 1800 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R24
+L zglue-demo-board:R_0R_0402 R24
 U 1 1 602D0787
 P 6100 1650
 F 0 "R24" H 5900 1700 60  0000 C CNN
 F 1 "R_0R_0402" H 6100 1500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6300 1850 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6300 1850 60  0001 L CNN
 F 3 "" H 6100 1650 50  0001 C CNN
 F 4 "PANASONIC" H 6300 2050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6300 1950 60  0001 L CNN "MPN"
@@ -2745,12 +2748,12 @@ F 6 "0R" H 6300 1700 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R23
+L zglue-demo-board:R_0R_0402 R23
 U 1 1 602D086F
 P 6100 1550
 F 0 "R23" H 5900 1600 60  0000 C CNN
 F 1 "R_0R_0402" H 6100 1400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6300 1750 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6300 1750 60  0001 L CNN
 F 3 "" H 6100 1550 50  0001 C CNN
 F 4 "PANASONIC" H 6300 1950 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6300 1850 60  0001 L CNN "MPN"
@@ -2784,12 +2787,12 @@ Wire Wire Line
 	1200 10950 1200 10500
 Connection ~ 1500 10950
 $Comp
-L antmicroInterfaceControllers:FT4232HQ U6
+L zglue-demo-board:FT4232HQ U6
 U 1 1 5DA53094
 P 4900 8850
 F 0 "U6" H 4650 6750 60  0000 C CNN
 F 1 "FT4232HQ" H 4800 6650 60  0000 C CNN
-F 2 "antmicro-footprints:FT4232HQ" V 5100 9050 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:FT4232HQ" V 5100 9050 60  0001 L CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 5100 9250 60  0001 L CNN
 F 4 "FTDI" H 5100 10000 60  0001 L CNN "Manufacturer"
 F 5 "FT4232HQ" H 5100 9400 60  0001 L CNN "MPN"
@@ -2815,12 +2818,12 @@ Wire Wire Line
 Wire Wire Line
 	6250 5000 6400 5000
 $Comp
-L antmicroResistors0402:R_0R_0402 R2
+L zglue-demo-board:R_0R_0402 R2
 U 1 1 5DB8D8EC
 P 6200 8400
 F 0 "R2" H 5900 8450 60  0000 C CNN
 F 1 "R_0R_0402" H 6200 8250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 8600 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6400 8600 60  0001 L CNN
 F 3 "" H 6200 8400 50  0001 C CNN
 F 4 "PANASONIC" H 6400 8800 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6400 8700 60  0001 L CNN "MPN"
@@ -2829,12 +2832,12 @@ F 6 "0R" H 6450 8450 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R3
+L zglue-demo-board:R_0R_0402 R3
 U 1 1 5DB8D9DE
 P 6200 8500
 F 0 "R3" H 5900 8550 60  0000 C CNN
 F 1 "R_0R_0402" H 6200 8350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6400 8700 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6400 8700 60  0001 L CNN
 F 3 "" H 6200 8500 50  0001 C CNN
 F 4 "PANASONIC" H 6400 8900 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6400 8800 60  0001 L CNN "MPN"
@@ -2869,7 +2872,7 @@ NoConn ~ 5700 9750
 NoConn ~ 5700 9850
 NoConn ~ 5700 9950
 $Comp
-L power:GND #PWR07
+L zglue-demo-board:GND #PWR07
 U 1 1 5E3C7E24
 P 9600 6700
 F 0 "#PWR07" H 9600 6450 50  0001 C CNN
@@ -2888,7 +2891,7 @@ Text Label 10100 6300 0    50   ~ 0
 Text Notes 9200 5950 0    79   ~ 16
 LDO for FTDI
 $Comp
-L power:GND #PWR06
+L zglue-demo-board:GND #PWR06
 U 1 1 5E4D1E3B
 P 8600 6700
 F 0 "#PWR06" H 8600 6450 50  0001 C CNN
@@ -2899,7 +2902,7 @@ F 3 "" H 8600 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR012
+L zglue-demo-board:GND #PWR012
 U 1 1 5E4D1F0E
 P 10700 6700
 F 0 "#PWR012" H 10700 6450 50  0001 C CNN
@@ -2912,12 +2915,12 @@ $EndComp
 Wire Wire Line
 	8600 6300 9300 6300
 $Comp
-L antmicroDiodesRectifiersSingle:MBR0540T1G D1
+L zglue-demo-board:MBR0540T1G D1
 U 1 1 5DB10412
 P 1950 3050
 F 0 "D1" H 1950 3312 60  0000 C CNN
 F 1 "MBR0540T1G" H 1950 3206 60  0000 C CNN
-F 2 "antmicro-footprints:SOD-123" H 2150 3250 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:SOD-123" H 2150 3250 60  0001 L CNN
 F 3 "http://www.onsemi.com/pub/Collateral/MBR0540T1-D.PDF" H 2150 3350 60  0001 L CNN
 F 4 "MBR0540T1G" H 2150 3550 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 2150 4150 60  0001 L CNN "Manufacturer"
@@ -2959,7 +2962,7 @@ USB_D_P
 Text Label 8550 10550 0    50   ~ 0
 USB_D_N
 $Comp
-L power:GND #PWR0101
+L zglue-demo-board:GND #PWR0101
 U 1 1 5DE8E3C8
 P 12050 8500
 F 0 "#PWR0101" H 12050 8250 50  0001 C CNN
@@ -2970,7 +2973,7 @@ F 3 "" H 12050 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0102
+L zglue-demo-board:GND #PWR0102
 U 1 1 5DE8E49D
 P 10050 8500
 F 0 "#PWR0102" H 10050 8250 50  0001 C CNN
@@ -2981,12 +2984,12 @@ F 3 "" H 10050 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroFCCConnectors:WE_686115148922_FLIPPED J9
+L zglue-demo-board:WE_686115148922_FLIPPED J9
 U 1 1 5DB3423E
 P 15250 9050
 F 0 "J9" H 15150 8500 50  0000 L CNN
 F 1 "WE_686115148922_FLIPPED" H 15000 8400 50  0000 L CNN
-F 2 "antmicro-footprints:WE_686115148922_FLIPPED" H 13900 8400 50  0001 C CNN
+F 2 "zglue-demo-board-footprints:WE_686115148922_FLIPPED" H 13900 8400 50  0001 C CNN
 F 3 "https://katalog.we-online.com/em/datasheet/686115148922.pdf" H 14750 8300 50  0001 C CNN
 F 4 "686115148922" H 16200 8400 60  0001 L CNN "MPN"
 F 5 "Wurth Elektronik " H 15100 8400 60  0001 L CNN "Manufacturer"
@@ -3000,12 +3003,12 @@ CTRL_RST_FLASH_SOC_CS_3V3
 Text Label 6600 8250 0    50   ~ 0
 CTRL_RST_FLASH_SOC_CS_3V3
 $Comp
-L antmicroPMICVoltageRegulatorsLinear:MCP1700T-3302E_TT U1
+L zglue-demo-board:MCP1700T-3302E_TT U1
 U 1 1 5DD3D3B5
 P 9600 6300
 F 0 "U1" H 9600 6587 60  0000 C CNN
 F 1 "MCP1700T-3302E_TT" H 9600 6481 60  0000 C CNN
-F 2 "antmicro-footprints:SOT-23-3" H 9800 6500 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:SOT-23-3" H 9800 6500 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 9800 6600 60  0001 L CNN
 F 4 "MCP1700T-3302E/TT" H 9800 6800 60  0001 L CNN "MPN"
 F 5 "Microchip Technology" H 9800 7400 60  0001 L CNN "Manufacturer"
@@ -3015,12 +3018,12 @@ $EndComp
 Wire Wire Line
 	9900 6300 10700 6300
 $Comp
-L antmicroCapacitors0603:C_1u_0603 C4
+L zglue-demo-board:C_1u_0603 C4
 U 1 1 5DD84060
 P 8600 6550
 F 0 "C4" H 8715 6595 60  0000 L CNN
 F 1 "C_1u_0603" H 8600 6400 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 8800 6750 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0603-cap" H 8800 6750 60  0001 L CNN
 F 3 "" H 8600 6550 50  0001 C CNN
 F 4 "WALSIN" H 8800 6950 60  0001 L CNN "Manufacturer"
 F 5 "0603X105K160CT" H 8800 6850 60  0001 L CNN "MPN"
@@ -3033,12 +3036,12 @@ Wire Wire Line
 Wire Wire Line
 	10700 6300 10700 6400
 $Comp
-L antmicroCapacitors0603:C_1u_0603 C5
+L zglue-demo-board:C_1u_0603 C5
 U 1 1 5DDC8C57
 P 10700 6550
 F 0 "C5" H 10815 6595 60  0000 L CNN
 F 1 "C_1u_0603" H 10700 6400 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 10900 6750 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0603-cap" H 10900 6750 60  0001 L CNN
 F 3 "" H 10700 6550 50  0001 C CNN
 F 4 "WALSIN" H 10900 6950 60  0001 L CNN "Manufacturer"
 F 5 "0603X105K160CT" H 10900 6850 60  0001 L CNN "MPN"
@@ -3047,12 +3050,12 @@ F 6 "1u" H 10815 6497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMemory:93LC56CT-IMC U5
+L zglue-demo-board:93LC56CT-IMC U5
 U 1 1 5DE12FBA
 P 1850 9450
 F 0 "U5" H 1850 9817 50  0000 C CNN
 F 1 "93LC56CT-IMC" H 1850 9726 50  0000 C CNN
-F 2 "antmicro-footprints:DFN-8_2x3mm" H 1450 9600 50  0001 C CNN
+F 2 "zglue-demo-board-footprints:DFN-8_2x3mm" H 1450 9600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf" H 1850 9450 50  0001 C CNN
 	1    1850 9450
 	1    0    0    -1  
@@ -3060,12 +3063,12 @@ $EndComp
 Text Notes 3250 850  0    79   ~ 16
 Voltage level selection
 $Comp
-L antmicroMechanicalParts:antmicro_logo N1
+L zglue-demo-board:antmicro_logo N1
 U 1 1 5DEA001B
 P 12450 10200
 F 0 "N1" H 12500 10461 50  0001 C CNN
 F 1 "antmicro_logo" H 12500 10462 50  0001 C CNN
-F 2 "antmicro-footprints:antmicro-logo_scaled_20mm" H 12350 10450 50  0001 C CNN
+F 2 "zglue-demo-board-footprints:antmicro-logo" H 12350 10450 50  0001 C CNN
 F 3 "" H 12450 10550 50  0001 C CNN
 	1    12450 10200
 	1    0    0    -1  
@@ -3109,7 +3112,7 @@ DONE
 Text Label 3950 5700 0    50   ~ 0
 3V3_SYS
 $Comp
-L power:GND #PWR014
+L zglue-demo-board:GND #PWR014
 U 1 1 5DF0D91A
 P 3900 5800
 F 0 "#PWR014" H 3900 5550 50  0001 C CNN
@@ -3122,12 +3125,12 @@ $EndComp
 Text Notes 3900 5350 0    79   ~ 16
 QSPI flash programming header
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D6
+L zglue-demo-board:LG_L29K-G2J1-24-Z D6
 U 1 1 5DB63A8F
 P 7750 6450
 F 0 "D6" V 7647 6628 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" V 7753 6628 60  0001 L CNN
-F 2 "antmicro-footprints:LED_0603" H 7950 6650 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:LED_0603" H 7950 6650 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 7950 6750 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 7950 6950 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 7950 7550 60  0001 L CNN "Manufacturer"
@@ -3141,7 +3144,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 6050 7350 6050
 $Comp
-L power:GND #PWR013
+L zglue-demo-board:GND #PWR013
 U 1 1 5DBAD57D
 P 7750 7000
 F 0 "#PWR013" H 7750 6750 50  0001 C CNN
@@ -3154,12 +3157,12 @@ $EndComp
 Wire Wire Line
 	7750 6550 7750 6650
 $Comp
-L antmicroResistors0402:R_470R_0402 R34
+L zglue-demo-board:R_470R_0402 R34
 U 1 1 5DBF4317
 P 7750 6800
 F 0 "R34" V 7705 6870 60  0000 L CNN
 F 1 "R_470R_0402" H 7750 6650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7950 7000 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 7950 7000 60  0001 L CNN
 F 3 "" H 7750 6800 50  0001 C CNN
 F 4 "VISHAY" H 7950 7200 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402470RFKED." H 7950 7100 60  0001 L CNN "MPN"
@@ -3170,12 +3173,12 @@ $EndComp
 Wire Wire Line
 	7750 6950 7750 7000
 $Comp
-L antmicroTactileSwitches:EVQPUA02K S1
+L zglue-demo-board:EVQPUA02K S1
 U 1 1 5DC9801E
 P 12850 850
 F 0 "S1" H 12850 1147 60  0000 C CNN
 F 1 "EVQPUA02K" H 12850 1041 60  0000 C CNN
-F 2 "antmicro-footprints:Panasonic_EVQPUJ_EVQPUA" H 13050 1050 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Panasonic_EVQPUJ_EVQPUA" H 13050 1050 60  0001 L CNN
 F 3 "" H 13050 1150 60  0001 L CNN
 F 4 "EVQPUA02K" H 13050 1350 60  0001 L CNN "MPN"
 F 5 "Panasonic" H 13050 1950 60  0001 L CNN "Manufacturer"
@@ -3189,12 +3192,12 @@ Wire Wire Line
 Wire Wire Line
 	13550 850  13050 850 
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D9
+L zglue-demo-board:LG_L29K-G2J1-24-Z D9
 U 1 1 5DD72331
 P 6600 10400
 F 0 "D9" V 6497 10578 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" V 6603 10578 60  0001 L CNN
-F 2 "antmicro-footprints:LED_0603" H 6800 10600 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:LED_0603" H 6800 10600 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 6800 10700 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 6800 10900 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 6800 11500 60  0001 L CNN "Manufacturer"
@@ -3202,12 +3205,12 @@ F 5 "OSRAM Opto Semiconductors Inc." H 6800 11500 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_330R_0402 R37
+L zglue-demo-board:R_330R_0402 R37
 U 1 1 5DE02EF3
 P 6600 10750
 F 0 "R37" V 6555 10820 60  0000 L CNN
 F 1 "R_330R_0402" H 6600 10600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6800 10950 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6800 10950 60  0001 L CNN
 F 3 "" H 6600 10750 50  0001 C CNN
 F 4 "MULTICOMP" H 6800 11150 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 6800 11050 60  0001 L CNN "MPN"
@@ -3218,12 +3221,12 @@ $EndComp
 Text Label 6100 10200 0    50   ~ 0
 3V3_SYS
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D11
+L zglue-demo-board:LG_L29K-G2J1-24-Z D11
 U 1 1 5DE05551
 P 7300 10400
 F 0 "D11" V 7197 10578 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" V 7303 10578 60  0001 L CNN
-F 2 "antmicro-footprints:LED_0603" H 7500 10600 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:LED_0603" H 7500 10600 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 7500 10700 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 7500 10900 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 7500 11500 60  0001 L CNN "Manufacturer"
@@ -3231,12 +3234,12 @@ F 5 "OSRAM Opto Semiconductors Inc." H 7500 11500 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_330R_0402 R39
+L zglue-demo-board:R_330R_0402 R39
 U 1 1 5DE0555B
 P 7300 10750
 F 0 "R39" V 7255 10820 60  0000 L CNN
 F 1 "R_330R_0402" H 7300 10600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7500 10950 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 7500 10950 60  0001 L CNN
 F 3 "" H 7300 10750 50  0001 C CNN
 F 4 "MULTICOMP" H 7500 11150 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 7500 11050 60  0001 L CNN "MPN"
@@ -3245,12 +3248,12 @@ F 6 "330R" V 7353 10820 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D13
+L zglue-demo-board:LG_L29K-G2J1-24-Z D13
 U 1 1 5DE4C7B3
 P 7950 10400
 F 0 "D13" V 7847 10578 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" V 7953 10578 60  0001 L CNN
-F 2 "antmicro-footprints:LED_0603" H 8150 10600 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:LED_0603" H 8150 10600 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 8150 10700 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 8150 10900 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 8150 11500 60  0001 L CNN "Manufacturer"
@@ -3258,12 +3261,12 @@ F 5 "OSRAM Opto Semiconductors Inc." H 8150 11500 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_330R_0402 R41
+L zglue-demo-board:R_330R_0402 R41
 U 1 1 5DE4C7BD
 P 7950 10750
 F 0 "R41" V 7905 10820 60  0000 L CNN
 F 1 "R_330R_0402" H 7950 10600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8150 10950 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 8150 10950 60  0001 L CNN
 F 3 "" H 7950 10750 50  0001 C CNN
 F 4 "MULTICOMP" H 8150 11150 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 8150 11050 60  0001 L CNN "MPN"
@@ -3272,12 +3275,12 @@ F 6 "330R" V 8003 10820 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D10
+L zglue-demo-board:LG_L29K-G2J1-24-Z D10
 U 1 1 5DE93A25
 P 7250 9150
 F 0 "D10" V 7147 9328 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" V 7253 9328 60  0001 L CNN
-F 2 "antmicro-footprints:LED_0603" H 7450 9350 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:LED_0603" H 7450 9350 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 7450 9450 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 7450 9650 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 7450 10250 60  0001 L CNN "Manufacturer"
@@ -3285,12 +3288,12 @@ F 5 "OSRAM Opto Semiconductors Inc." H 7450 10250 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_330R_0402 R38
+L zglue-demo-board:R_330R_0402 R38
 U 1 1 5DE93A2F
 P 7250 9500
 F 0 "R38" V 7205 9570 60  0000 L CNN
 F 1 "R_330R_0402" H 7250 9350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 7450 9700 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 7450 9700 60  0001 L CNN
 F 3 "" H 7250 9500 50  0001 C CNN
 F 4 "MULTICOMP" H 7450 9900 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 7450 9800 60  0001 L CNN "MPN"
@@ -3299,12 +3302,12 @@ F 6 "330R" V 7303 9570 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D12
+L zglue-demo-board:LG_L29K-G2J1-24-Z D12
 U 1 1 5DEDAC97
 P 7950 9150
 F 0 "D12" V 7847 9328 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" V 7953 9328 60  0001 L CNN
-F 2 "antmicro-footprints:LED_0603" H 8150 9350 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:LED_0603" H 8150 9350 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 8150 9450 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 8150 9650 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 8150 10250 60  0001 L CNN "Manufacturer"
@@ -3312,12 +3315,12 @@ F 5 "OSRAM Opto Semiconductors Inc." H 8150 10250 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_330R_0402 R40
+L zglue-demo-board:R_330R_0402 R40
 U 1 1 5DEDACA1
 P 7950 9500
 F 0 "R40" V 7905 9570 60  0000 L CNN
 F 1 "R_330R_0402" H 7950 9350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8150 9700 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 8150 9700 60  0001 L CNN
 F 3 "" H 7950 9500 50  0001 C CNN
 F 4 "MULTICOMP" H 8150 9900 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 8150 9800 60  0001 L CNN "MPN"
@@ -3326,12 +3329,12 @@ F 6 "330R" V 8003 9570 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D7
+L zglue-demo-board:LG_L29K-G2J1-24-Z D7
 U 1 1 5DF21F29
 P 8750 8000
 F 0 "D7" V 8647 8178 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" V 8753 8178 60  0001 L CNN
-F 2 "antmicro-footprints:LED_0603" H 8950 8200 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:LED_0603" H 8950 8200 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 8950 8300 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 8950 8500 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 8950 9100 60  0001 L CNN "Manufacturer"
@@ -3339,12 +3342,12 @@ F 5 "OSRAM Opto Semiconductors Inc." H 8950 9100 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_330R_0402 R35
+L zglue-demo-board:R_330R_0402 R35
 U 1 1 5DF21F33
 P 8750 8350
 F 0 "R35" V 8705 8420 60  0000 L CNN
 F 1 "R_330R_0402" H 8750 8200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8950 8550 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 8950 8550 60  0001 L CNN
 F 3 "" H 8750 8350 50  0001 C CNN
 F 4 "MULTICOMP" H 8950 8750 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 8950 8650 60  0001 L CNN "MPN"
@@ -3389,12 +3392,12 @@ PROC_OUT_2
 Text Label 8000 8500 0    50   ~ 0
 CTRL_OUT
 $Comp
-L antmicroLEDIndicationDiscrete:LG_L29K-G2J1-24-Z D8
+L zglue-demo-board:LG_L29K-G2J1-24-Z D8
 U 1 1 5E4C9222
 P 6600 9150
 F 0 "D8" V 6497 9328 60  0000 L CNN
 F 1 "LG_L29K-G2J1-24-Z" V 6603 9328 60  0001 L CNN
-F 2 "antmicro-footprints:LED_0603" H 6800 9350 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:LED_0603" H 6800 9350 60  0001 L CNN
 F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 6800 9450 60  0001 L CNN
 F 4 "LG L29K-G2J1-24-Z" H 6800 9650 60  0001 L CNN "MPN"
 F 5 "OSRAM Opto Semiconductors Inc." H 6800 10250 60  0001 L CNN "Manufacturer"
@@ -3402,12 +3405,12 @@ F 5 "OSRAM Opto Semiconductors Inc." H 6800 10250 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_330R_0402 R36
+L zglue-demo-board:R_330R_0402 R36
 U 1 1 5E4C922C
 P 6600 9500
 F 0 "R36" V 6555 9570 60  0000 L CNN
 F 1 "R_330R_0402" H 6600 9350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6800 9700 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 6800 9700 60  0001 L CNN
 F 3 "" H 6600 9500 50  0001 C CNN
 F 4 "MULTICOMP" H 6800 9900 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 6800 9800 60  0001 L CNN "MPN"
@@ -3452,12 +3455,12 @@ Wire Wire Line
 Text Label 8000 7800 0    50   ~ 0
 3V3_SYS
 $Comp
-L antmicroLogicTranslatorsLevelShifters:NTB0104BQ U7
+L zglue-demo-board:NTB0104BQ U7
 U 1 1 5DD2356D
 P 11450 4450
 F 0 "U7" H 10900 4100 50  0000 C CNN
 F 1 "NTB0104BQ" H 11050 4000 50  0000 C CNN
-F 2 "antmicro-footprints:QDHVQFN14" H 12500 5100 50  0001 C CNN
+F 2 "zglue-demo-board-footprints:QDHVQFN14" H 12500 5100 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/NTB0104BQ%2C115-NXP-Semiconductors-datasheet-12519051.pdf" H 12100 5200 50  0001 C CNN
 F 4 "NTB0104BQ" H 11450 4986 50  0001 C CNN "MPN"
 F 5 "NXP Semiconductors" H 11450 4987 50  0001 C CNN "Manufacturer"
@@ -3473,7 +3476,7 @@ I2C_1_SCL
 Text Label 10000 4550 0    50   ~ 0
 I2C_1_SDA
 $Comp
-L power:GND #PWR0104
+L zglue-demo-board:GND #PWR0104
 U 1 1 5DD2673A
 P 11400 4950
 F 0 "#PWR0104" H 11400 4700 50  0001 C CNN
@@ -3518,12 +3521,12 @@ Wire Wire Line
 Wire Wire Line
 	12600 4550 11850 4550
 $Comp
-L antmicroResistors0402:R_0R_0402 R44
+L zglue-demo-board:R_0R_0402 R44
 U 1 1 5E13D591
 P 10800 4250
 F 0 "R44" H 10500 4300 60  0000 C CNN
 F 1 "R_0R_0402" H 10800 4100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 11000 4450 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 11000 4450 60  0001 L CNN
 F 3 "" H 10800 4250 50  0001 C CNN
 F 4 "PANASONIC" H 11000 4650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 11000 4550 60  0001 L CNN "MPN"
@@ -3540,12 +3543,12 @@ Wire Wire Line
 Wire Wire Line
 	11050 4550 10950 4550
 $Comp
-L antmicroResistors0402:R_0R_0402 R45
+L zglue-demo-board:R_0R_0402 R45
 U 1 1 5E32ECFA
 P 10800 4350
 F 0 "R45" H 10500 4400 60  0000 C CNN
 F 1 "R_0R_0402" H 10800 4200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 11000 4550 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 11000 4550 60  0001 L CNN
 F 3 "" H 10800 4350 50  0001 C CNN
 F 4 "PANASONIC" H 11000 4750 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 11000 4650 60  0001 L CNN "MPN"
@@ -3554,12 +3557,12 @@ F 6 "0R" H 11000 4400 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R46
+L zglue-demo-board:R_0R_0402 R46
 U 1 1 5E382805
 P 10800 4450
 F 0 "R46" H 10500 4500 60  0000 C CNN
 F 1 "R_0R_0402" H 10800 4300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 11000 4650 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 11000 4650 60  0001 L CNN
 F 3 "" H 10800 4450 50  0001 C CNN
 F 4 "PANASONIC" H 11000 4850 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 11000 4750 60  0001 L CNN "MPN"
@@ -3568,12 +3571,12 @@ F 6 "0R" H 11000 4500 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R47
+L zglue-demo-board:R_0R_0402 R47
 U 1 1 5E3D6312
 P 10800 4550
 F 0 "R47" H 10500 4600 60  0000 C CNN
 F 1 "R_0R_0402" H 10800 4400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 11000 4750 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 11000 4750 60  0001 L CNN
 F 3 "" H 10800 4550 50  0001 C CNN
 F 4 "PANASONIC" H 11000 4950 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 11000 4850 60  0001 L CNN "MPN"
@@ -3590,12 +3593,12 @@ I2C_1_SCL_3V3
 Text Label 12000 4550 0    50   ~ 0
 I2C_1_SDA_3V3
 $Comp
-L antmicroResistors0402:R_0R_0402 R42
+L zglue-demo-board:R_0R_0402 R42
 U 1 1 5E780DAD
 P 3350 4150
 F 0 "R42" H 3150 4200 60  0000 C CNN
 F 1 "R_0R_0402" H 3350 4000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3550 4350 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 3550 4350 60  0001 L CNN
 F 3 "" H 3350 4150 50  0001 C CNN
 F 4 "PANASONIC" H 3550 4550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 3550 4450 60  0001 L CNN "MPN"
@@ -3604,12 +3607,12 @@ F 6 "0R" H 3550 4200 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R43
+L zglue-demo-board:R_0R_0402 R43
 U 1 1 5E780F0D
 P 3350 4250
 F 0 "R43" H 3150 4300 60  0000 C CNN
 F 1 "R_0R_0402" H 3350 4100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3550 4450 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 3550 4450 60  0001 L CNN
 F 3 "" H 3350 4250 50  0001 C CNN
 F 4 "PANASONIC" H 3550 4650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 3550 4550 60  0001 L CNN "MPN"
@@ -3658,12 +3661,12 @@ NoConn ~ 2900 4650
 NoConn ~ 2900 4550
 NoConn ~ 2900 4350
 $Comp
-L antmicroLogicTranslatorsLevelShifters:NTB0104BQ U8
+L zglue-demo-board:NTB0104BQ U8
 U 1 1 5F6CFE18
 P 14400 4400
 F 0 "U8" H 13850 4050 50  0000 C CNN
 F 1 "NTB0104BQ" H 14000 3950 50  0000 C CNN
-F 2 "antmicro-footprints:QDHVQFN14" H 15450 5050 50  0001 C CNN
+F 2 "zglue-demo-board-footprints:QDHVQFN14" H 15450 5050 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/NTB0104BQ%2C115-NXP-Semiconductors-datasheet-12519051.pdf" H 15050 5150 50  0001 C CNN
 F 4 "NTB0104BQ" H 14400 4936 50  0001 C CNN "MPN"
 F 5 "NXP Semiconductors" H 14400 4937 50  0001 C CNN "Manufacturer"
@@ -3671,7 +3674,7 @@ F 5 "NXP Semiconductors" H 14400 4937 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0107
+L zglue-demo-board:GND #PWR0107
 U 1 1 5F6CFE23
 P 14350 4900
 F 0 "#PWR0107" H 14350 4650 50  0001 C CNN
@@ -3710,12 +3713,12 @@ Wire Wire Line
 Wire Wire Line
 	15550 4300 14800 4300
 $Comp
-L antmicroResistors0402:R_0R_0402 R48
+L zglue-demo-board:R_0R_0402 R48
 U 1 1 5F6CFE3E
 P 13750 4200
 F 0 "R48" H 13450 4250 60  0000 C CNN
 F 1 "R_0R_0402" H 13750 4050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13950 4400 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 13950 4400 60  0001 L CNN
 F 3 "" H 13750 4200 50  0001 C CNN
 F 4 "PANASONIC" H 13950 4600 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 13950 4500 60  0001 L CNN "MPN"
@@ -3728,12 +3731,12 @@ Wire Wire Line
 Wire Wire Line
 	14000 4300 13900 4300
 $Comp
-L antmicroResistors0402:R_0R_0402 R49
+L zglue-demo-board:R_0R_0402 R49
 U 1 1 5F6CFE4C
 P 13750 4300
 F 0 "R49" H 13450 4350 60  0000 C CNN
 F 1 "R_0R_0402" H 13750 4150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 13950 4500 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 13950 4500 60  0001 L CNN
 F 3 "" H 13750 4300 50  0001 C CNN
 F 4 "PANASONIC" H 13950 4700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 13950 4600 60  0001 L CNN "MPN"
@@ -3769,12 +3772,12 @@ Wire Wire Line
 Wire Wire Line
 	6750 4400 6750 4550
 $Comp
-L antmicroResistors0402:R_0R_0402 R52
+L zglue-demo-board:R_0R_0402 R52
 U 1 1 5FB77072
 P 12300 5800
 F 0 "R52" H 12100 5850 60  0000 C CNN
 F 1 "R_0R_0402" H 12300 5650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12500 6000 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 12500 6000 60  0001 L CNN
 F 3 "" H 12300 5800 50  0001 C CNN
 F 4 "PANASONIC" H 12500 6200 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 12500 6100 60  0001 L CNN "MPN"
@@ -3783,12 +3786,12 @@ F 6 "0R" H 12500 5850 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R53
+L zglue-demo-board:R_0R_0402 R53
 U 1 1 5FB77220
 P 12300 5950
 F 0 "R53" H 12100 6000 60  0000 C CNN
 F 1 "R_0R_0402" H 12300 5800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12500 6150 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 12500 6150 60  0001 L CNN
 F 3 "" H 12300 5950 50  0001 C CNN
 F 4 "PANASONIC" H 12500 6350 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 12500 6250 60  0001 L CNN "MPN"
@@ -3809,45 +3812,45 @@ RPI_SDA
 Text Label 11450 5950 0    50   ~ 0
 RPI_SCL
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP20
+L zglue-demo-board:TP_SMD1MM TP20
 U 1 1 600E4567
 P 14000 7000
 F 0 "TP20" V 14000 6950 50  0000 R CNN
 F 1 "TP_SMD1MM" H 14000 6900 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 14200 7200 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 14200 7200 60  0001 L CNN
 F 3 "" H 14200 7300 60  0001 L CNN
 	1    14000 7000
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP21
+L zglue-demo-board:TP_SMD1MM TP21
 U 1 1 600E4BC1
 P 14000 7100
 F 0 "TP21" V 14000 7050 50  0000 R CNN
 F 1 "TP_SMD1MM" H 14000 7000 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 14200 7300 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 14200 7300 60  0001 L CNN
 F 3 "" H 14200 7400 60  0001 L CNN
 	1    14000 7100
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP22
+L zglue-demo-board:TP_SMD1MM TP22
 U 1 1 600E51B4
 P 14000 9050
 F 0 "TP22" V 14000 9000 50  0000 R CNN
 F 1 "TP_SMD1MM" H 14000 8950 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 14200 9250 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 14200 9250 60  0001 L CNN
 F 3 "" H 14200 9350 60  0001 L CNN
 	1    14000 9050
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP23
+L zglue-demo-board:TP_SMD1MM TP23
 U 1 1 600E5318
 P 14000 9150
 F 0 "TP23" V 14000 9100 50  0000 R CNN
 F 1 "TP_SMD1MM" H 14000 9050 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 14200 9350 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 14200 9350 60  0001 L CNN
 F 3 "" H 14200 9450 60  0001 L CNN
 	1    14000 9150
 	0    1    1    0   
@@ -3857,12 +3860,12 @@ CAM_SCL_IN
 Text Label 12700 5950 0    50   ~ 0
 CAM_SDA_IN
 $Comp
-L antmicroResistors0402:R_0R_0402 R54
+L zglue-demo-board:R_0R_0402 R54
 U 1 1 600E804C
 P 12300 6200
 F 0 "R54" H 12100 6250 60  0000 C CNN
 F 1 "R_0R_0402" H 12300 6050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12500 6400 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 12500 6400 60  0001 L CNN
 F 3 "" H 12300 6200 50  0001 C CNN
 F 4 "PANASONIC" H 12500 6600 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 12500 6500 60  0001 L CNN "MPN"
@@ -3871,12 +3874,12 @@ F 6 "0R" H 12500 6250 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R55
+L zglue-demo-board:R_0R_0402 R55
 U 1 1 600E8056
 P 12300 6350
 F 0 "R55" H 12100 6400 60  0000 C CNN
 F 1 "R_0R_0402" H 12300 6200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12500 6550 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 12500 6550 60  0001 L CNN
 F 3 "" H 12300 6350 50  0001 C CNN
 F 4 "PANASONIC" H 12500 6750 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 12500 6650 60  0001 L CNN "MPN"
@@ -3901,12 +3904,12 @@ CAM_SCL_OUT
 Text Label 12650 6200 0    50   ~ 0
 CAM_SDA_OUT
 $Comp
-L antmicroResistors0402:R_0R_0402 R56
+L zglue-demo-board:R_0R_0402 R56
 U 1 1 601A6C11
 P 12300 6650
 F 0 "R56" H 12100 6700 60  0000 C CNN
 F 1 "R_0R_0402" H 12300 6500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12500 6850 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 12500 6850 60  0001 L CNN
 F 3 "" H 12300 6650 50  0001 C CNN
 F 4 "PANASONIC" H 12500 7050 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 12500 6950 60  0001 L CNN "MPN"
@@ -3915,12 +3918,12 @@ F 6 "0R" H 12500 6700 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R57
+L zglue-demo-board:R_0R_0402 R57
 U 1 1 601A6C1B
 P 12300 6800
 F 0 "R57" H 12100 6850 60  0000 C CNN
 F 1 "R_0R_0402" H 12300 6650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12500 7000 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 12500 7000 60  0001 L CNN
 F 3 "" H 12300 6800 50  0001 C CNN
 F 4 "PANASONIC" H 12500 7200 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 12500 7100 60  0001 L CNN "MPN"
@@ -3945,12 +3948,12 @@ I2C_1_SDA_3V3
 Text Label 11450 6800 0    50   ~ 0
 I2C_1_SCL_3V3
 $Comp
-L antmicroResistors0402:R_0R_0402 R50
+L zglue-demo-board:R_0R_0402 R50
 U 1 1 602C5D33
 P 12300 5400
 F 0 "R50" H 12100 5450 60  0000 C CNN
 F 1 "R_0R_0402" H 12300 5250 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12500 5600 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 12500 5600 60  0001 L CNN
 F 3 "" H 12300 5400 50  0001 C CNN
 F 4 "PANASONIC" H 12500 5800 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 12500 5700 60  0001 L CNN "MPN"
@@ -3959,12 +3962,12 @@ F 6 "0R" H 12500 5450 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R51
+L zglue-demo-board:R_0R_0402 R51
 U 1 1 602C5D3D
 P 12300 5550
 F 0 "R51" H 12100 5600 60  0000 C CNN
 F 1 "R_0R_0402" H 12300 5400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 12500 5750 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 12500 5750 60  0001 L CNN
 F 3 "" H 12300 5550 50  0001 C CNN
 F 4 "PANASONIC" H 12500 5950 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 12500 5850 60  0001 L CNN "MPN"
@@ -3991,12 +3994,12 @@ I2C_0_SDA_3V3
 Wire Wire Line
 	11400 3950 10750 3950
 $Comp
-L antmicroLogicTranslatorsLevelShifters:NTS0104BQ U2
+L zglue-demo-board:NTS0104BQ U2
 U 1 1 5DE18FC3
 P 6800 1750
 F 0 "U2" H 6300 1450 50  0000 C CNN
 F 1 "NTS0104BQ" H 6300 1350 50  0000 C CNN
-F 2 "antmicro-footprints:QDHVQFN14" H 7850 2400 50  0001 C CNN
+F 2 "zglue-demo-board-footprints:QDHVQFN14" H 7850 2400 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/NTS0104BQ%2C115-NXP-Semiconductors-datasheet-11805065.pdf" H 7450 2500 50  0001 C CNN
 F 4 "NTS0104BQ" H 6800 2289 50  0001 C CNN "MPN"
 F 5 "NXP Semiconductors" H 6800 2290 50  0001 C CNN "Manufacturer"
@@ -4004,12 +4007,12 @@ F 5 "NXP Semiconductors" H 6800 2290 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroLogicTranslatorsLevelShifters:NTS0104BQ U3
+L zglue-demo-board:NTS0104BQ U3
 U 1 1 5DE1ADF0
 P 6800 3400
 F 0 "U3" H 6300 3100 50  0000 C CNN
 F 1 "NTS0104BQ" H 6300 3000 50  0000 C CNN
-F 2 "antmicro-footprints:QDHVQFN14" H 7850 4050 50  0001 C CNN
+F 2 "zglue-demo-board-footprints:QDHVQFN14" H 7850 4050 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/NTS0104BQ%2C115-NXP-Semiconductors-datasheet-11805065.pdf" H 7450 4150 50  0001 C CNN
 F 4 "NTS0104BQ" H 6800 3939 50  0001 C CNN "MPN"
 F 5 "NXP Semiconductors" H 6800 3940 50  0001 C CNN "Manufacturer"
@@ -4017,12 +4020,12 @@ F 5 "NXP Semiconductors" H 6800 3940 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroLogicTranslatorsLevelShifters:NTS0104BQ U4
+L zglue-demo-board:NTS0104BQ U4
 U 1 1 5DE1BA96
 P 6800 5000
 F 0 "U4" H 6300 4700 50  0000 C CNN
 F 1 "NTS0104BQ" H 6300 4600 50  0000 C CNN
-F 2 "antmicro-footprints:QDHVQFN14" H 7850 5650 50  0001 C CNN
+F 2 "zglue-demo-board-footprints:QDHVQFN14" H 7850 5650 50  0001 C CNN
 F 3 "https://datasheet.octopart.com/NTS0104BQ%2C115-NXP-Semiconductors-datasheet-11805065.pdf" H 7450 5750 50  0001 C CNN
 F 4 "NTS0104BQ" H 6800 5539 50  0001 C CNN "MPN"
 F 5 "NXP Semiconductors" H 6800 5540 50  0001 C CNN "Manufacturer"
@@ -4060,12 +4063,12 @@ Wire Wire Line
 Wire Wire Line
 	1850 4950 1000 4950
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:3220-10-0100-00 J1
+L zglue-demo-board:3220-10-0100-00 J1
 U 1 1 5E6FE883
 P 4750 5900
 F 0 "J1" H 4750 6347 60  0000 C CNN
 F 1 "3220-10-0100-00" H 4750 6241 60  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_2x5_P1.27mm_Drill.7mm" H 4950 6100 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:PinHeader_2x5_P1.27mm_Drill.7mm" H 4950 6100 60  0001 L CNN
 F 3 "http://cnctech.us/pdfs/3220-XX-0100-00.pdf" V 4950 6200 60  0001 L CNN
 F 4 "3220-10-0100-00" H 4950 6400 60  0001 L CNN "MPN"
 F 5 "CNC Tech" H 4950 7000 60  0001 L CNN "Manufacturer"
@@ -4073,12 +4076,12 @@ F 5 "CNC Tech" H 4950 7000 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:3220-10-0100-00 J3
+L zglue-demo-board:3220-10-0100-00 J3
 U 1 1 5E70BB15
 P 12100 9450
 F 0 "J3" H 12100 9897 60  0000 C CNN
 F 1 "3220-10-0100-00" H 12100 9791 60  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_2x5_P1.27mm_Drill.7mm" H 12300 9650 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:PinHeader_2x5_P1.27mm_Drill.7mm" H 12300 9650 60  0001 L CNN
 F 3 "http://cnctech.us/pdfs/3220-XX-0100-00.pdf" V 12300 9750 60  0001 L CNN
 F 4 "3220-10-0100-00" H 12300 9950 60  0001 L CNN "MPN"
 F 5 "CNC Tech" H 12300 10550 60  0001 L CNN "Manufacturer"
@@ -4096,12 +4099,12 @@ E_PROC_SO_3V3
 Text Label 1050 4750 0    50   ~ 0
 E_PROC_SI_3V3
 $Comp
-L antmicroResistors0402:R_0R_0402 R58
+L zglue-demo-board:R_0R_0402 R58
 U 1 1 5DEF0282
 P 4750 4150
 F 0 "R58" H 4550 4200 60  0000 C CNN
 F 1 "R_0R_0402" H 4750 4000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4950 4350 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 4950 4350 60  0001 L CNN
 F 3 "" H 4750 4150 50  0001 C CNN
 F 4 "PANASONIC" H 4950 4550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4950 4450 60  0001 L CNN "MPN"
@@ -4110,12 +4113,12 @@ F 6 "0R" H 4950 4200 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R59
+L zglue-demo-board:R_0R_0402 R59
 U 1 1 5DEF05BB
 P 4750 4250
 F 0 "R59" H 4550 4300 60  0000 C CNN
 F 1 "R_0R_0402" H 4750 4100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4950 4450 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 4950 4450 60  0001 L CNN
 F 3 "" H 4750 4250 50  0001 C CNN
 F 4 "PANASONIC" H 4950 4650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4950 4550 60  0001 L CNN "MPN"
@@ -4132,23 +4135,23 @@ DBG_RX_3V3
 Text Label 5150 4150 0    50   ~ 0
 DBG_TX_3V3
 $Comp
-L antmicroMechanicalParts:oshw_logo N3
+L zglue-demo-board:oshw_logo N3
 U 1 1 5DE869F8
 P 8200 750
 F 0 "N3" H 8394 753 50  0000 L CNN
 F 1 "oshw_logo" H 8394 662 50  0000 L CNN
-F 2 "antmicro-footprints:oshw-logo" H 8220 510 50  0001 C CNN
+F 2 "zglue-demo-board-footprints:oshw-logo" H 8220 510 50  0001 C CNN
 F 3 "" H 8200 750 50  0001 C CNN
 	1    8200 750 
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:zglue_logo N2
+L zglue-demo-board:zglue_logo N2
 U 1 1 5DF9381C
 P 9000 750
 F 0 "N2" H 9194 753 50  0000 L CNN
 F 1 "zglue_logo" H 9194 662 50  0000 L CNN
-F 2 "antmicro-footprints:zglue-logo" H 9020 510 50  0001 C CNN
+F 2 "zglue-demo-board-footprints:zglue-logo" H 9020 510 50  0001 C CNN
 F 3 "" H 9000 750 50  0001 C CNN
 	1    9000 750 
 	1    0    0    -1  

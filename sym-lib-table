@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name zglue-demo-board-rescue)(type Legacy)(uri ${KIPRJMOD}/zglue-demo-board-rescue.lib)(options "")(descr ""))
+  (lib (name zglue-demo-board)(type Legacy)(uri ${KIPRJMOD}/lib/zglue-demo-board.lib)(options "")(descr ""))
 )
