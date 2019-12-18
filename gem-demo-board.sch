@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "zGlue Demo Board"
+Title "GEM Demo Board"
 Date ""
 Rev "1.1"
 Comp "Antmicro"
@@ -523,7 +523,6 @@ Wire Wire Line
 	11750 9550 11750 9650
 Wire Wire Line
 	11900 9650 11750 9650
-Connection ~ 11750 9650
 Text Label 1250 1100 0    50   ~ 0
 5V0_IN
 $Comp
@@ -1808,8 +1807,6 @@ F 5 "Murata Electronics North America" H 2050 9650 60  0001 L CNN "Manufacturer"
 	1    1850 8550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 8550 2100 8550
 Text Label 2250 8550 0    50   ~ 0
 VPLL
 $Comp
@@ -1883,8 +1880,6 @@ PROG_USB_D_N
 Text Label 2950 8600 0    50   ~ 0
 PROG_USB_D_P
 Wire Wire Line
-	2050 8000 2100 8000
-Wire Wire Line
 	2750 8550 2750 8100
 Wire Wire Line
 	2750 8100 4100 8100
@@ -1902,9 +1897,6 @@ F 6 "4u7" H 2615 8097 50  0000 L CNN "Val"
 	1    2500 8150
 	1    0    0    -1  
 $EndComp
-Connection ~ 2500 8000
-Wire Wire Line
-	2500 8000 4100 8000
 $Comp
 L zglue-demo-board:C_4u7_0402 C26
 U 1 1 5EC07A20
@@ -1919,9 +1911,6 @@ F 6 "4u7" H 2615 8647 50  0000 L CNN "Val"
 	1    2500 8700
 	1    0    0    -1  
 $EndComp
-Connection ~ 2500 8550
-Wire Wire Line
-	2500 8550 2750 8550
 $Comp
 L zglue-demo-board:C_100n_0402_6V3 C21
 U 1 1 5EC07BEB
@@ -1936,9 +1925,6 @@ F 6 "100n" H 2215 8097 50  0000 L CNN "Val"
 	1    2100 8150
 	1    0    0    -1  
 $EndComp
-Connection ~ 2100 8000
-Wire Wire Line
-	2100 8000 2500 8000
 $Comp
 L zglue-demo-board:C_100n_0402_6V3 C22
 U 1 1 5EC07DD9
@@ -1953,9 +1939,6 @@ F 6 "100n" H 2215 8647 50  0000 L CNN "Val"
 	1    2100 8700
 	1    0    0    -1  
 $EndComp
-Connection ~ 2100 8550
-Wire Wire Line
-	2100 8550 2500 8550
 $Comp
 L zglue-demo-board:GND #PWR037
 U 1 1 5EC081C1
@@ -2181,15 +2164,6 @@ Wire Wire Line
 Wire Wire Line
 	2400 6250 2400 6300
 Connection ~ 2000 6250
-Wire Wire Line
-	2400 6600 2000 6600
-Connection ~ 1150 6600
-Connection ~ 1550 6600
-Wire Wire Line
-	1550 6600 1150 6600
-Connection ~ 2000 6600
-Wire Wire Line
-	2000 6600 1550 6600
 $Comp
 L zglue-demo-board:0473460001 J10
 U 1 1 5F07CDA1
@@ -2315,7 +2289,6 @@ F 3 "" H 2000 7250 50  0001 C CNN
 	1    2000 7250
 	1    0    0    -1  
 $EndComp
-Connection ~ 2000 7250
 Text Label 1600 6900 0    50   ~ 0
 1V8_FTDI
 Wire Wire Line
@@ -2406,14 +2379,6 @@ Wire Wire Line
 Connection ~ 3450 9350
 Wire Wire Line
 	3450 9350 4100 9350
-Wire Wire Line
-	1900 10150 2300 10150
-Connection ~ 2300 10150
-Wire Wire Line
-	2300 10150 3150 10150
-Connection ~ 3150 10150
-Wire Wire Line
-	3150 10150 3450 10150
 $Comp
 L zglue-demo-board:ASFLMB-12.000MHZ-LC-T Y1
 U 1 1 5F54A817
@@ -2785,7 +2750,6 @@ Wire Wire Line
 	1500 10950 1200 10950
 Wire Wire Line
 	1200 10950 1200 10500
-Connection ~ 1500 10950
 $Comp
 L zglue-demo-board:FT4232HQ U6
 U 1 1 5DA53094
@@ -3062,17 +3026,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf" H 1850 9450 
 $EndComp
 Text Notes 3250 850  0    79   ~ 16
 Voltage level selection
-$Comp
-L zglue-demo-board:antmicro_logo N1
-U 1 1 5DEA001B
-P 12450 10200
-F 0 "N1" H 12500 10461 50  0001 C CNN
-F 1 "antmicro_logo" H 12500 10462 50  0001 C CNN
-F 2 "zglue-demo-board-footprints:antmicro-logo" H 12350 10450 50  0001 C CNN
-F 3 "" H 12450 10550 50  0001 C CNN
-	1    12450 10200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4550 5700 3900 5700
 Wire Wire Line
@@ -3356,14 +3309,6 @@ F 6 "330R" V 8803 8420 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7950 10200 7300 10200
-Connection ~ 6600 10200
-Wire Wire Line
-	6600 10200 6050 10200
-Connection ~ 7300 10200
-Wire Wire Line
-	7300 10200 6600 10200
-Wire Wire Line
 	7250 9250 7250 9350
 Wire Wire Line
 	7950 9250 7950 9350
@@ -3422,14 +3367,6 @@ Wire Wire Line
 	6600 9250 6600 9350
 Text Label 6000 8950 0    50   ~ 0
 3V3_SYS
-Wire Wire Line
-	7950 8950 7250 8950
-Connection ~ 7250 8950
-Connection ~ 6600 8950
-Wire Wire Line
-	6600 8950 7250 8950
-Wire Wire Line
-	6000 8950 6600 8950
 Wire Wire Line
 	6600 9650 5950 9650
 Wire Wire Line
@@ -4158,4 +4095,16 @@ F 3 "" H 9000 750 50  0001 C CNN
 $EndComp
 Text Label 13250 850  0    50   ~ 0
 VUSB
+Wire Wire Line
+	2050 8000 4100 8000
+Wire Wire Line
+	2050 8550 2750 8550
+Wire Wire Line
+	1150 6600 2400 6600
+Wire Wire Line
+	1900 10150 3450 10150
+Wire Wire Line
+	6050 10200 7950 10200
+Wire Wire Line
+	6000 8950 7950 8950
 $EndSCHEMATC
