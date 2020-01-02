@@ -781,19 +781,6 @@ F 3 "" H 9400 10900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9400 10850 9400 10900
-$Comp
-L zglue-demo-board:WE_686115148922 J8
-U 1 1 5DE5416C
-P 15250 7000
-F 0 "J8" H 15150 6450 50  0000 L CNN
-F 1 "WE_686115148922" H 15100 6350 50  0000 L CNN
-F 2 "zglue-demo-board-footprints:WE_686115148922" H 13900 6350 50  0001 C CNN
-F 3 "https://katalog.we-online.com/em/datasheet/686115148922.pdf" H 14750 6250 50  0001 C CNN
-F 4 "686115148922" H 16200 6350 60  0001 L CNN "MPN"
-F 5 "Wurth Elektronik " H 15100 6350 60  0001 L CNN "Manufacturer"
-	1    15250 7000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15050 6000 14900 6000
 Wire Wire Line
@@ -4107,4 +4094,17 @@ Wire Wire Line
 	6050 10200 7950 10200
 Wire Wire Line
 	6000 8950 7950 8950
+$Comp
+L zglue-demo-board:WE_686115148922_FLIPPED J8
+U 1 1 5E13C0CF
+P 15250 7000
+F 0 "J8" H 15150 6450 50  0000 L CNN
+F 1 "WE_686115148922_FLIPPED" H 15000 6350 50  0000 L CNN
+F 2 "zglue-demo-board-footprints:WE_686115148922_FLIPPED" H 13900 6350 50  0001 C CNN
+F 3 "https://katalog.we-online.com/em/datasheet/686115148922.pdf" H 14750 6250 50  0001 C CNN
+F 4 "686115148922" H 16200 6350 60  0001 L CNN "MPN"
+F 5 "Wurth Elektronik " H 15100 6350 60  0001 L CNN "Manufacturer"
+	1    15250 7000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
