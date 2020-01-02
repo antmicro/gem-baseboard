@@ -9339,7 +9339,7 @@
   (gr_text "GEM Baseboard" (at 46.600476 87.085) (layer F.Mask) (tstamp 5DDE340F)
     (effects (font (size 0.85 0.85) (thickness 0.18)))
   )
-  (gr_text "Rev. 1.1  11/2019" (at 47.835 88.66) (layer F.Cu) (tstamp 5DDE340C)
+  (gr_text "Rev. 1.2  01/2020" (at 47.835 88.66) (layer F.Cu) (tstamp 5DDE340C)
     (effects (font (size 0.85 0.85) (thickness 0.18)))
   )
   (gr_text "GEM Baseboard" (at 46.600476 87.085) (layer F.Cu) (tstamp 5DDE3409)
