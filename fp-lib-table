@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name lib)(type KiCad)(uri ${KIPRJMOD}/lib)(options "")(descr ""))
-  (lib (name zglue-demo-board-footprints)(type KiCad)(uri /home/jkrzyska/REPOSITORIES/antmicro-zglue-demo-board-hw/lib/gem-demo-board-footprints)(options "")(descr ""))
+  (lib (name gem-demo-board-footprints)(type KiCad)(uri ${KIPRJMOD}/lib/gem-demo-board-footprints)(options "")(descr ""))
 )

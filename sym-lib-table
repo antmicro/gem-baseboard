@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name zglue-demo-board)(type Legacy)(uri ${KIPRJMOD}/lib/gem-demo-board.lib)(options "")(descr ""))
+  (lib (name gem-demo-board)(type Legacy)(uri ${KIPRJMOD}/lib/gem-demo-board.lib)(options "")(descr ""))
 )
