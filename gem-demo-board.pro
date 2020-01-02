@@ -1,4 +1,4 @@
-update=Wed 20 Nov 2019 04:08:44 PM CET
+update=Thu 02 Jan 2020 09:07:51 GMT
 version=1
 last_client=kicad
 [general]
@@ -57,7 +57,7 @@ CopperTextThickness=0.3
 CopperTextItalic=0
 CopperTextUpright=1
 EdgeCutLineWidth=0.15
-CourtyardLineWidth=0
+CourtyardLineWidth=0.05
 OthersLineWidth=0.15
 OthersTextSizeV=1
 OthersTextSizeH=1
@@ -237,7 +237,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.125
+Clearance=0.12
 TrackWidth=0.15
 ViaDiameter=0.55
 ViaDrill=0.15

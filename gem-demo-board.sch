@@ -801,8 +801,6 @@ Wire Wire Line
 	14900 6900 14900 7600
 Connection ~ 14900 6900
 Wire Wire Line
-	15050 7000 14100 7000
-Wire Wire Line
 	15050 7100 14100 7100
 Wire Wire Line
 	15050 7200 14100 7200
@@ -866,8 +864,6 @@ Wire Wire Line
 Connection ~ 1800 3850
 Wire Wire Line
 	1400 3850 850  3850
-Text Label 14200 7000 0    50   ~ 0
-CAM_GPIO_IN
 Text Label 14200 7100 0    50   ~ 0
 CAM_CLK_IN
 Text Label 14200 7200 0    50   ~ 0
@@ -3629,9 +3625,9 @@ Wire Wire Line
 Text Label 13800 3900 0    50   ~ 0
 1V8_SYS
 Wire Wire Line
-	13600 4200 12850 4200
-Wire Wire Line
 	13600 4300 12850 4300
+Wire Wire Line
+	13600 4200 12850 4200
 Wire Wire Line
 	15550 4200 14800 4200
 Wire Wire Line
@@ -3674,9 +3670,9 @@ NoConn ~ 14000 4500
 NoConn ~ 14000 4400
 NoConn ~ 14800 4400
 NoConn ~ 14800 4500
-Text Label 12900 4200 0    50   ~ 0
-DBG_TX
 Text Label 12900 4300 0    50   ~ 0
+DBG_TX
+Text Label 12900 4200 0    50   ~ 0
 DBG_RX
 Text Label 15050 4300 0    50   ~ 0
 DBG_RX_3V3
@@ -4107,4 +4103,8 @@ F 5 "Wurth Elektronik " H 15100 6350 60  0001 L CNN "Manufacturer"
 	1    15250 7000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	15050 7000 14100 7000
+Text Label 14200 7000 0    50   ~ 0
+3V3_SYS
 $EndSCHEMATC
