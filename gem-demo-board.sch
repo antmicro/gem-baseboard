@@ -103,7 +103,7 @@ Text Label 11950 2800 0    50   ~ 0
 I2C_1_SDA
 Text Label 10350 3200 0    50   ~ 0
 VUSB
-Text Label 11950 3200 0    50   ~ 0
+Text Label 12300 3200 0    50   ~ 0
 3V3_SYS
 Text Label 11950 3000 0    50   ~ 0
 1V8_SYS
@@ -223,8 +223,6 @@ Wire Wire Line
 	11700 3000 12500 3000
 Wire Wire Line
 	11700 3100 12500 3100
-Wire Wire Line
-	11700 3200 12500 3200
 Text Notes 10350 700  0    79   ~ 16
 Baseboard connectors
 Wire Wire Line
@@ -701,12 +699,12 @@ $EndComp
 $Comp
 L zglue-demo-board:TP_SMD1MM TP4
 U 1 1 5DD625D6
-P 12600 3200
-F 0 "TP4" V 12600 3150 50  0000 R CNN
-F 1 "TP_SMD1MM" H 12600 3100 50  0001 C CNN
-F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 12800 3400 60  0001 L CNN
-F 3 "" H 12800 3500 60  0001 L CNN
-	1    12600 3200
+P 12600 3300
+F 0 "TP4" V 12600 3250 50  0000 R CNN
+F 1 "TP_SMD1MM" H 12600 3200 50  0001 C CNN
+F 2 "zglue-demo-board-footprints:Testpoint_smd_1mm" H 12800 3500 60  0001 L CNN
+F 3 "" H 12800 3600 60  0001 L CNN
+	1    12600 3300
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -4107,4 +4105,29 @@ Wire Wire Line
 	15050 7000 14100 7000
 Text Label 14200 7000 0    50   ~ 0
 3V3_SYS
+$Comp
+L zglue-demo-board:R_0R_0402 R60
+U 1 1 5E59B2E4
+P 12100 3200
+F 0 "R60" H 11900 3250 60  0000 C CNN
+F 1 "R_0R_0402" H 12100 3050 60  0001 C CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 12300 3400 60  0001 L CNN
+F 3 "" H 12100 3200 50  0001 C CNN
+F 4 "PANASONIC" H 12300 3600 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 12300 3500 60  0001 L CNN "MPN"
+F 6 "0R" H 12250 3250 50  0000 C CNN "Val"
+	1    12100 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11700 3200 11900 3200
+Wire Wire Line
+	12250 3200 12600 3200
+Wire Wire Line
+	12500 3300 11900 3300
+Wire Wire Line
+	11900 3300 11900 3200
+Connection ~ 11900 3200
+Wire Wire Line
+	11900 3200 11950 3200
 $EndSCHEMATC
