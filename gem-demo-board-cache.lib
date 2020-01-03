@@ -185,6 +185,8 @@ F0 "U" -300 250 50 H V C CNN
 F1 "gem-demo-board_93LC56CT-IMC" -300 -350 50 H V L CNN
 F2 "gem-demo-board-footprints:DFN-8_2x3mm" -400 150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "Microchip" 0 0 50 H I C CNN "Manufactuer"
+F5 "93LC56CT-I/MC" 0 0 50 H I C CNN "MPN"
 $FPLIST
  DIP*W7.62mm*
  SOIC*3.9x4.9mm*

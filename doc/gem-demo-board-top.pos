@@ -1,0 +1,20 @@
+### Module positions - created on Wed 19 Feb 2020 22:44:55 CET ###
+### Printed by Pcbnew version kicad 5.1.5+dfsg1-2~bpo10+1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                Package                             PosX       PosY       Rot  Side
+D2        TPD2EUSB30DRTR     SOT-3                            76.3000   -70.2500  270.0000  top
+D5        TPD2EUSB30DRTR     SOT-3                            76.3000   -56.7500  270.0000  top
+D6        LG_L29K-G2J1-24-Z  LED_0603                         37.2000   -33.1500    0.0000  top
+D7        LG_L29K-G2J1-24-Z  LED_0603                         37.2000   -34.6500    0.0000  top
+D8        LG_L29K-G2J1-24-Z  LED_0603                         37.2000   -37.6500    0.0000  top
+D9        LG_L29K-G2J1-24-Z  LED_0603                         37.2000   -40.6500    0.0000  top
+D10       LG_L29K-G2J1-24-Z  LED_0603                         37.2000   -36.1500    0.0000  top
+D11       LG_L29K-G2J1-24-Z  LED_0603                         37.2000   -42.1500    0.0000  top
+D12       LG_L29K-G2J1-24-Z  LED_0603                         37.2000   -39.1500    0.0000  top
+D13       LG_L29K-G2J1-24-Z  LED_0603                         37.2000   -43.6500    0.0000  top
+J5        0473460001         USB_Micro_B_Female_0473460001    81.8000   -70.2500  270.0000  top
+J6        556500488          556500488                        47.0500   -63.2500    0.0000  top
+J7        556500488          556500488                        64.5500   -63.2500    0.0000  top
+J10       0473460001         USB_Micro_B_Female_0473460001    81.8000   -56.2500  270.0000  top
+## End
