@@ -1,28 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# antmicroResistors0402_R_220R_0402
+# gem-demo-board_0473460001
 #
-DEF antmicroResistors0402_R_220R_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antmicroResistors0402_R_220R_0402" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "TE_CONNECTIVITY_/_NEOHM" 200 400 60 H I L CNN "Manufacturer"
-F5 "CRG0402J220R" 200 300 60 H I L CNN "MPN"
-F6 "220R" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# zglue-demo-board_0473460001
-#
-DEF zglue-demo-board_0473460001 J 0 40 Y Y 1 F N
+DEF gem-demo-board_0473460001 J 0 40 Y Y 1 F N
 F0 "J" -150 500 50 H V R CNN
-F1 "zglue-demo-board_0473460001" -250 0 50 V V C CNN
+F1 "gem-demo-board_0473460001" -250 0 50 V V C CNN
 F2 "zglue-demo-board-footprints:USB_Micro_B_Female_0473460001" 200 200 60 H I L CNN
 F3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" 200 300 60 H I L CNN
 F4 "0473460001" 200 500 60 H I L CNN "MPN"
@@ -52,11 +35,11 @@ X ~ SH -100 -600 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_2x20_Header_Female
+# gem-demo-board_2x20_Header_Female
 #
-DEF zglue-demo-board_2x20_Header_Female J 0 40 Y Y 1 F N
+DEF gem-demo-board_2x20_Header_Female J 0 40 Y Y 1 F N
 F0 "J" -100 400 50 H V L CNN
-F1 "zglue-demo-board_2x20_Header_Female" 0 -1750 50 H V C CNN
+F1 "gem-demo-board_2x20_Header_Female" 0 -1750 50 H V C CNN
 F2 "zglue-demo-board-footprints:PinHeader_2x40_P2.54_Drill1mm" 1000 -900 60 H I L CNN
 F3 "http://www.farnell.com/datasheets/2585490.pdf?_ga=2.43255777.554339948.1570014617-156563690.1566371002&_gac=1.3485316.1567754175.EAIaIQobChMI-6rQsNO75AIVzpAYCh2nygb2EAQYASABEgIdyvD_BwE" 1000 -750 60 H I L CNN
 F4 "2214S-40SG-85 " -350 -1900 60 H I L CNN "MPN"
@@ -106,11 +89,11 @@ X GND 9 -550 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_3220-10-0100-00
+# gem-demo-board_3220-10-0100-00
 #
-DEF zglue-demo-board_3220-10-0100-00 J 0 40 Y Y 1 F N
+DEF gem-demo-board_3220-10-0100-00 J 0 40 Y Y 1 F N
 F0 "J" -100 300 60 H V L CNN
-F1 "zglue-demo-board_3220-10-0100-00" 0 -350 60 H V C CNN
+F1 "gem-demo-board_3220-10-0100-00" 0 -350 60 H V C CNN
 F2 "zglue-demo-board-footprints:PinHeader_2x5_P1.27mm_Drill.7mm" 200 200 60 H I L CNN
 F3 "http://cnctech.us/pdfs/3220-XX-0100-00.pdf" 200 300 60 V I L CNN
 F4 "3220-10-0100-00" 200 500 60 H I L CNN "MPN"
@@ -140,11 +123,11 @@ X ~ 9 -200 -200 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_556500488
+# gem-demo-board_556500488
 #
-DEF zglue-demo-board_556500488 J 0 40 Y Y 1 F N
+DEF gem-demo-board_556500488 J 0 40 Y Y 1 F N
 F0 "J" -50 50 50 H V C CNN
-F1 "zglue-demo-board_556500488" 150 -50 50 H V C CNN
+F1 "gem-demo-board_556500488" 150 -50 50 H V C CNN
 F2 "zglue-demo-board-footprints:556500488" -250 -2350 50 H I C CNN
 F3 "" 250 -2300 50 H I C CNN
 F4 "Molex" 0 0 50 H V C CNN "Manufacturer"
@@ -195,11 +178,11 @@ X ~ 9 350 -1050 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_93LC56CT-IMC
+# gem-demo-board_93LC56CT-IMC
 #
-DEF zglue-demo-board_93LC56CT-IMC U 0 20 Y Y 1 F N
+DEF gem-demo-board_93LC56CT-IMC U 0 20 Y Y 1 F N
 F0 "U" -300 250 50 H V C CNN
-F1 "zglue-demo-board_93LC56CT-IMC" -300 -350 50 H V L CNN
+F1 "gem-demo-board_93LC56CT-IMC" -300 -350 50 H V L CNN
 F2 "zglue-demo-board-footprints:DFN-8_2x3mm" -400 150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -219,11 +202,11 @@ X VCC 8 -400 100 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_ASFLMB-12.000MHZ-LC-T
+# gem-demo-board_ASFLMB-12.000MHZ-LC-T
 #
-DEF zglue-demo-board_ASFLMB-12.000MHZ-LC-T Y 0 40 Y Y 1 F N
+DEF gem-demo-board_ASFLMB-12.000MHZ-LC-T Y 0 40 Y Y 1 F N
 F0 "Y" -200 200 50 H V C CNN
-F1 "zglue-demo-board_ASFLMB-12.000MHZ-LC-T" 50 -200 50 H V C CNN
+F1 "gem-demo-board_ASFLMB-12.000MHZ-LC-T" 50 -200 50 H V C CNN
 F2 "zglue-demo-board-footprints:ASFLMB" 250 -300 50 H I C CNN
 F3 "" 100 500 50 H I C CNN
 F4 "7C-24.000MBB-T" 50 300 50 H I C CNN "MPN"
@@ -237,11 +220,11 @@ X VDD 4 -350 50 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_BLM18AG601SN1D
+# gem-demo-board_BLM18AG601SN1D
 #
-DEF zglue-demo-board_BLM18AG601SN1D FB 0 40 Y Y 1 F N
+DEF gem-demo-board_BLM18AG601SN1D FB 0 40 Y Y 1 F N
 F0 "FB" -100 150 60 H V C CNN
-F1 "zglue-demo-board_BLM18AG601SN1D" 0 -150 60 H V L CNN
+F1 "gem-demo-board_BLM18AG601SN1D" 0 -150 60 H V L CNN
 F2 "zglue-demo-board-footprints:0603" 200 200 60 H I L CNN
 F3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" 200 300 60 H I L CNN
 F4 "BLM18AG601SN1D" 200 500 60 H I L CNN "MPN"
@@ -255,11 +238,11 @@ X ~ 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_C_100n_0402_6V3
+# gem-demo-board_C_100n_0402_6V3
 #
-DEF zglue-demo-board_C_100n_0402_6V3 C 0 0 Y Y 1 F N
+DEF gem-demo-board_C_100n_0402_6V3 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "zglue-demo-board_C_100n_0402_6V3" 0 -150 60 H I C CNN
+F1 "gem-demo-board_C_100n_0402_6V3" 0 -150 60 H I C CNN
 F2 "zglue-demo-board-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Walsin" 200 400 60 H I L CNN "Manufacturer"
@@ -273,11 +256,11 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_C_1u_0603
+# gem-demo-board_C_1u_0603
 #
-DEF zglue-demo-board_C_1u_0603 C 0 0 Y Y 1 F N
+DEF gem-demo-board_C_1u_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "zglue-demo-board_C_1u_0603" 0 -150 60 H I C CNN
+F1 "gem-demo-board_C_1u_0603" 0 -150 60 H I C CNN
 F2 "zglue-demo-board-footprints:0603-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
@@ -291,11 +274,11 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_C_4u7_0402
+# gem-demo-board_C_4u7_0402
 #
-DEF zglue-demo-board_C_4u7_0402 C 0 0 Y Y 1 F N
+DEF gem-demo-board_C_4u7_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
-F1 "zglue-demo-board_C_4u7_0402" 0 -150 60 H I C CNN
+F1 "gem-demo-board_C_4u7_0402" 0 -150 60 H I C CNN
 F2 "zglue-demo-board-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MURATA" 200 400 60 H I L CNN "Manufacturer"
@@ -309,11 +292,11 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_DF13A-2P-1.25H
+# gem-demo-board_DF13A-2P-1.25H
 #
-DEF zglue-demo-board_DF13A-2P-1.25H J 0 40 Y Y 1 F N
+DEF gem-demo-board_DF13A-2P-1.25H J 0 40 Y Y 1 F N
 F0 "J" 0 -50 50 H V C CNN
-F1 "zglue-demo-board_DF13A-2P-1.25H" 50 -150 50 H V C CNN
+F1 "gem-demo-board_DF13A-2P-1.25H" 50 -150 50 H V C CNN
 F2 "zglue-demo-board-footprints:DF13A-2P-1.25H" -100 -450 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 F4 "DF13A-2P-1.25H" 50 -250 50 H I C CNN "MPN"
@@ -326,11 +309,11 @@ X 2 2 -200 50 100 R 50 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_EVQPUA02K
+# gem-demo-board_EVQPUA02K
 #
-DEF zglue-demo-board_EVQPUA02K S 0 40 Y Y 1 F N
+DEF gem-demo-board_EVQPUA02K S 0 40 Y Y 1 F N
 F0 "S" 0 200 60 H V C CNN
-F1 "zglue-demo-board_EVQPUA02K" 0 -200 60 H V C CNN
+F1 "gem-demo-board_EVQPUA02K" 0 -200 60 H V C CNN
 F2 "zglue-demo-board-footprints:Panasonic_EVQPUJ_EVQPUA" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "EVQPUA02K" 200 500 60 H I L CNN "MPN"
@@ -348,11 +331,11 @@ X ~ 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_FT4232HQ
+# gem-demo-board_FT4232HQ
 #
-DEF zglue-demo-board_FT4232HQ U 0 40 Y Y 1 F N
+DEF gem-demo-board_FT4232HQ U 0 40 Y Y 1 F N
 F0 "U" -600 2350 60 H V C CNN
-F1 "zglue-demo-board_FT4232HQ" 0 -400 60 V V L CNN
+F1 "gem-demo-board_FT4232HQ" 0 -400 60 V V L CNN
 F2 "zglue-demo-board-footprints:FT4232HQ" 200 200 60 V I L CNN
 F3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" 200 400 60 H I L CNN
 F4 "FTDI" 200 1150 60 H I L CNN "Manufacturer"
@@ -427,11 +410,11 @@ X VPLL 9 -800 750 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_GND
+# gem-demo-board_GND
 #
-DEF zglue-demo-board_GND #PWR 0 0 Y Y 1 F P
+DEF gem-demo-board_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "zglue-demo-board_GND" 0 -150 50 H V C CNN
+F1 "gem-demo-board_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -440,11 +423,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_Jumper_3_Open-Jumper
+# gem-demo-board_Jumper_3_Open-Jumper
 #
-DEF zglue-demo-board_Jumper_3_Open-Jumper JP 0 0 Y N 1 F N
+DEF gem-demo-board_Jumper_3_Open-Jumper JP 0 0 Y N 1 F N
 F0 "JP" -100 -100 50 H V C CNN
-F1 "zglue-demo-board_Jumper_3_Open-Jumper" 0 110 50 H V C CNN
+F1 "gem-demo-board_Jumper_3_Open-Jumper" 0 110 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -463,11 +446,11 @@ X B 3 250 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_LG_L29K-G2J1-24-Z
+# gem-demo-board_LG_L29K-G2J1-24-Z
 #
-DEF zglue-demo-board_LG_L29K-G2J1-24-Z D 0 0 Y Y 1 F N
+DEF gem-demo-board_LG_L29K-G2J1-24-Z D 0 0 Y Y 1 F N
 F0 "D" -200 150 60 H V C CNN
-F1 "zglue-demo-board_LG_L29K-G2J1-24-Z" 0 -150 60 H V C CNN
+F1 "gem-demo-board_LG_L29K-G2J1-24-Z" 0 -150 60 H V C CNN
 F2 "zglue-demo-board-footprints:LED_0603" 200 200 60 H I L CNN
 F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" 200 300 60 H I L CNN
 F4 "LG L29K-G2J1-24-Z" 200 500 60 H I L CNN "MPN"
@@ -484,11 +467,11 @@ X ~ 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_MBR0540T1G
+# gem-demo-board_MBR0540T1G
 #
-DEF zglue-demo-board_MBR0540T1G D 0 0 N N 1 F N
+DEF gem-demo-board_MBR0540T1G D 0 0 N N 1 F N
 F0 "D" 0 100 60 H V C BNN
-F1 "zglue-demo-board_MBR0540T1G" 0 -150 60 H V C CNN
+F1 "gem-demo-board_MBR0540T1G" 0 -150 60 H V C CNN
 F2 "zglue-demo-board-footprints:SOD-123" 200 200 60 H I L CNN
 F3 "http://www.onsemi.com/pub/Collateral/MBR0540T1-D.PDF" 200 300 60 H I L CNN
 F4 "MBR0540T1G" 200 500 60 H I L CNN "MPN"
@@ -503,11 +486,11 @@ X ~ K 200 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_MCP1700T-3302E_TT
+# gem-demo-board_MCP1700T-3302E_TT
 #
-DEF zglue-demo-board_MCP1700T-3302E_TT U 0 20 Y Y 1 F N
+DEF gem-demo-board_MCP1700T-3302E_TT U 0 20 Y Y 1 F N
 F0 "U" 0 150 60 H V C CNN
-F1 "zglue-demo-board_MCP1700T-3302E_TT" 0 250 60 H V C CNN
+F1 "gem-demo-board_MCP1700T-3302E_TT" 0 250 60 H V C CNN
 F2 "zglue-demo-board-footprints:SOT-23-3" 200 200 60 H I L CNN
 F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" 200 300 60 H I L CNN
 F4 "MCP1700T-3302E/TT" 200 500 60 H I L CNN "MPN"
@@ -520,11 +503,11 @@ X IN 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_NTB0104BQ
+# gem-demo-board_NTB0104BQ
 #
-DEF zglue-demo-board_NTB0104BQ U 0 40 Y Y 1 F N
+DEF gem-demo-board_NTB0104BQ U 0 40 Y Y 1 F N
 F0 "U" -250 400 50 H V C CNN
-F1 "zglue-demo-board_NTB0104BQ" 300 -400 50 H V C CNN
+F1 "gem-demo-board_NTB0104BQ" 300 -400 50 H V C CNN
 F2 "zglue-demo-board-footprints:QDHVQFN14" 1050 650 50 H I C CNN
 F3 "https://datasheet.octopart.com/NTB0104BQ%2C115-NXP-Semiconductors-datasheet-12519051.pdf" 650 750 50 H I C CNN
 F4 "NTB0104BQ" 450 -600 50 H V C CNN "MPN"
@@ -548,11 +531,11 @@ X NC 9 400 -200 100 L 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_NTS0104BQ
+# gem-demo-board_NTS0104BQ
 #
-DEF zglue-demo-board_NTS0104BQ U 0 40 Y Y 1 F N
+DEF gem-demo-board_NTS0104BQ U 0 40 Y Y 1 F N
 F0 "U" -250 400 50 H V C CNN
-F1 "zglue-demo-board_NTS0104BQ" 300 -400 50 H V C CNN
+F1 "gem-demo-board_NTS0104BQ" 300 -400 50 H V C CNN
 F2 "zglue-demo-board-footprints:QDHVQFN14" 1050 650 50 H I C CNN
 F3 "https://datasheet.octopart.com/NTS0104BQ%2C115-NXP-Semiconductors-datasheet-11805065.pdf" 650 750 50 H I C CNN
 F4 "NTS0104BQ" 300 -600 50 H V C CNN "MPN"
@@ -576,11 +559,11 @@ X NC 9 400 -200 100 L 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_R_0R_0402
+# gem-demo-board_R_0R_0402
 #
-DEF zglue-demo-board_R_0R_0402 R 0 0 Y Y 1 F N
+DEF gem-demo-board_R_0R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "zglue-demo-board_R_0R_0402" 0 -150 60 H I C CNN
+F1 "gem-demo-board_R_0R_0402" 0 -150 60 H I C CNN
 F2 "zglue-demo-board-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
@@ -593,11 +576,11 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_R_0R_0603
+# gem-demo-board_R_0R_0603
 #
-DEF zglue-demo-board_R_0R_0603 R 0 0 Y Y 1 F N
+DEF gem-demo-board_R_0R_0603 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "zglue-demo-board_R_0R_0603" 0 -150 60 H I C CNN
+F1 "gem-demo-board_R_0R_0603" 0 -150 60 H I C CNN
 F2 "zglue-demo-board-footprints:0603-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
@@ -610,11 +593,11 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_R_10k_0402
+# gem-demo-board_R_10k_0402
 #
-DEF zglue-demo-board_R_10k_0402 R 0 0 Y Y 1 F N
+DEF gem-demo-board_R_10k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "zglue-demo-board_R_10k_0402" 0 -150 60 H I C CNN
+F1 "gem-demo-board_R_10k_0402" 0 -150 60 H I C CNN
 F2 "zglue-demo-board-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
@@ -627,11 +610,11 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_R_12k_0402
+# gem-demo-board_R_12k_0402
 #
-DEF zglue-demo-board_R_12k_0402 R 0 0 Y Y 1 F N
+DEF gem-demo-board_R_12k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "zglue-demo-board_R_12k_0402" 0 -150 60 H I C CNN
+F1 "gem-demo-board_R_12k_0402" 0 -150 60 H I C CNN
 F2 "zglue-demo-board-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
@@ -644,11 +627,28 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_R_2k_0402
+# gem-demo-board_R_220R_0402
 #
-DEF zglue-demo-board_R_2k_0402 R 0 0 Y Y 1 F N
+DEF gem-demo-board_R_220R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "zglue-demo-board_R_2k_0402" 0 -150 60 H I C CNN
+F1 "gem-demo-board_R_220R_0402" 0 -150 60 H I C CNN
+F2 "gem-demo-board-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TE_CONNECTIVITY_/_NEOHM" 200 400 60 H I L CNN "Manufacturer"
+F5 "CRG0402J220R" 200 300 60 H I L CNN "MPN"
+F6 "220R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# gem-demo-board_R_2k_0402
+#
+DEF gem-demo-board_R_2k_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "gem-demo-board_R_2k_0402" 0 -150 60 H I C CNN
 F2 "zglue-demo-board-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
@@ -661,11 +661,11 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_R_330R_0402
+# gem-demo-board_R_330R_0402
 #
-DEF zglue-demo-board_R_330R_0402 R 0 0 Y Y 1 F N
+DEF gem-demo-board_R_330R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "zglue-demo-board_R_330R_0402" 0 -150 60 H I C CNN
+F1 "gem-demo-board_R_330R_0402" 0 -150 60 H I C CNN
 F2 "zglue-demo-board-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
@@ -678,11 +678,11 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_R_470R_0402
+# gem-demo-board_R_470R_0402
 #
-DEF zglue-demo-board_R_470R_0402 R 0 0 Y Y 1 F N
+DEF gem-demo-board_R_470R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
-F1 "zglue-demo-board_R_470R_0402" 0 -150 60 H I C CNN
+F1 "gem-demo-board_R_470R_0402" 0 -150 60 H I C CNN
 F2 "zglue-demo-board-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
@@ -695,11 +695,11 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_TPD2EUSB30DRTR
+# gem-demo-board_TPD2EUSB30DRTR
 #
-DEF zglue-demo-board_TPD2EUSB30DRTR D 0 0 Y Y 1 F N
+DEF gem-demo-board_TPD2EUSB30DRTR D 0 0 Y Y 1 F N
 F0 "D" -210 205 60 H V L CNN
-F1 "zglue-demo-board_TPD2EUSB30DRTR" 70 -220 60 H V L CNN
+F1 "gem-demo-board_TPD2EUSB30DRTR" 70 -220 60 H V L CNN
 F2 "zglue-demo-board-footprints:SOT-3" 200 200 60 H I L CNN
 F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftpd2eusb30" 200 300 60 H I L CNN
 F4 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
@@ -738,11 +738,11 @@ X GND 3 0 -300 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_TP_SMD1MM
+# gem-demo-board_TP_SMD1MM
 #
-DEF zglue-demo-board_TP_SMD1MM TP 0 0 N Y 1 F N
+DEF gem-demo-board_TP_SMD1MM TP 0 0 N Y 1 F N
 F0 "TP" -100 50 50 H V R CNN
-F1 "zglue-demo-board_TP_SMD1MM" 0 -100 50 H I C CNN
+F1 "gem-demo-board_TP_SMD1MM" 0 -100 50 H I C CNN
 F2 "zglue-demo-board-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 DRAW
@@ -751,11 +751,11 @@ X ~ 1 0 100 75 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_WE_686115148922_FLIPPED
+# gem-demo-board_WE_686115148922_FLIPPED
 #
-DEF zglue-demo-board_WE_686115148922_FLIPPED J 0 40 Y N 1 F N
+DEF gem-demo-board_WE_686115148922_FLIPPED J 0 40 Y N 1 F N
 F0 "J" 0 1100 50 H V C CNN
-F1 "zglue-demo-board_WE_686115148922_FLIPPED" 200 -550 50 H V C CNN
+F1 "gem-demo-board_WE_686115148922_FLIPPED" 200 -550 50 H V C CNN
 F2 "zglue-demo-board-footprints:WE_686115148922_FLIPPED" -1350 -650 50 H I C CNN
 F3 "https://katalog.we-online.com/em/datasheet/686115148922.pdf" -500 -750 50 H I C CNN
 F4 "686115148922" 950 -650 60 H I L CNN "MPN"
@@ -795,11 +795,11 @@ X Pin_9 9 -200 200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_oshw_logo
+# gem-demo-board_oshw_logo
 #
-DEF zglue-demo-board_oshw_logo N 0 40 Y Y 1 F N
+DEF gem-demo-board_oshw_logo N 0 40 Y Y 1 F N
 F0 "N" 20 40 50 H V C CNN
-F1 "zglue-demo-board_oshw_logo" 30 -150 50 H V C CNN
+F1 "gem-demo-board_oshw_logo" 30 -150 50 H V C CNN
 F2 "zglue-demo-board-footprints:oshw-logo" 20 -240 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -807,11 +807,11 @@ T 0 30 -40 79 0 1 1 Logo Normal 0 C C
 ENDDRAW
 ENDDEF
 #
-# zglue-demo-board_zglue_logo
+# gem-demo-board_zglue_logo
 #
-DEF zglue-demo-board_zglue_logo N 0 40 Y Y 1 F N
+DEF gem-demo-board_zglue_logo N 0 40 Y Y 1 F N
 F0 "N" 20 40 50 H V C CNN
-F1 "zglue-demo-board_zglue_logo" 30 -150 50 H V C CNN
+F1 "gem-demo-board_zglue_logo" 30 -150 50 H V C CNN
 F2 "zglue-demo-board-footprints:zglue-logo" 20 -240 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

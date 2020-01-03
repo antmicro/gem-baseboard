@@ -1488,46 +1488,46 @@ F 3 "" H 5500 10900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 10750 4700 10850
+	4650 10750 4700 10850
 Wire Wire Line
 	4700 10850 4800 10850
 Wire Wire Line
 	5500 10850 5500 10900
 Wire Wire Line
-	5500 10750 5500 10850
+	5450 10750 5500 10850
 Connection ~ 5500 10850
 Wire Wire Line
-	5400 10750 5400 10850
+	5350 10750 5400 10850
 Connection ~ 5400 10850
 Wire Wire Line
 	5400 10850 5500 10850
 Wire Wire Line
-	5300 10750 5300 10850
+	5250 10750 5300 10850
 Connection ~ 5300 10850
 Wire Wire Line
 	5300 10850 5400 10850
 Wire Wire Line
-	5200 10750 5200 10850
+	5150 10750 5200 10850
 Connection ~ 5200 10850
 Wire Wire Line
 	5200 10850 5300 10850
 Wire Wire Line
-	5100 10750 5100 10850
+	5050 10750 5100 10850
 Connection ~ 5100 10850
 Wire Wire Line
 	5100 10850 5200 10850
 Wire Wire Line
-	5000 10750 5000 10850
+	4950 10750 5000 10850
 Connection ~ 5000 10850
 Wire Wire Line
 	5000 10850 5100 10850
 Wire Wire Line
-	4900 10750 4900 10850
+	4850 10750 4900 10850
 Connection ~ 4900 10850
 Wire Wire Line
 	4900 10850 5000 10850
 Wire Wire Line
-	4800 10750 4800 10850
+	4750 10750 4800 10850
 Connection ~ 4800 10850
 Wire Wire Line
 	4800 10850 4900 10850
@@ -1700,33 +1700,33 @@ F 6 "0R" H 6450 8300 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 6700 6050 6700
+	5650 6700 6050 6700
 Wire Wire Line
-	5700 6800 6050 6800
+	5650 6800 6050 6800
 Wire Wire Line
-	5700 6900 6050 6900
+	5650 6900 6050 6900
 Wire Wire Line
-	5700 7100 6050 7100
+	5650 7100 6050 7100
 Wire Wire Line
-	5700 7300 6050 7300
+	5650 7300 6050 7300
 Wire Wire Line
-	5700 7400 6050 7400
+	5650 7400 6050 7400
 Wire Wire Line
-	5700 7550 6050 7550
+	5650 7550 6050 7550
 Wire Wire Line
-	5700 7650 6050 7650
+	5650 7650 6050 7650
 Wire Wire Line
-	5700 7750 6050 7750
+	5650 7750 6050 7750
 Wire Wire Line
-	5700 7950 6050 7950
+	5650 7950 6050 7950
 Wire Wire Line
-	5700 8150 6050 8150
+	5650 8150 6050 8150
 Wire Wire Line
-	5700 8250 6050 8250
-NoConn ~ 5700 10250
-NoConn ~ 5700 10350
+	5650 8250 6050 8250
+NoConn ~ 5650 10250
+NoConn ~ 5650 10350
 Wire Wire Line
-	4100 10500 4100 10850
+	4050 10500 4100 10850
 Wire Wire Line
 	4100 10850 4600 10850
 Connection ~ 4700 10850
@@ -1763,17 +1763,17 @@ FLASH_IO2
 $Comp
 L gem-demo-board:BLM18AG601SN1D FB1
 U 1 1 5E8DECA8
-P 1850 8000
-F 0 "FB1" H 1850 8287 60  0000 C CNN
-F 1 "BLM18AG601SN1D" H 1850 8181 60  0000 C CNN
-F 2 "zglue-demo-board-footprints:0603" H 2050 8200 60  0001 L CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 2050 8300 60  0001 L CNN
-F 4 "BLM18AG601SN1D" H 2050 8500 60  0001 L CNN "MPN"
-F 5 "Murata Electronics North America" H 2050 9100 60  0001 L CNN "Manufacturer"
-	1    1850 8000
+P 1800 8000
+F 0 "FB1" H 1800 8287 60  0000 C CNN
+F 1 "BLM18AG601SN1D" H 1800 8181 60  0000 C CNN
+F 2 "zglue-demo-board-footprints:0603" H 2000 8200 60  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 2000 8300 60  0001 L CNN
+F 4 "BLM18AG601SN1D" H 2000 8500 60  0001 L CNN "MPN"
+F 5 "Murata Electronics North America" H 2000 9100 60  0001 L CNN "Manufacturer"
+	1    1800 8000
 	1    0    0    -1  
 $EndComp
-Text Label 2250 8000 0    50   ~ 0
+Text Label 2200 8000 0    50   ~ 0
 VPHY
 $Comp
 L gem-demo-board:BLM18AG601SN1D FB2
@@ -1805,13 +1805,13 @@ F 6 "2k" H 3950 9050 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 9100 4100 9100
+	3900 9100 4050 9100
 Wire Wire Line
 	3600 9100 2950 9100
 Wire Wire Line
 	2250 9350 3450 9350
 Wire Wire Line
-	4100 9450 3150 9450
+	4050 9450 3150 9450
 Wire Wire Line
 	2250 9550 3000 9550
 $Comp
@@ -1836,7 +1836,7 @@ Wire Wire Line
 	3000 9650 3000 9550
 Connection ~ 3000 9550
 Wire Wire Line
-	3000 9550 4100 9550
+	3000 9550 4050 9550
 $Comp
 L gem-demo-board:GND #PWR034
 U 1 1 5EAEC207
@@ -1853,9 +1853,9 @@ Wire Wire Line
 Wire Wire Line
 	1350 9650 1350 9800
 Wire Wire Line
-	4100 8500 2950 8500
+	4050 8500 2950 8500
 Wire Wire Line
-	4100 8600 2950 8600
+	4050 8600 2950 8600
 Text Label 2950 8500 0    50   ~ 0
 PROG_USB_D_N
 Text Label 2950 8600 0    50   ~ 0
@@ -1863,19 +1863,19 @@ PROG_USB_D_P
 Wire Wire Line
 	2750 8550 2750 8100
 Wire Wire Line
-	2750 8100 4100 8100
+	2750 8100 4050 8100
 $Comp
 L gem-demo-board:C_4u7_0402 C25
 U 1 1 5EC07926
-P 2500 8150
-F 0 "C25" H 2615 8195 60  0000 L CNN
-F 1 "C_4u7_0402" H 2500 8000 60  0001 C CNN
-F 2 "zglue-demo-board-footprints:0402-cap" H 2700 8350 60  0001 L CNN
-F 3 "" H 2500 8150 50  0001 C CNN
-F 4 "MURATA" H 2700 8550 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R60G475ME" H 2700 8450 60  0001 L CNN "MPN"
-F 6 "4u7" H 2615 8097 50  0000 L CNN "Val"
-	1    2500 8150
+P 2450 8150
+F 0 "C25" H 2565 8195 60  0000 L CNN
+F 1 "C_4u7_0402" H 2450 8000 60  0001 C CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 2650 8350 60  0001 L CNN
+F 3 "" H 2450 8150 50  0001 C CNN
+F 4 "MURATA" H 2650 8550 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60G475ME" H 2650 8450 60  0001 L CNN "MPN"
+F 6 "4u7" H 2565 8097 50  0000 L CNN "Val"
+	1    2450 8150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1895,15 +1895,15 @@ $EndComp
 $Comp
 L gem-demo-board:C_100n_0402_6V3 C21
 U 1 1 5EC07BEB
-P 2100 8150
-F 0 "C21" H 2215 8195 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 2100 8000 60  0001 C CNN
-F 2 "zglue-demo-board-footprints:0402-cap" H 2300 8350 60  0001 L CNN
-F 3 "" H 2100 8150 50  0001 C CNN
-F 4 "Walsin" H 2300 8550 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 2300 8450 60  0001 L CNN "MPN"
-F 6 "100n" H 2215 8097 50  0000 L CNN "Val"
-	1    2100 8150
+P 2050 8150
+F 0 "C21" H 2165 8195 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 2050 8000 60  0001 C CNN
+F 2 "zglue-demo-board-footprints:0402-cap" H 2250 8350 60  0001 L CNN
+F 3 "" H 2050 8150 50  0001 C CNN
+F 4 "Walsin" H 2250 8550 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 2250 8450 60  0001 L CNN "MPN"
+F 6 "100n" H 2165 8097 50  0000 L CNN "Val"
+	1    2050 8150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1923,23 +1923,23 @@ $EndComp
 $Comp
 L gem-demo-board:GND #PWR037
 U 1 1 5EC081C1
-P 2100 8300
-F 0 "#PWR037" H 2100 8050 50  0001 C CNN
-F 1 "GND" H 2105 8127 50  0000 C CNN
-F 2 "" H 2100 8300 50  0001 C CNN
-F 3 "" H 2100 8300 50  0001 C CNN
-	1    2100 8300
+P 2050 8300
+F 0 "#PWR037" H 2050 8050 50  0001 C CNN
+F 1 "GND" H 2055 8127 50  0000 C CNN
+F 2 "" H 2050 8300 50  0001 C CNN
+F 3 "" H 2050 8300 50  0001 C CNN
+	1    2050 8300
 	1    0    0    -1  
 $EndComp
 $Comp
 L gem-demo-board:GND #PWR039
 U 1 1 5EC0826A
-P 2500 8300
-F 0 "#PWR039" H 2500 8050 50  0001 C CNN
-F 1 "GND" H 2505 8127 50  0000 C CNN
-F 2 "" H 2500 8300 50  0001 C CNN
-F 3 "" H 2500 8300 50  0001 C CNN
-	1    2500 8300
+P 2450 8300
+F 0 "#PWR039" H 2450 8050 50  0001 C CNN
+F 1 "GND" H 2455 8127 50  0000 C CNN
+F 2 "" H 2450 8300 50  0001 C CNN
+F 3 "" H 2450 8300 50  0001 C CNN
+	1    2450 8300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1992,45 +1992,45 @@ $EndComp
 Wire Wire Line
 	3100 8800 3600 8800
 Wire Wire Line
-	3900 8800 4100 8800
+	3900 8800 4050 8800
 Text Label 3800 7500 0    50   ~ 0
 VCCIO
 Wire Wire Line
-	4100 6700 2950 6700
+	4050 6700 2950 6700
 Text Label 2950 6700 0    50   ~ 0
 3V3_FTDI
 Wire Wire Line
-	4100 7500 3950 7500
+	4050 7500 3950 7500
 Wire Wire Line
-	4100 7800 3950 7800
+	4050 7800 3950 7800
 Wire Wire Line
 	3950 7800 3950 7700
 Connection ~ 3950 7500
 Wire Wire Line
 	3950 7500 3750 7500
 Wire Wire Line
-	4100 7700 3950 7700
+	4050 7700 3950 7700
 Connection ~ 3950 7700
 Wire Wire Line
 	3950 7700 3950 7600
 Wire Wire Line
-	4100 7600 3950 7600
+	4050 7600 3950 7600
 Connection ~ 3950 7600
 Wire Wire Line
 	3950 7600 3950 7500
 Wire Wire Line
-	4100 6900 4000 6900
+	4050 6900 4000 6900
 Wire Wire Line
 	4000 6900 4000 7100
 Wire Wire Line
-	4000 7300 4100 7300
+	4000 7300 4050 7300
 Wire Wire Line
-	4100 7200 4000 7200
+	4050 7200 4000 7200
 Connection ~ 4000 7200
 Wire Wire Line
 	4000 7200 4000 7300
 Wire Wire Line
-	4100 7100 4000 7100
+	4050 7100 4000 7100
 Connection ~ 4000 7100
 Wire Wire Line
 	4000 7100 4000 7200
@@ -2057,7 +2057,7 @@ Wire Wire Line
 	3450 7500 2950 7500
 Text Label 2950 7500 0    50   ~ 0
 3V3_FTDI
-NoConn ~ 4100 10100
+NoConn ~ 4050 10100
 $Comp
 L gem-demo-board:C_100n_0402_6V3 C15
 U 1 1 5EEF0343
@@ -2306,60 +2306,60 @@ Flash Programming and debug FTDI
 $Comp
 L gem-demo-board:R_10k_0402 R4
 U 1 1 5F3FE345
-P 2300 10000
-F 0 "R4" V 2255 10070 60  0000 L CNN
-F 1 "R_10k_0402" H 2300 9850 60  0001 C CNN
-F 2 "zglue-demo-board-footprints:0402-res" H 2500 10200 60  0001 L CNN
-F 3 "" H 2300 10000 50  0001 C CNN
-F 4 "VISHAY" H 2500 10400 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 2500 10300 60  0001 L CNN "MPN"
-F 6 "10k" V 2353 10070 50  0000 L CNN "Val"
-	1    2300 10000
+P 2300 10050
+F 0 "R4" V 2255 10120 60  0000 L CNN
+F 1 "R_10k_0402" H 2300 9900 60  0001 C CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 2500 10250 60  0001 L CNN
+F 3 "" H 2300 10050 50  0001 C CNN
+F 4 "VISHAY" H 2500 10450 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 2500 10350 60  0001 L CNN "MPN"
+F 6 "10k" V 2353 10120 50  0000 L CNN "Val"
+	1    2300 10050
 	0    1    1    0   
 $EndComp
 $Comp
 L gem-demo-board:R_10k_0402 R6
 U 1 1 5F3FE4D7
-P 3150 10000
-F 0 "R6" V 3105 10070 60  0000 L CNN
-F 1 "R_10k_0402" H 3150 9850 60  0001 C CNN
-F 2 "zglue-demo-board-footprints:0402-res" H 3350 10200 60  0001 L CNN
-F 3 "" H 3150 10000 50  0001 C CNN
-F 4 "VISHAY" H 3350 10400 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 3350 10300 60  0001 L CNN "MPN"
-F 6 "10k" V 3203 10070 50  0000 L CNN "Val"
-	1    3150 10000
+P 3150 10050
+F 0 "R6" V 3105 10120 60  0000 L CNN
+F 1 "R_10k_0402" H 3150 9900 60  0001 C CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 3350 10250 60  0001 L CNN
+F 3 "" H 3150 10050 50  0001 C CNN
+F 4 "VISHAY" H 3350 10450 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 3350 10350 60  0001 L CNN "MPN"
+F 6 "10k" V 3203 10120 50  0000 L CNN "Val"
+	1    3150 10050
 	0    1    1    0   
 $EndComp
 $Comp
 L gem-demo-board:R_10k_0402 R7
 U 1 1 5F3FE5E1
-P 3450 10000
-F 0 "R7" V 3405 10070 60  0000 L CNN
-F 1 "R_10k_0402" H 3450 9850 60  0001 C CNN
-F 2 "zglue-demo-board-footprints:0402-res" H 3650 10200 60  0001 L CNN
-F 3 "" H 3450 10000 50  0001 C CNN
-F 4 "VISHAY" H 3650 10400 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 3650 10300 60  0001 L CNN "MPN"
-F 6 "10k" V 3503 10070 50  0000 L CNN "Val"
-	1    3450 10000
+P 3450 10050
+F 0 "R7" V 3405 10120 60  0000 L CNN
+F 1 "R_10k_0402" H 3450 9900 60  0001 C CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 3650 10250 60  0001 L CNN
+F 3 "" H 3450 10050 50  0001 C CNN
+F 4 "VISHAY" H 3650 10450 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 3650 10350 60  0001 L CNN "MPN"
+F 6 "10k" V 3503 10120 50  0000 L CNN "Val"
+	1    3450 10050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2300 9850 2300 9650
+	2300 9900 2300 9650
 Connection ~ 2300 9650
 Wire Wire Line
 	2300 9650 2500 9650
 Wire Wire Line
-	3150 9850 3150 9450
+	3150 9900 3150 9450
 Connection ~ 3150 9450
 Wire Wire Line
 	3150 9450 2250 9450
 Wire Wire Line
-	3450 9850 3450 9350
+	3450 9900 3450 9350
 Connection ~ 3450 9350
 Wire Wire Line
-	3450 9350 4100 9350
+	3450 9350 4050 9350
 $Comp
 L gem-demo-board:ASFLMB-12.000MHZ-LC-T Y1
 U 1 1 5F54A817
@@ -2378,7 +2378,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 10650 3750 9900
 Wire Wire Line
-	3750 9900 4100 9900
+	3750 9900 4050 9900
 $Comp
 L gem-demo-board:GND #PWR041
 U 1 1 5F58F560
@@ -2734,14 +2734,14 @@ Wire Wire Line
 $Comp
 L gem-demo-board:FT4232HQ U6
 U 1 1 5DA53094
-P 4900 8850
-F 0 "U6" H 4650 6750 60  0000 C CNN
-F 1 "FT4232HQ" H 4800 6650 60  0000 C CNN
-F 2 "zglue-demo-board-footprints:FT4232HQ" V 5100 9050 60  0001 L CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 5100 9250 60  0001 L CNN
-F 4 "FTDI" H 5100 10000 60  0001 L CNN "Manufacturer"
-F 5 "FT4232HQ" H 5100 9400 60  0001 L CNN "MPN"
-	1    4900 8850
+P 4850 8850
+F 0 "U6" H 4600 6750 60  0000 C CNN
+F 1 "FT4232HQ" H 4750 6650 60  0000 C CNN
+F 2 "zglue-demo-board-footprints:FT4232HQ" V 5050 9050 60  0001 L CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 5050 9250 60  0001 L CNN
+F 4 "FTDI" H 5050 10000 60  0001 L CNN "Manufacturer"
+F 5 "FT4232HQ" H 5050 9400 60  0001 L CNN "MPN"
+	1    4850 8850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2791,9 +2791,9 @@ F 6 "0R" H 6450 8550 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6050 8400 5700 8400
+	6050 8400 5650 8400
 Wire Wire Line
-	5700 8500 6050 8500
+	5650 8500 6050 8500
 Wire Wire Line
 	6350 8400 7250 8400
 Wire Wire Line
@@ -2802,20 +2802,20 @@ Text Label 13000 7900 0    50   ~ 0
 USB_D_P
 Text Label 13000 7800 0    50   ~ 0
 USB_D_N
-NoConn ~ 5700 8600
-NoConn ~ 5700 8700
-NoConn ~ 5700 8800
-NoConn ~ 5700 8900
-NoConn ~ 5700 9000
-NoConn ~ 5700 9100
-NoConn ~ 5700 9250
-NoConn ~ 5700 9350
-NoConn ~ 5700 9450
-NoConn ~ 5700 9550
-NoConn ~ 5700 9650
-NoConn ~ 5700 9750
-NoConn ~ 5700 9850
-NoConn ~ 5700 9950
+NoConn ~ 5650 8600
+NoConn ~ 5650 8700
+NoConn ~ 5650 8800
+NoConn ~ 5650 8900
+NoConn ~ 5650 9000
+NoConn ~ 5650 9100
+NoConn ~ 5650 9250
+NoConn ~ 5650 9350
+NoConn ~ 5650 9450
+NoConn ~ 5650 9550
+NoConn ~ 5650 9650
+NoConn ~ 5650 9750
+NoConn ~ 5650 9850
+NoConn ~ 5650 9950
 $Comp
 L gem-demo-board:GND #PWR07
 U 1 1 5E3C7E24
@@ -2886,7 +2886,7 @@ Wire Wire Line
 Text Label 1150 3050 0    50   ~ 0
 5V0_DBG_USB
 Wire Wire Line
-	1650 8000 1050 8000
+	1600 8000 1050 8000
 Wire Wire Line
 	1650 8550 1050 8550
 Text Label 1150 8000 0    50   ~ 0
@@ -2897,7 +2897,7 @@ Text Label 2950 9100 0    50   ~ 0
 3V3_FTDI
 Text Label 1050 9350 0    50   ~ 0
 3V3_FTDI
-Text Label 1900 10150 0    50   ~ 0
+Text Label 1900 10200 0    50   ~ 0
 3V3_FTDI
 Text Label 1550 10650 0    50   ~ 0
 3V3_FTDI
@@ -3058,19 +3058,6 @@ F 3 "" H 3900 5800 50  0001 C CNN
 $EndComp
 Text Notes 3900 5350 0    79   ~ 16
 QSPI flash programming header
-$Comp
-L gem-demo-board:LG_L29K-G2J1-24-Z D6
-U 1 1 5DB63A8F
-P 7750 6450
-F 0 "D6" V 7647 6628 60  0000 L CNN
-F 1 "LG_L29K-G2J1-24-Z" V 7753 6628 60  0001 L CNN
-F 2 "zglue-demo-board-footprints:LED_0603" H 7950 6650 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 7950 6750 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 7950 6950 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 7950 7550 60  0001 L CNN "Manufacturer"
-	1    7750 6450
-	0    1    1    0   
-$EndComp
 Text Label 7400 6050 0    50   ~ 0
 VUSB
 Wire Wire Line
@@ -3126,19 +3113,6 @@ Wire Wire Line
 Wire Wire Line
 	13550 850  13050 850 
 $Comp
-L gem-demo-board:LG_L29K-G2J1-24-Z D9
-U 1 1 5DD72331
-P 6600 10400
-F 0 "D9" V 6497 10578 60  0000 L CNN
-F 1 "LG_L29K-G2J1-24-Z" V 6603 10578 60  0001 L CNN
-F 2 "zglue-demo-board-footprints:LED_0603" H 6800 10600 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 6800 10700 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 6800 10900 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 6800 11500 60  0001 L CNN "Manufacturer"
-	1    6600 10400
-	0    1    1    0   
-$EndComp
-$Comp
 L gem-demo-board:R_330R_0402 R37
 U 1 1 5DE02EF3
 P 6600 10750
@@ -3150,21 +3124,6 @@ F 4 "MULTICOMP" H 6800 11150 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 6800 11050 60  0001 L CNN "MPN"
 F 6 "330R" V 6653 10820 50  0000 L CNN "Val"
 	1    6600 10750
-	0    1    1    0   
-$EndComp
-Text Label 6100 10200 0    50   ~ 0
-3V3_SYS
-$Comp
-L gem-demo-board:LG_L29K-G2J1-24-Z D11
-U 1 1 5DE05551
-P 7300 10400
-F 0 "D11" V 7197 10578 60  0000 L CNN
-F 1 "LG_L29K-G2J1-24-Z" V 7303 10578 60  0001 L CNN
-F 2 "zglue-demo-board-footprints:LED_0603" H 7500 10600 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 7500 10700 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 7500 10900 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 7500 11500 60  0001 L CNN "Manufacturer"
-	1    7300 10400
 	0    1    1    0   
 $EndComp
 $Comp
@@ -3184,14 +3143,14 @@ $EndComp
 $Comp
 L gem-demo-board:LG_L29K-G2J1-24-Z D13
 U 1 1 5DE4C7B3
-P 7950 10400
-F 0 "D13" V 7847 10578 60  0000 L CNN
-F 1 "LG_L29K-G2J1-24-Z" V 7953 10578 60  0001 L CNN
-F 2 "zglue-demo-board-footprints:LED_0603" H 8150 10600 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 8150 10700 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 8150 10900 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 8150 11500 60  0001 L CNN "Manufacturer"
-	1    7950 10400
+P 7950 10350
+F 0 "D13" V 7847 10528 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" V 7953 10528 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:LED_0603" H 8150 10550 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 8150 10650 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 8150 10850 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 8150 11450 60  0001 L CNN "Manufacturer"
+	1    7950 10350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -3206,19 +3165,6 @@ F 4 "MULTICOMP" H 8150 11150 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 8150 11050 60  0001 L CNN "MPN"
 F 6 "330R" V 8003 10820 50  0000 L CNN "Val"
 	1    7950 10750
-	0    1    1    0   
-$EndComp
-$Comp
-L gem-demo-board:LG_L29K-G2J1-24-Z D10
-U 1 1 5DE93A25
-P 7250 9150
-F 0 "D10" V 7147 9328 60  0000 L CNN
-F 1 "LG_L29K-G2J1-24-Z" V 7253 9328 60  0001 L CNN
-F 2 "zglue-demo-board-footprints:LED_0603" H 7450 9350 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 7450 9450 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 7450 9650 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 7450 10250 60  0001 L CNN "Manufacturer"
-	1    7250 9150
 	0    1    1    0   
 $EndComp
 $Comp
@@ -3238,14 +3184,14 @@ $EndComp
 $Comp
 L gem-demo-board:LG_L29K-G2J1-24-Z D12
 U 1 1 5DEDAC97
-P 7950 9150
-F 0 "D12" V 7847 9328 60  0000 L CNN
-F 1 "LG_L29K-G2J1-24-Z" V 7953 9328 60  0001 L CNN
-F 2 "zglue-demo-board-footprints:LED_0603" H 8150 9350 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 8150 9450 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 8150 9650 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 8150 10250 60  0001 L CNN "Manufacturer"
-	1    7950 9150
+P 7950 9100
+F 0 "D12" V 7847 9278 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" V 7953 9278 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:LED_0603" H 8150 9300 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 8150 9400 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 8150 9600 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 8150 10200 60  0001 L CNN "Manufacturer"
+	1    7950 9100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -3290,15 +3236,13 @@ F 6 "330R" V 8803 8420 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7250 9250 7250 9350
+	7250 9200 7250 9350
 Wire Wire Line
-	7950 9250 7950 9350
+	7950 9200 7950 9350
 Wire Wire Line
-	6600 10500 6600 10600
+	7300 10450 7300 10600
 Wire Wire Line
-	7300 10500 7300 10600
-Wire Wire Line
-	7950 10500 7950 10600
+	7950 10450 7950 10600
 Wire Wire Line
 	6600 10900 6050 10900
 Wire Wire Line
@@ -3318,19 +3262,6 @@ PROC_OUT_2
 Text Label 8000 8500 0    50   ~ 0
 CTRL_OUT
 $Comp
-L gem-demo-board:LG_L29K-G2J1-24-Z D8
-U 1 1 5E4C9222
-P 6600 9150
-F 0 "D8" V 6497 9328 60  0000 L CNN
-F 1 "LG_L29K-G2J1-24-Z" V 6603 9328 60  0001 L CNN
-F 2 "zglue-demo-board-footprints:LED_0603" H 6800 9350 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 6800 9450 60  0001 L CNN
-F 4 "LG L29K-G2J1-24-Z" H 6800 9650 60  0001 L CNN "MPN"
-F 5 "OSRAM Opto Semiconductors Inc." H 6800 10250 60  0001 L CNN "Manufacturer"
-	1    6600 9150
-	0    1    1    0   
-$EndComp
-$Comp
 L gem-demo-board:R_330R_0402 R36
 U 1 1 5E4C922C
 P 6600 9500
@@ -3345,8 +3276,8 @@ F 6 "330R" V 6653 9570 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6600 9250 6600 9350
-Text Label 6000 8950 0    50   ~ 0
+	6600 9200 6600 9350
+Text Label 6000 8900 0    50   ~ 0
 3V3_SYS
 Wire Wire Line
 	6600 9650 5950 9650
@@ -3543,13 +3474,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 4250 2900 4250
 Wire Wire Line
-	3500 4150 4600 4150
-Wire Wire Line
 	3500 4250 4600 4250
-Text Label 3800 4150 0    50   ~ 0
-RPI_DBG_RX_3V3
-Text Label 3800 4250 0    50   ~ 0
-RPI_DBG_TX_3V3
 Wire Wire Line
 	1850 3950 1000 3950
 Wire Wire Line
@@ -3677,7 +3602,7 @@ DBG_RX_3V3
 Text Label 15050 4200 0    50   ~ 0
 DBG_TX_3V3
 Wire Wire Line
-	4600 10750 4600 10850
+	4550 10750 4600 10850
 Connection ~ 4600 10850
 Wire Wire Line
 	4600 10850 4700 10850
@@ -3773,9 +3698,9 @@ F 3 "" H 14200 9450 60  0001 L CNN
 	1    14000 9150
 	0    1    1    0   
 $EndComp
-Text Label 12700 5800 0    50   ~ 0
+Text Label 12650 5950 0    50   ~ 0
 CAM_SCL_IN
-Text Label 12700 5950 0    50   ~ 0
+Text Label 12650 5800 0    50   ~ 0
 CAM_SDA_IN
 $Comp
 L gem-demo-board:R_0R_0402 R54
@@ -3857,9 +3782,9 @@ Wire Wire Line
 	12450 6650 13200 6650
 Wire Wire Line
 	12450 6800 13200 6800
-Text Label 12700 6650 0    50   ~ 0
+Text Label 12650 6800 0    50   ~ 0
 CAM_SCL_IN
-Text Label 12700 6800 0    50   ~ 0
+Text Label 12650 6650 0    50   ~ 0
 CAM_SDA_IN
 Text Label 11450 6650 0    50   ~ 0
 I2C_1_SDA_3V3
@@ -3905,9 +3830,9 @@ Text Label 11450 5400 0    50   ~ 0
 RPI_SDA
 Text Label 11450 5550 0    50   ~ 0
 RPI_SCL
-Text Label 12650 5400 0    50   ~ 0
-I2C_0_SCL_3V3
 Text Label 12650 5550 0    50   ~ 0
+I2C_0_SCL_3V3
+Text Label 12650 5400 0    50   ~ 0
 I2C_0_SDA_3V3
 Wire Wire Line
 	11400 3950 10750 3950
@@ -4016,41 +3941,9 @@ Text Label 1050 4850 0    50   ~ 0
 E_PROC_SO_3V3
 Text Label 1050 4750 0    50   ~ 0
 E_PROC_SI_3V3
-$Comp
-L gem-demo-board:R_0R_0402 R58
-U 1 1 5DEF0282
-P 4750 4150
-F 0 "R58" H 4550 4200 60  0000 C CNN
-F 1 "R_0R_0402" H 4750 4000 60  0001 C CNN
-F 2 "zglue-demo-board-footprints:0402-res" H 4950 4350 60  0001 L CNN
-F 3 "" H 4750 4150 50  0001 C CNN
-F 4 "PANASONIC" H 4950 4550 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 4950 4450 60  0001 L CNN "MPN"
-F 6 "0R" H 4950 4200 50  0000 C CNN "Val"
-	1    4750 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L gem-demo-board:R_0R_0402 R59
-U 1 1 5DEF05BB
-P 4750 4250
-F 0 "R59" H 4550 4300 60  0000 C CNN
-F 1 "R_0R_0402" H 4750 4100 60  0001 C CNN
-F 2 "zglue-demo-board-footprints:0402-res" H 4950 4450 60  0001 L CNN
-F 3 "" H 4750 4250 50  0001 C CNN
-F 4 "PANASONIC" H 4950 4650 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 4950 4550 60  0001 L CNN "MPN"
-F 6 "0R" H 4950 4300 50  0000 C CNN "Val"
-	1    4750 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4900 4150 5650 4150
-Wire Wire Line
-	4900 4250 5650 4250
-Text Label 5150 4250 0    50   ~ 0
+Text Label 4050 4250 0    50   ~ 0
 DBG_RX_3V3
-Text Label 5150 4150 0    50   ~ 0
+Text Label 4050 4150 0    50   ~ 0
 DBG_TX_3V3
 $Comp
 L gem-demo-board:oshw_logo N3
@@ -4077,17 +3970,13 @@ $EndComp
 Text Label 13250 850  0    50   ~ 0
 VUSB
 Wire Wire Line
-	2050 8000 4100 8000
+	2000 8000 2050 8000
 Wire Wire Line
-	2050 8550 2750 8550
+	2050 8550 2100 8550
 Wire Wire Line
 	1150 6600 2400 6600
 Wire Wire Line
-	1900 10150 3450 10150
-Wire Wire Line
-	6050 10200 7950 10200
-Wire Wire Line
-	6000 8950 7950 8950
+	1900 10200 2300 10200
 $Comp
 L gem-demo-board:WE_686115148922_FLIPPED J8
 U 1 1 5E13C0CF
@@ -4156,4 +4045,169 @@ Wire Wire Line
 	13150 3500 13150 3550
 Wire Wire Line
 	13150 3850 13150 3900
+Text Label 6100 10150 0    50   ~ 0
+3V3_SYS
+$Comp
+L gem-demo-board:LG_L29K-G2J1-24-Z D8
+U 1 1 5E4C9222
+P 6600 9100
+F 0 "D8" V 6497 9278 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" V 6603 9278 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:LED_0603" H 6800 9300 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 6800 9400 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 6800 9600 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 6800 10200 60  0001 L CNN "Manufacturer"
+	1    6600 9100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 8900 6600 8900
+$Comp
+L gem-demo-board:LG_L29K-G2J1-24-Z D10
+U 1 1 5DE93A25
+P 7250 9100
+F 0 "D10" V 7147 9278 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" V 7253 9278 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:LED_0603" H 7450 9300 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 7450 9400 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 7450 9600 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 7450 10200 60  0001 L CNN "Manufacturer"
+	1    7250 9100
+	0    1    1    0   
+$EndComp
+$Comp
+L gem-demo-board:LG_L29K-G2J1-24-Z D11
+U 1 1 5DE05551
+P 7300 10350
+F 0 "D11" V 7197 10528 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" V 7303 10528 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:LED_0603" H 7500 10550 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 7500 10650 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 7500 10850 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 7500 11450 60  0001 L CNN "Manufacturer"
+	1    7300 10350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 10150 6600 10150
+Connection ~ 6600 10150
+Wire Wire Line
+	6600 10150 7300 10150
+Connection ~ 7300 10150
+Wire Wire Line
+	7300 10150 7950 10150
+Wire Wire Line
+	6600 10450 6600 10600
+$Comp
+L gem-demo-board:LG_L29K-G2J1-24-Z D9
+U 1 1 5DD72331
+P 6600 10350
+F 0 "D9" V 6497 10528 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" V 6603 10528 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:LED_0603" H 6800 10550 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 6800 10650 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 6800 10850 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 6800 11450 60  0001 L CNN "Manufacturer"
+	1    6600 10350
+	0    1    1    0   
+$EndComp
+Connection ~ 6600 8900
+Wire Wire Line
+	6600 8900 7250 8900
+Connection ~ 7250 8900
+Wire Wire Line
+	7250 8900 7950 8900
+Connection ~ 2300 10200
+Wire Wire Line
+	2300 10200 3150 10200
+Connection ~ 3150 10200
+Wire Wire Line
+	3150 10200 3450 10200
+Connection ~ 2050 8000
+Wire Wire Line
+	2050 8000 2450 8000
+Connection ~ 2450 8000
+Wire Wire Line
+	2450 8000 4050 8000
+Connection ~ 2500 8550
+Wire Wire Line
+	2500 8550 2750 8550
+Connection ~ 2100 8550
+Wire Wire Line
+	2100 8550 2500 8550
+$Comp
+L gem-demo-board:LG_L29K-G2J1-24-Z D6
+U 1 1 5DB63A8F
+P 7750 6450
+F 0 "D6" V 7647 6628 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" V 7753 6628 60  0001 L CNN
+F 2 "zglue-demo-board-footprints:LED_0603" H 7950 6650 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 7950 6750 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 7950 6950 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 7950 7550 60  0001 L CNN "Manufacturer"
+	1    7750 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 4150 4600 4150
+Text Notes 12200 5850 0    50   ~ 10
+DNP
+Text Notes 12200 6000 0    50   ~ 10
+DNP
+Text Notes 12200 6250 0    50   ~ 10
+DNP
+Text Notes 12200 6400 0    50   ~ 10
+DNP
+Text Notes 10700 4300 0    50   ~ 10
+DNP
+Text Notes 10700 4400 0    50   ~ 10
+DNP
+Text Notes 10700 4500 0    50   ~ 10
+DNP
+Text Notes 10700 4600 0    50   ~ 10
+DNP
+$Comp
+L gem-demo-board:R_0R_0402 R58
+U 1 1 5E26A2CC
+P 14550 5400
+F 0 "R58" H 14550 5500 60  0000 C CNN
+F 1 "R_0R_0402" H 14550 5250 60  0001 C CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 14750 5600 60  0001 L CNN
+F 3 "" H 14550 5400 50  0001 C CNN
+F 4 "PANASONIC" H 14750 5800 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 14750 5700 60  0001 L CNN "MPN"
+F 6 "0R" H 14750 5450 50  0000 C CNN "Val"
+	1    14550 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L gem-demo-board:R_0R_0402 R59
+U 1 1 5E278E51
+P 14550 5550
+F 0 "R59" H 14550 5400 60  0000 C CNN
+F 1 "R_0R_0402" H 14550 5400 60  0001 C CNN
+F 2 "zglue-demo-board-footprints:0402-res" H 14750 5750 60  0001 L CNN
+F 3 "" H 14550 5550 50  0001 C CNN
+F 4 "PANASONIC" H 14750 5950 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 14750 5850 60  0001 L CNN "MPN"
+F 6 "0R" H 14750 5600 50  0000 C CNN "Val"
+	1    14550 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 5400 13900 5400
+Wire Wire Line
+	14700 5400 15250 5400
+Text Label 14850 5400 0    50   ~ 0
+CAM_SDA_OUT
+Wire Wire Line
+	14700 5550 15250 5550
+Wire Wire Line
+	14400 5550 13900 5550
+Text Label 14850 5550 0    50   ~ 0
+CAM_SCL_OUT
+Text Label 13900 5400 0    50   ~ 0
+CAM_SDA_IN
+Text Label 13900 5550 0    50   ~ 0
+CAM_SCL_IN
 $EndSCHEMATC
