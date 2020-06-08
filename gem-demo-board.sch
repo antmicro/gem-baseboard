@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "GEM Baseboard"
 Date ""
-Rev "1.1.0"
+Rev "1.2.0"
 Comp ""
 Comment1 "Antmicro Ltd."
 Comment2 "www.antmicro.com"
